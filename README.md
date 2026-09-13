@@ -4,8 +4,9 @@
 mkdir -p kegg_ids
 grep -o "KEGG:K....." genomes/Arthrobacter_cavernae_PO-11.gff3 | tr ":" "\t" > kegg_ids/Arthrobacter_cavernae_PO-11.gff3_kegg_ids.txt 
 grep -o "KEGG:K....." genomes/M9409_L16.gff3 | tr ":" "\t" > kegg_ids/M9409_L16.gff3.gff3_kegg_ids.txt
-```bash
-# Kegg mapper colors
+```
+
+## Kegg mapper colors
 (https://www.genome.jp/kegg/mapper/color.html)
 ```bash
 awk '{print $2 "\tblue"}' kegg_ids/Arthrobacter_cavernae_PO-11.gff3_kegg_ids.txt> kegg_ids/Arthrobacter_cavernae_PO-11.gff3_kegg_ids_color.txt
@@ -14,7 +15,8 @@ awk '{print $2 "\tred"}' kegg_ids/M9409_L16.gff3.gff3_kegg_ids.txt>kegg_ids/M940
 cat kegg_ids/Arthrobacter_cavernae_PO-11.gff3_kegg_ids_color.txt kegg_ids/M9409_L16.gff3.gff3_kegg_ids_color.txt> kegg_ids/kegg_mapper_color.txt
 ```
 submit file  `kegg_mapper_color.txt` to (https://www.genome.jp/kegg/mapper/color.html)
-![kegg mapper](/home/julibote/github/genomics/pictures/kegg_mapper.png)
+
+![](/home/julibote/github/genomics/pictures/kegg_mapper.png)
 
 # MACSYFINDER
 (https://github.com/gem-pasteur/macsyfinder)
