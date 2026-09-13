@@ -16,7 +16,7 @@ cat kegg_ids/Arthrobacter_cavernae_PO-11.gff3_kegg_ids_color.txt kegg_ids/M9409_
 ```
 submit file  `kegg_mapper_color.txt` to (https://www.genome.jp/kegg/mapper/color.html)
 
-![](/home/julibote/github/genomics/pictures/kegg_mapper.png)
+![](pictures/kegg_mapper.png)
 
 # MACSYFINDER
 (https://github.com/gem-pasteur/macsyfinder)
