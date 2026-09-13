@@ -1,0 +1,97 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/T6SSiii_tssH.hmm
+# target sequence database:        proteins_fasta/M9409_L16.faa
+# output directed to file:         macsyfinder/M9409_L16/hmmer_results/T6SSiii_tssH.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       fam7.tab  [M=818]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+   1.4e-186  620.0   0.3   2.1e-115  384.6   0.0    2.0  0  BKOHND_09415  ATP-dependent chaperone ClpB
+   1.1e-181  603.9   0.7     1e-178  594.0   0.7    2.0  1  BKOHND_12900  ATP-dependent Clp protease, ATP-binding subunit
+     2e-178  593.1   0.0   5.6e-105  350.1   0.1    2.0  0  BKOHND_17115  ATP-dependent Clp protease, ATP-binding subunit
+
+
+Domain annotation for each sequence (and alignments):
+>> BKOHND_09415  ATP-dependent chaperone ClpB
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> BKOHND_12900  ATP-dependent Clp protease, ATP-binding subunit ClpA
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  594.0   0.7  6.9e-182    1e-178       4     813 ..       3     806 ..       1     810 [. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 594.0 bits;  conditional E-value: 6.9e-182
+      fam7.tab   4 enfseellsaikiakavakedknksyaaahllialltkevgl.reileslgkdvdylseWaevrieeypkvehageiipddkveevleeaesvrikl 99 
+                   e+f++    ++ +a++ a+  ++++ ++ h+l+ l+++  g+  + lesl    d ++e ++  i +  + +  g+i    + ++vle + +  ++l
+  BKOHND_12900   3 ERFTDRARRVVVLAQEEARMLNHNYIGTEHILLGLIHEGEGVaAKALESLSISLDGVREQVQEIIGQG-QQAPSGHIPFTPRAKKVLELSLREALQL 98 
+                   5677777889999*************************99983589************9988777654.4456899999999*************** PP
+
+      fam7.tab 100 gedeidalcvlaaiaspgvgfstdqlksfpisedei....lelfeastsnlkdqivlpqseapvaevdkGslskyvsdkralekdkkrkpiigreke 192
+                   g++ i +  +l  + ++g g + + l  ++   + +    ++l++   ++ ++ + +   +   + ++   l+++  +++++++++k  p+igre+e
+  BKOHND_12900  99 GHNYIGTEHILLGLIREGEGVAAQVLVKLGADLNRVrqqvIQLLSGYQGKETTGTGVGAGQPEGTPAGSVVLDQFGRNLTQAARENKLDPVIGREQE 195
+                   **************************9998876555000055555555555566777666666777888899************************* PP
+
+      fam7.tab 193 lrlileilerlekpnvlliGdaGvGktalidalaqevienqvpeilnkvslveldtskliagasykgeieerlkgliqelkqksrailvideihlll 289
+                   ++ ++++l+r  k+n +liG++GvGkta++++laq ++ + vpe++++ +l+ ld+++l+ag+ y+g+ eerlk +++e++ ++  il+ideih+l+
+  BKOHND_12900 196 MERVMQVLSRRTKNNPVLIGEPGVGKTAVVEGLAQAIVRGDVPETIKDKQLYTLDLGSLVAGSRYRGDFEERLKKVLKEIRTRGDIILFIDEIHTLV 292
+                   ************************************************************************************************* PP
+
+      fam7.tab 290 dkks..GnsgaanvlkaelakGavtviavltvdefrkriekehalarrleivkveesddeilvsmirkalkiyqeyhkvqvdeealseavalskryl 384
+                      +  G   aa++lk+ la+G+++ i+ +t+de+rk+iek+ al+rr++ ++v+e+  +  +++++  +++y+++h+v++++ al++a +ls+ry+
+  BKOHND_12900 293 GAGAaeGAIDAASILKPMLARGELQTIGATTLDEYRKHIEKDAALERRFQPIQVKEPSVAHAIEILKGLRDRYEAHHRVTITDGALASAANLSERYI 389
+                   864411666788************************************************************************************* PP
+
+      fam7.tab 385 kekslPesaidlidrtlsavklsnksaakevkslveqleklkedtseaeedeklkllnftlvnkvskvllskledeqnekedsetsekldyieklld 481
+                    ++ lP+ aidlid++ + +++   +a  e k + e+++ lk ++  a + ++++     l +k +k++  +      eke +  +  +        
+  BKOHND_12900 390 SDRFLPDKAIDLIDEAGARLRIRRMTAPPELKAMDERIAELKMEKESAIDAQDFEGA-ASLRDKEQKLIAER-----AEKERHWKTGGM-------- 472
+                   ******************************************888888888877654.45666655544333.....333333222334........ PP
+
+      fam7.tab 482 eleelakekiekiesleveaviakktGiPiGkikeeekekllnieevlrrrvvGqdkaiktladaivesrsGlskpgkPigsffllGPtGtGktela 578
+                          ++i++++   ++ v+a++tGiP+ k+ eee  +ll +e  l++rvvGq++aik+l++ai  +r+Gl++p++P gsf + GPtG Gktela
+  BKOHND_12900 473 -------DDISEVDEDLIAEVLANSTGIPVFKLTEEESSRLLKMESELHKRVVGQNEAIKALSQAIRRTRAGLKDPKRPGGSFIFAGPTGVGKTELA 562
+                   .......5556666666899***************************************************************************** PP
+
+      fam7.tab 579 kslaellfddekalirfdmsefkeehsaallyGaPPGyvGyeeGGllvnkirqkPysvvlfdeiekahssvydiflqimdeGklhdrlGkeGdfsns 675
+                   k+lae+lf +e+ali +dmse+ e h+ + l+GaPPGyvGyeeGG l +k+r++P+svvlfde+ekah+ +++ +lqi+++G+l d  G+  df n+
+  BKOHND_12900 563 KALAEFLFGEEDALITLDMSEYSEKHTVSRLFGAPPGYVGYEEGGQLTEKVRRRPFSVVLFDEVEKAHADLFNSLLQILEDGRLTDSQGRVVDFKNT 659
+                   ************************************************************************************************* PP
+
+      fam7.tab 676 iilftsniGsewiaeqineGkqPtst..........ellevmgkyfrPeflgrlteivPfsPiseevalkifeiqlkklvidllekkdikveiaeea 762
+                   +i++t+n+G+  i++ +  G q  ++           + e + ++frPefl r+ ++v f  ++++ +++i ++ + + + + l++kd+ +e+++ a
+  BKOHND_12900 660 VIIMTTNLGTRDISKSVATGFQSGTDtqtgynrmraRVTEELKQHFRPEFLNRVDDVVVFPQLTQDEIIEIVDLFVGR-LEKRLKDKDMGIELTKAA 755
+                   **********999998776655433211112221115678899*******************************9999.677789************ PP
+
+      fam7.tab 763 kaylaekGfspkyGarpiagvirsylrrpisklivsgevkaGdtivvtven 813
+                   k +la++G+ p  Garp++ +i+  +   +s +i+ ge++aGd +vv+v+ 
+  BKOHND_12900 756 KVLLATRGYDPAMGARPLRRTIQREIEDQLSEKILFGEIHAGDIVVVDVDG 806
+                   ************************************************964 PP
+
+>> BKOHND_17115  ATP-dependent Clp protease, ATP-binding subunit ClpA
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (818 nodes)
+Target sequences:                       4459  (1473457 residues searched)
+Passed MSV filter:                       187  (0.0419377); expected 89.2 (0.02)
+Passed bias filter:                      174  (0.0390222); expected 89.2 (0.02)
+Passed Vit filter:                        53  (0.0118861); expected 4.5 (0.001)
+Passed Fwd filter:                        10  (0.00224266); expected 0.0 (1e-05)
+Initial search space (Z):               4459  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.09u 0.00s 00:00:00.09 Elapsed: 00:00:00.09
+# Mc/sec: 13010.74
+//
+[ok]

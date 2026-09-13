@@ -1,0 +1,116 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/Tad_tadE.hmm
+# target sequence database:        proteins_fasta/M9409_L16.faa
+# output directed to file:         macsyfinder/M9409_L16/hmmer_results/Tad_tadE.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Tad_tadE  [M=142]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+    7.9e-25   85.8   1.1    1.2e-24   85.2   1.1    1.3  1  BKOHND_05105  Pilus assembly protein
+    6.1e-23   79.7   0.1    7.2e-23   79.5   0.1    1.0  1  BKOHND_05145  TadE family protein
+    1.9e-06   26.3   0.7    2.5e-06   25.8   0.7    1.3  1  BKOHND_03770  TadE-like family protein
+    9.7e-06   23.9   1.8    1.1e-05   23.8   1.8    1.2  1  BKOHND_07475  TadE-like domain-containing protein
+    8.5e-05   20.9   0.1    0.00011   20.5   0.1    1.2  1  BKOHND_03765  Pilus assembly protein TadE
+
+
+Domain annotation for each sequence (and alignments):
+>> BKOHND_05105  Pilus assembly protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   85.2   1.1   1.4e-27   1.2e-24       1     140 [.      15     143 ..      15     145 .] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 85.2 bits;  conditional E-value: 1.4e-27
+      Tad_tadE   1 rGaaaVEfALvlpllllllfgilEfGrafyqkavlenavreaARlaatgeaqgndsaaefkkavvqqlsylevrklatgfktaalpssdaqikvtse 97 
+                   rGa+aVEfALvlpl+++l+ gi EfGraf  +  l++a+re AR+aa++ ++ ++s a++k+a  ++++++    l    +  ++          ++
+  BKOHND_05105  15 RGAVAVEFALVLPLFIVLVLGIAEFGRAFNIQVSLSEAARETARYAAIHSSDVGYSTAAAKTAGIAAAPSVP---LNA--GDINV--------GYAP 98 
+                   8**********************************************************************9...421..11222........2234 PP
+
+      Tad_tadE  98 tsdgssvkyvtVnvsykiplltsllgl..vlgdeltlestatmrn 140
+                    s+ ++ ++v V+v+y+ p++t++ +l  ++   lt++s ++mr+
+  BKOHND_05105  99 GSACAADSNVIVTVTYSAPYMTGMPNLvpGMSPLLTVTSKGVMRC 143
+                   555677889999***********9999888889999********8 PP
+
+>> BKOHND_05145  TadE family protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   79.5   0.1     8e-26   7.2e-23       1     124 [.       7     116 ..       7     127 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 79.5 bits;  conditional E-value: 8e-26
+      Tad_tadE   1 rGaaaVEfALvlpllllllfgilEfGrafyqkavlenavreaARlaatgeaqgndsaaefkkavvqqlsylevrklatgfktaalpssdaqikvtse 97 
+                   rGa+aVEfA+++p+l++ll gi+EfGra+ ++a l+ a+re++R++a+ +     ++++++ka+++ +++l+     +g+k +++    +++ + + 
+  BKOHND_05145   7 RGAVAVEFAILAPVLIMLLLGIVEFGRAYNAQASLSAAAREGVRVMAISN-----KISDANKAARDTAVSLQ-----PGLKDTNIVF--KNLDTGT- 90 
+                   8***********************************************96.....78***************.....7788777763..3444444. PP
+
+      Tad_tadE  98 tsdgssvkyvtVnvsykiplltsllgl 124
+                    ++ ++++ +tV++sy+++++t++ g 
+  BKOHND_05145  91 -TSCAPGNRITVTISYNLSTMTGIAGP 116
+                   .457899***************87664 PP
+
+>> BKOHND_03770  TadE-like family protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.8   0.7   2.8e-09   2.5e-06       1      63 [.      30      88 ..      30     129 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 25.8 bits;  conditional E-value: 2.8e-09
+      Tad_tadE  1 rGaaaVEfALvlpllllllfgilEfGrafyqkavlenavreaARlaatgeaqgndsaaefkka 63
+                  rG+a+V f Lv  ll + + +i+ + ++++++++l +a+ ++AR++++ + +    aa++k++
+  BKOHND_03770 30 RGSAVVDFVLVGGLLTMFFLAIIQLTLVLHVRNTLIDAAASGARYGTLADRN----AADAKDR 88
+                  7***********************************************9765....4444443 PP
+
+>> BKOHND_07475  TadE-like domain-containing protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.8   1.8   1.2e-08   1.1e-05       1      54 [.      22      74 ..      22     133 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 23.8 bits;  conditional E-value: 1.2e-08
+      Tad_tadE  1 rGaaaVEfALvlpllllllfgilEfGrafyqkavlenavreaARlaatgeaqgn 54
+                  rGa++ EfA  lp  llll + l    a +++  le+a+r +AR++a ge   +
+  BKOHND_07475 22 RGAVTAEFAVALPAVLLLLALLLAGSAAGIAQLRLEEAARAGARALARGEDA-G 74
+                  8***********************************************9865.2 PP
+
+>> BKOHND_03765  Pilus assembly protein TadE
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.5   0.1   1.3e-07   0.00011       1     121 [.      32     142 ..      32     160 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 20.5 bits;  conditional E-value: 1.3e-07
+      Tad_tadE   1 rGaaaVEfALvlp.llllllfgilEfGrafyqkavlenavreaARlaatgeaqgndsaaefkkavvqqlsylevrklatgfktaalpssdaqikvts 96 
+                   rG+a+VEf ++++ l++ l+ +i+ +G +      +  a+  aA +  ++  ++++   ++++av+ +l +++ ++  +           +  ++ +
+  BKOHND_03765  32 RGSAVVEFTFLALlLMVPLVYFIITVGQIQGGAFAVVGAADQAAKVYVAQP-DAESGRLAAEQAVMLALADYG-HPA-D------N---ASMDTSCQ 116
+                   7********876615667***************************999994.435667777777777777777.222.1......1...11223345 PP
+
+      Tad_tadE  97 etsdgssvkyvtVnvsykipllt.sl 121
+                   ++ + ++++ vt++v  ++pl+  ++
+  BKOHND_03765 117 PSDCLAPGSAVTITVHLTVPLPFvPF 142
+                   56678888888888887777665344 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (142 nodes)
+Target sequences:                       4459  (1473457 residues searched)
+Passed MSV filter:                       182  (0.0408163); expected 89.2 (0.02)
+Passed bias filter:                      138  (0.0309486); expected 89.2 (0.02)
+Passed Vit filter:                        15  (0.00336398); expected 4.5 (0.001)
+Passed Fwd filter:                         5  (0.00112133); expected 0.0 (1e-05)
+Initial search space (Z):               4459  [actual number of targets]
+Domain search space  (domZ):               5  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.01
+# Mc/sec: 20248.86
+//
+[ok]

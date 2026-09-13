@@ -1,0 +1,8 @@
+# gene: T6SSi_tssH extract from macsyfinder/M9409_L16/hmmer_results/T6SSi_tssH.search_hmm.out hmm output
+# profile length= 872
+# i_evalue threshold= 0.001
+# coverage threshold= 0.500
+# hit_id	replicon_name	position_hit	hit_sequence_length	gene_name	i_eval	score	profile_coverage	sequence_coverage	begin	end
+BKOHND_09415	M9409_L16	1860	888	T6SSi_tssH	1.700e-229	762.300	0.971	0.947	4	844
+BKOHND_12900	M9409_L16	2547	830	T6SSi_tssH	5.000e-122	406.700	0.552	0.563	2	468
+BKOHND_17115	M9409_L16	3373	831	T6SSi_tssH	2.300e-118	394.700	0.553	0.563	2	469

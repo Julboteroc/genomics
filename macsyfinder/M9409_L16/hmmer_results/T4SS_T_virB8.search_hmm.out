@@ -1,0 +1,49 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/T4SS_T_virB8.hmm
+# target sequence database:        proteins_fasta/M9409_L16.faa
+# output directed to file:         macsyfinder/M9409_L16/hmmer_results/T4SS_T_virB8.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       T_virB8  [M=229]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+     0.0014   16.0   0.6     0.0024   15.3   0.6    1.3  1  BKOHND_15790  DSBA oxidoreductase
+
+
+Domain annotation for each sequence (and alignments):
+>> BKOHND_15790  DSBA oxidoreductase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.3   0.6   5.3e-07    0.0024      11      61 ..       8      58 ..       1      69 [. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 15.3 bits;  conditional E-value: 5.3e-07
+       T_virB8 11 lksekpylaeartwesdrvgsaeksrklawlvailalviavaaviavaall 61
+                   ks+ + +aear+  +++ + + k+ k+ +l+ + ++v+av+a++a++al+
+  BKOHND_15790  8 RKSKAERTAEAREKAREIREAQLKKDKRNKLLIGWGIVVAVVAILAIVALV 58
+                  344444578999999999999999999999888888888888888888886 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (229 nodes)
+Target sequences:                       4459  (1473457 residues searched)
+Passed MSV filter:                       416  (0.0932945); expected 89.2 (0.02)
+Passed bias filter:                      391  (0.0876878); expected 89.2 (0.02)
+Passed Vit filter:                        66  (0.0148015); expected 4.5 (0.001)
+Passed Fwd filter:                         4  (0.000897062); expected 0.0 (1e-05)
+Initial search space (Z):               4459  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
+# Mc/sec: 13286.96
+//
+[ok]

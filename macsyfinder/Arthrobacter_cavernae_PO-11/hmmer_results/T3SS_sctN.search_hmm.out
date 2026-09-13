@@ -1,0 +1,69 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/T3SS_sctN.hmm
+# target sequence database:        proteins_fasta/Arthrobacter_cavernae_PO-11.faa
+# output directed to file:         macsyfinder/Arthrobacter_cavernae_PO-11/hmmer_results/T3SS_sctN.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       sctN  [M=434]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+    7.1e-62  207.3   0.4    9.4e-62  206.9   0.4    1.0  1  JLFNCN_12225  F0F1 ATP synthase subunit beta
+
+
+Domain annotation for each sequence (and alignments):
+>> JLFNCN_12225  F0F1 ATP synthase subunit beta
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  206.9   0.4   2.5e-65   9.4e-62      15     421 ..      12     429 ..       2     440 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 206.9 bits;  conditional E-value: 2.5e-65
+          sctN  15 lvavvGrvtevsgtllkavlpdvriGelCllkeadesllleaevvGftdekal......lsplgelaGlsssaevvptgralevgvgegLLGrvldg 105
+                   +   +Gr+ +v g ++++  p+  i  + +  +++ +l  e++ + f+ ++ l       ++l +++Gl ++++v+ t+   +v+vg+g+ G++ + 
+  JLFNCN_12225  12 TAGATGRIARVIGPVVDVEFPADAIPAIYNALTTEIKLNGETKTITFETSQHLgdnlvrAIALQATDGLVRGTTVQDTAAPISVPVGDGVKGHIFNV 108
+                   45578*************************9999999999******98776543332224678899******************************* PP
+
+          sctN 106 lgrpldg.gelaevaevrpvdaaapdpmerkkiekplstGirviDslltlgeGqrvGifaaaGvGkstLlamlirnaeaD...vnvlaLiGerGrev 198
+                   lg+pld  +++ + +++ p++++ap+  + +  ++ l tGi+viD l    +G ++G+f++aGvGk++L++++i   + +     v+a +Ger re 
+  JLFNCN_12225 109 LGKPLDVeESEIKADAYWPIHRKAPSFAQLEGSTEMLETGIKVIDLLTPYIKGGKIGLFGGAGVGKTVLIQEMITRVARNfggTSVFAGVGERTREG 205
+                   ******956677888899****************************************************998877654422279************ PP
+
+          sctN 199 refiekelgeegkkrsvlvvatsDrssverakaayvataiaeyfrd.qGkrvlLllDsltrfaralreiglaaGepparrgyppsvfaaLPrLlera 294
+                    ++  +  +   +k + lv+   D++   r++ a  a ++aeyfrd q + vlL++D + rf++a  e++   G  p+  gy p   +++  L er 
+  JLFNCN_12225 206 NDLWVEMEEAGVLKDTALVFGQMDEPPGTRLRVALSALTMAEYFRDvQKQDVLLFIDNIFRFTQAGSEVSTLLGRMPSAVGYQPNLADEMGLLQERI 302
+                   *9987777888899999****************************955677********************************************** PP
+
+          sctN 295 GlsekGsitalYtvLvedddmndPvadevrsiLDGhivLsrklaerghyPaiDvlasisrvlt.qvvseehrklaarlrelLakyeevelllrlGeY 390
+                     ++  sit++ ++ v  dd +dP    + + LD    Lsr++a rg yPa+D l s sr+l+ q + ++h ++a r++++L k +e++ ++ +   
+  JLFNCN_12225 303 TSTKGHSITSMQAIYVPADDYTDPAPATTFAHLDATTELSREIASRGLYPAVDPLTSTSRILDpQYIGKDHYNTAVRVKQILQKNKELQDIIAILGV 399
+                   *99999********************************************************7589**************************99665 PP
+
+          sctN 391 kkGedketDk.avdkidalesfLrqdtdevve 421
+                    + +  e Dk +v +  ++++fL q+t    +
+  JLFNCN_12225 400 DELS--EEDKiVVSRARRIQQFLSQNTYTAKQ 429
+                   5544..34441678899********9876655 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (434 nodes)
+Target sequences:                       3760  (1192649 residues searched)
+Passed MSV filter:                       224  (0.0595745); expected 75.2 (0.02)
+Passed bias filter:                      154  (0.0409574); expected 75.2 (0.02)
+Passed Vit filter:                        45  (0.0119681); expected 3.8 (0.001)
+Passed Fwd filter:                        13  (0.00345745); expected 0.0 (1e-05)
+Initial search space (Z):               3760  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.03
+# Mc/sec: 14191.78
+//
+[ok]

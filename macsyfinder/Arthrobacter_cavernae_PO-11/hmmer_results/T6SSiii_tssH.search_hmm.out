@@ -1,0 +1,44 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/T6SSiii_tssH.hmm
+# target sequence database:        proteins_fasta/Arthrobacter_cavernae_PO-11.faa
+# output directed to file:         macsyfinder/Arthrobacter_cavernae_PO-11/hmmer_results/T6SSiii_tssH.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       fam7.tab  [M=818]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+   9.4e-181  600.5   0.0   1.1e-111  372.1   0.0    2.1  0  JLFNCN_09380  ATP-dependent chaperone ClpB
+   4.4e-169  561.9   1.0   9.3e-109  362.4   0.2    2.0  0  JLFNCN_18310  ATP-dependent Clp protease ATP-binding subunit
+
+
+Domain annotation for each sequence (and alignments):
+>> JLFNCN_09380  ATP-dependent chaperone ClpB
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> JLFNCN_18310  ATP-dependent Clp protease ATP-binding subunit
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (818 nodes)
+Target sequences:                       3760  (1192649 residues searched)
+Passed MSV filter:                       158  (0.0420213); expected 75.2 (0.02)
+Passed bias filter:                      147  (0.0390957); expected 75.2 (0.02)
+Passed Vit filter:                        47  (0.0125); expected 3.8 (0.001)
+Passed Fwd filter:                         7  (0.0018617); expected 0.0 (1e-05)
+Initial search space (Z):               3760  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.08u 0.00s 00:00:00.08 Elapsed: 00:00:00.08
+# Mc/sec: 11892.83
+//
+[ok]

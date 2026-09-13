@@ -1,0 +1,103 @@
+# macsyfinder 2.1.6  (using MacSyLib 1.0.4 )
+# models : TXSScan-1.1.4
+# /home/julibote/miniconda3/bin/macsyfinder --db-type ordered_replicon --sequence-db proteins_fasta/M9409_L16.faa --models-dir /home/julibote/TXSScan_model --models TXSScan all -o macsyfinder/M9409_L16
+# Rejected candidates:
+
+Cluster:
+- model = T2SS
+- replicon = M9409_L16
+- hits = (BKOHND_05095, T4aP_pilD, 1001)
+This candidate has been rejected because:
+	- The quorum of mandatory genes required (3) is not reached: 0
+	- The quorum of genes required (6) is not reached: 1
+============================================================
+Cluster:
+- model = T4aP
+- replicon = M9409_L16
+- hits = (BKOHND_05095, T4aP_pilD, 1001)
+This candidate has been rejected because:
+	- The quorum of mandatory genes required (4) is not reached: 1
+	- The quorum of genes required (5) is not reached: 1
+============================================================
+Cluster:
+- model = Tad
+- replicon = M9409_L16
+- hits = (BKOHND_03855, Tad_tadC, 756), (BKOHND_03860, Tad_tadA, 757)
+This candidate has been rejected because:
+	- The quorum of mandatory genes required (4) is not reached: 2
+	- The quorum of genes required (6) is not reached: 2
+============================================================
+Cluster:
+- model = Tad
+- replicon = M9409_L16
+- hits = (BKOHND_03855, Tad_tadC, 756), (BKOHND_03860, Tad_tadA, 757)
+Cluster:
+- model = Tad
+- replicon = M9409_L16
+- hits = (BKOHND_07485, Tad_tadC, 1475), (BKOHND_07490, Tad_tadB, 1476), (BKOHND_07495, Tad_tadA, 1477)
+This candidate has been rejected because:
+	- The quorum of mandatory genes required (4) is not reached: 3
+	- The quorum of genes required (6) is not reached: 3
+============================================================
+Cluster:
+- model = Tad
+- replicon = M9409_L16
+- hits = (BKOHND_03855, Tad_tadC, 756), (BKOHND_03860, Tad_tadA, 757)
+Cluster:
+- model = Tad
+- replicon = M9409_L16
+- hits = (BKOHND_07485, Tad_tadC, 1475), (BKOHND_07490, Tad_tadB, 1476), (BKOHND_07495, Tad_tadA, 1477)
+Cluster:
+- model = Tad
+- replicon = M9409_L16
+- hits = (BKOHND_17925, Tad_tadV, 3531)
+This candidate has been rejected because:
+	- The quorum of genes required (6) is not reached: 4
+============================================================
+Cluster:
+- model = Tad
+- replicon = M9409_L16
+- hits = (BKOHND_03855, Tad_tadC, 756), (BKOHND_03860, Tad_tadA, 757)
+Cluster:
+- model = Tad
+- replicon = M9409_L16
+- hits = (BKOHND_17925, Tad_tadV, 3531)
+This candidate has been rejected because:
+	- The quorum of mandatory genes required (4) is not reached: 3
+	- The quorum of genes required (6) is not reached: 3
+============================================================
+Cluster:
+- model = Tad
+- replicon = M9409_L16
+- hits = (BKOHND_07485, Tad_tadC, 1475), (BKOHND_07490, Tad_tadB, 1476), (BKOHND_07495, Tad_tadA, 1477)
+This candidate has been rejected because:
+	- The quorum of mandatory genes required (4) is not reached: 3
+	- The quorum of genes required (6) is not reached: 3
+============================================================
+Cluster:
+- model = Tad
+- replicon = M9409_L16
+- hits = (BKOHND_07485, Tad_tadC, 1475), (BKOHND_07490, Tad_tadB, 1476), (BKOHND_07495, Tad_tadA, 1477)
+Cluster:
+- model = Tad
+- replicon = M9409_L16
+- hits = (BKOHND_17925, Tad_tadV, 3531)
+This candidate has been rejected because:
+	- The quorum of genes required (6) is not reached: 4
+============================================================
+Cluster:
+- model = Tad
+- replicon = M9409_L16
+- hits = (BKOHND_17925, Tad_tadV, 3531)
+This candidate has been rejected because:
+	- The quorum of mandatory genes required (4) is not reached: 1
+	- The quorum of genes required (6) is not reached: 1
+============================================================
+Cluster:
+- model = pT4SSt
+- replicon = M9409_L16
+- hits = (BKOHND_20575, T4SS_T_virB6, 4046), (BKOHND_20590, T4SS_t4cp1, 4049)
+This candidate has been rejected because:
+	- The quorum of mandatory genes required (1) is not reached: 0
+	- The quorum of genes required (6) is not reached: 2
+============================================================

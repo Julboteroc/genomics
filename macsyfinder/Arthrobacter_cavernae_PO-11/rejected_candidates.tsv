@@ -1,0 +1,24 @@
+# macsyfinder 2.1.6  (using MacSyLib 1.0.4 )
+# models : TXSScan-1.1.4
+# /home/julibote/miniconda3/bin/macsyfinder --db-type ordered_replicon --sequence-db proteins_fasta/Arthrobacter_cavernae_PO-11.faa --models-dir /home/julibote/TXSScan_model --models TXSScan all -o macsyfinder/Arthrobacter_cavernae_PO-11
+# Rejected candidates found:
+candidate_id	replicon	model_fqn	cluster_id	hit_id	hit_pos	gene_name	function	reasons
+Arthrobacter_cavernae_PO-11_T2SS_1	Arthrobacter_cavernae_PO-11	TXSScan/bacteria/diderm/T2SS	c23	JLFNCN_17215	3383	T4aP_pilD	T2SS_gspO	The quorum of mandatory genes required (3) is not reached: 0/The quorum of genes required (6) is not reached: 1
+
+Arthrobacter_cavernae_PO-11_T4aP_2	Arthrobacter_cavernae_PO-11	TXSScan/bacteria/diderm/T4aP	c26	JLFNCN_17215	3383	T4aP_pilD	T4aP_pilD	The quorum of mandatory genes required (4) is not reached: 1/The quorum of genes required (5) is not reached: 1
+
+Arthrobacter_cavernae_PO-11_Tad_3	Arthrobacter_cavernae_PO-11	TXSScan/bacteria/diderm/Tad	c28	JLFNCN_00740	145	Tad_tadZ	Tad_tadZ	The quorum of genes required (6) is not reached: 4
+Arthrobacter_cavernae_PO-11_Tad_3	Arthrobacter_cavernae_PO-11	TXSScan/bacteria/diderm/Tad	c28	JLFNCN_00745	146	Tad_tadA	Tad_tadA	The quorum of genes required (6) is not reached: 4
+Arthrobacter_cavernae_PO-11_Tad_3	Arthrobacter_cavernae_PO-11	TXSScan/bacteria/diderm/Tad	c28	JLFNCN_00750	147	Tad_tadB	Tad_tadB	The quorum of genes required (6) is not reached: 4
+Arthrobacter_cavernae_PO-11_Tad_3	Arthrobacter_cavernae_PO-11	TXSScan/bacteria/diderm/Tad	c28	JLFNCN_00755	148	Tad_tadC	Tad_tadC	The quorum of genes required (6) is not reached: 4
+
+Arthrobacter_cavernae_PO-11_Tad_5	Arthrobacter_cavernae_PO-11	TXSScan/bacteria/diderm/Tad	c28	JLFNCN_00740	145	Tad_tadZ	Tad_tadZ	The quorum of genes required (6) is not reached: 4
+Arthrobacter_cavernae_PO-11_Tad_5	Arthrobacter_cavernae_PO-11	TXSScan/bacteria/diderm/Tad	c28	JLFNCN_00745	146	Tad_tadA	Tad_tadA	The quorum of genes required (6) is not reached: 4
+Arthrobacter_cavernae_PO-11_Tad_5	Arthrobacter_cavernae_PO-11	TXSScan/bacteria/diderm/Tad	c28	JLFNCN_00750	147	Tad_tadB	Tad_tadB	The quorum of genes required (6) is not reached: 4
+Arthrobacter_cavernae_PO-11_Tad_5	Arthrobacter_cavernae_PO-11	TXSScan/bacteria/diderm/Tad	c28	JLFNCN_00755	148	Tad_tadC	Tad_tadC	The quorum of genes required (6) is not reached: 4
+Arthrobacter_cavernae_PO-11_Tad_5	Arthrobacter_cavernae_PO-11	TXSScan/bacteria/diderm/Tad	c30	JLFNCN_11890	2335	Tad_tadA	Tad_tadA	The quorum of genes required (6) is not reached: 4
+Arthrobacter_cavernae_PO-11_Tad_5	Arthrobacter_cavernae_PO-11	TXSScan/bacteria/diderm/Tad	c30	JLFNCN_11895	2336	Tad_tadC	Tad_tadC	The quorum of genes required (6) is not reached: 4
+
+Arthrobacter_cavernae_PO-11_Tad_4	Arthrobacter_cavernae_PO-11	TXSScan/bacteria/diderm/Tad	c30	JLFNCN_11890	2335	Tad_tadA	Tad_tadA	The quorum of mandatory genes required (4) is not reached: 2/The quorum of genes required (6) is not reached: 2
+Arthrobacter_cavernae_PO-11_Tad_4	Arthrobacter_cavernae_PO-11	TXSScan/bacteria/diderm/Tad	c30	JLFNCN_11895	2336	Tad_tadC	Tad_tadC	The quorum of mandatory genes required (4) is not reached: 2/The quorum of genes required (6) is not reached: 2
+

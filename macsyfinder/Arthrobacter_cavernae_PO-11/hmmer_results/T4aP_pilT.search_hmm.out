@@ -1,0 +1,59 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/T4aP_pilT.hmm
+# target sequence database:        proteins_fasta/Arthrobacter_cavernae_PO-11.faa
+# output directed to file:         macsyfinder/Arthrobacter_cavernae_PO-11/hmmer_results/T4aP_pilT.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       pilT.mafft-edit  [M=341]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+    1.5e-15   54.8   0.1      2e-15   54.4   0.1    1.1  1  JLFNCN_00745  TadA family conjugal transfer-associated ATPase
+
+
+Domain annotation for each sequence (and alignments):
+>> JLFNCN_00745  TadA family conjugal transfer-associated ATPase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.4   0.1   5.4e-19     2e-15      92     278 ..     170     364 ..     147     378 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 54.4 bits;  conditional E-value: 5.4e-19
+  pilT.mafft-edit  92 aavlrtipskiltleelglpevlkelak.......kkrGLvLvtGPtGsGksttlaalvdeineeeaehiltiedPief..vheskkslvnqr. 175
+                       + +r    ++ tl el++  ++  l++       ++r   L+ G tGsGk+t l++++     + +e ++ ied  e   vh +  sl  +  
+     JLFNCN_00745 170 LLSIRIRREEVFTLAELRAGGMFGPLVEqllravmQRRLSFLISGATGSGKTTLLSTMLGLS--RPEERLVLIEDAAELnpVHPHVVSLESRHg 261
+                      456777778888888888876655444311111114555589*****************975..45667899***9987669**9999976542 PP
+
+  pilT.mafft-edit 176 ev.gkdtksfenaLksaLredPdviLvGelrdletirlaltaaetGhlv.fgtLhtssaaktidriidv..fpaeekeqvrvqlsesLqavisq 265
+                      ++ g  + +  + +++aLr  Pd ++vGe r  e +r  lta +tGh    gt+h+++a     r++ +   ++ ++++vr q+s++L avi  
+     JLFNCN_00745 262 NLeGGGALDLGELVRQALRMRPDRLIVGECRGAE-VRELLTALNTGHTGgGGTIHANTAEAVPARLVALgaLAGLSQDAVRLQVSSALDAVIH- 353
+                      34245678999*********************99.6777********97257********999**99863377899***************96. PP
+
+  pilT.mafft-edit 266 tLvkkkgggrvaa 278
+                        v+++  gr +a
+     JLFNCN_00745 354 --VERTARGRTVA 364
+                      ..55666666655 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (341 nodes)
+Target sequences:                       3760  (1192649 residues searched)
+Passed MSV filter:                       174  (0.0462766); expected 75.2 (0.02)
+Passed bias filter:                      160  (0.0425532); expected 75.2 (0.02)
+Passed Vit filter:                        61  (0.0162234); expected 3.8 (0.001)
+Passed Fwd filter:                         9  (0.00239362); expected 0.0 (1e-05)
+Initial search space (Z):               3760  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
+# Mc/sec: 14022.16
+//
+[ok]

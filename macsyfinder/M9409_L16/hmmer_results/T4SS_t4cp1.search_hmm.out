@@ -1,0 +1,54 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/T4SS_t4cp1.hmm
+# target sequence database:        proteins_fasta/M9409_L16.faa
+# output directed to file:         macsyfinder/M9409_L16/hmmer_results/T4SS_t4cp1.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       t4cp1  [M=110]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+    4.9e-11   41.4   0.0    1.1e-10   40.3   0.0    1.6  1  BKOHND_20590  TraD/TraG TraM recognition site domain-containi
+
+
+Domain annotation for each sequence (and alignments):
+>> BKOHND_20590  TraD/TraG TraM recognition site domain-containing protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.3   0.0   2.4e-14   1.1e-10       1     108 [.     187     292 ..     187     294 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 40.3 bits;  conditional E-value: 2.4e-14
+         t4cp1   1 GKtvglvipnllkwrgsvivlDpkgelyeatagyragrgdkvlvlnpgd...eaeshrwnpldyirdrsaeragdlaslanslipa.ekggggdaff 93 
+                   GK+  +vi ++l+++g+v+ ++  +++   t + ra rg+ v v++p++    + + rw+p+  + +++     d+a + +++i a ++ +g++a +
+  BKOHND_20590 187 GKGLYVVINAILDAPGAVVTTSTRADNLVVTMKARATRGRPVTVFDPQGmsgLPSTLRWSPVRGC-EDP-----DIATRRALVITAdTEMKGENAAW 277
+                   99*********************************888888********77666699********.777.....7888888888885667******* PP
+
+         t4cp1  94 kesarqllaalilal 108
+                   ++++  +l+ l+ a+
+  BKOHND_20590 278 QKRSLIILQCLLHAA 292
+                   **********99987 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (110 nodes)
+Target sequences:                       4459  (1473457 residues searched)
+Passed MSV filter:                       121  (0.0271361); expected 89.2 (0.02)
+Passed bias filter:                      116  (0.0260148); expected 89.2 (0.02)
+Passed Vit filter:                        12  (0.00269119); expected 4.5 (0.001)
+Passed Fwd filter:                         1  (0.000224266); expected 0.0 (1e-05)
+Initial search space (Z):               4459  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 22343.88
+//
+[ok]

@@ -1,0 +1,157 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/Tad_tadB.hmm
+# target sequence database:        proteins_fasta/M9409_L16.faa
+# output directed to file:         macsyfinder/M9409_L16/hmmer_results/Tad_tadB.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Tad_tadB  [M=160]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+      9e-37  124.2   0.3    1.4e-36  123.5   0.3    1.3  1  BKOHND_05170  Type II secretion system protein
+    2.6e-35  119.4   0.0    3.9e-35  118.8   0.0    1.3  1  BKOHND_05130  Type II secretion system protein F
+    1.5e-13   48.7   0.3    1.5e-13   48.7   0.3    1.6  1  BKOHND_05135  Type II secretion system protein GspF domain-co
+      3e-11   41.2   0.5      3e-11   41.2   0.5    1.9  1  BKOHND_05175  Type II secretion system protein
+      3e-11   41.2   0.0    5.7e-11   40.3   0.0    1.4  1  BKOHND_03850  Type II secretion system protein
+    1.9e-09   35.4   0.4      4e-09   34.3   0.0    1.6  1  BKOHND_07490  Tight adherence protein B
+    1.2e-08   32.7   0.0    1.6e-08   32.3   0.0    1.2  1  BKOHND_03855  Type II secretion system protein
+
+
+Domain annotation for each sequence (and alignments):
+>> BKOHND_05170  Type II secretion system protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  123.5   0.3   2.2e-39   1.4e-36       3     160 .]     141     298 ..     139     298 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 123.5 bits;  conditional E-value: 2.2e-39
+      Tad_tadB   3 ealdalsrslkaGaslldalervgedlkeplgsefklvlsrlalgidledvledsaervpveelrffaivvqineekGGnlkellsrlsevlrdrrk 99 
+                   + l++l   l+aG+s+l a++ ++ + + p  +e+++v  +  lg dl + l d  er+++e++  +a ++qin+e GGnl+e+l+++ e++r+r +
+  BKOHND_05170 141 DTLQLLAGGLRAGHSILRAIDAAAAESQSPTSEEMRRVITETSLGRDLLASLTDTSERMKNEDFVWIAQAIQINREVGGNLAEVLDQVNETIRERSE 237
+                   88999******************************************************************************************** PP
+
+      Tad_tadB 100 leekvkaltaearasavilaalPiglvvlvklmsPeyleflfkdptGrlvllyaviselvG 160
+                   ++  +kal ae + sa+il a+Pig+v+++ + +P y++ +f++p G  ++  +v+++ +G
+  BKOHND_05170 238 IKGHIKALAAEGKFSAYILIAMPIGIVLMLMAVNPGYMDAMFTHPLGWAMIAGSVVLMTIG 298
+                   ********************************************************99998 PP
+
+>> BKOHND_05130  Type II secretion system protein F
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  118.8   0.0   6.1e-38   3.9e-35       3     160 .]     146     303 ..     144     303 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 118.8 bits;  conditional E-value: 6.1e-38
+      Tad_tadB   3 ealdalsrslkaGaslldalervgedlkeplgsefklvlsrlalgidledvledsaervpveelrffaivvqineekGGnlkellsrlsevlrdrrk 99 
+                   + l++l   l+aG+sll +++ v++++ +p  +ef++++++ +lg dl++ ++d a r   e++   + +++i +e GG l+++l+ ++e++r+r +
+  BKOHND_05130 146 DTLQMLAGGLRAGHSLLRSVDAVAKEADAPTSEEFARLVNETRLGRDLRESMQDAARRLRSEDFDWTSQAIEIHREVGGDLADVLDHVGETIRERSQ 242
+                   889********************************************************************************************** PP
+
+      Tad_tadB 100 leekvkaltaearasavilaalPiglvvlvklmsPeyleflfkdptGrlvllyaviselvG 160
+                   ++ +v+al+ae r+sa+il alPig++++++++sPey+ +l+k+  G +++ ++v++ ++G
+  BKOHND_05130 243 IKGQVQALSAEGRISAYILMALPIGMFLYLSVASPEYVGTLYKSLLGWVMIGAGVVLLIIG 303
+                   *******************************************************999987 PP
+
+>> BKOHND_05135  Type II secretion system protein GspF domain-containing protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   48.7   0.3   2.3e-16   1.5e-13       1     129 [.     152     281 ..     152     292 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 48.7 bits;  conditional E-value: 2.3e-16
+      Tad_tadB   1 lpealdalsrslkaGaslldalervgedlkeplgsefklvlsrlalgidledvledsaervpveelrffaivvqineekGGnlkellsrlsevlrdr 97 
+                   lp+ ld++  s++aG     a+ r+g++ k+pl++e+ + l+ +++g + +d+  ++a+r +v +lr+f+ +v     +G  ++++l+   + +r +
+  BKOHND_05135 152 LPNTLDQMLISVEAGLGFETAMARAGQNGKGPLAEELVRTLQDMQVGRSRKDAYMAMASRTDVPDLRSFVRAVVQADTYGIAIANVLRTQAKQMRVK 248
+                   79**************************************************************************************999999988 PP
+
+      Tad_tadB  98 rkleekvkaltaearasavil.aalPiglvvlv 129
+                   r  +++ ka+    ++   ++  +lP+ ++v++
+  BKOHND_05135 249 RRQRAEEKAMKLPVKVLFPLMfCILPVLFIVII 281
+                   888888888877777766666145677776665 PP
+
+>> BKOHND_05175  Type II secretion system protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.2   0.5   4.7e-14     3e-11       1     138 [.     151     286 ..     151     292 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 41.2 bits;  conditional E-value: 4.7e-14
+      Tad_tadB   1 lpealdalsrslkaGaslldalervgedlkeplgsefklvlsrlalgidledvledsaervpveelrffaivvqineekGGnlkellsrlsevlrdr 97 
+                   l++ ld++  s++aG     a+ r+ge+ k+pl++e+ + l+ +++g + ++   ++aer ++ elr+f+ ++     +G  ++ +l+   +v+r +
+  BKOHND_05175 151 LANTLDQMLISVEAGLGFEGAMARAGENGKGPLAEEIIRTLQDMQVGRSRRESYIALAERTNIPELRSFVQAIVQADTYGIAISRVLRIQAKVMRVK 247
+                   57899********************************************************************999999987776666666665555 PP
+
+      Tad_tadB  98 rkleekvkaltaearasavil..aalPiglvvlvklmsPeyle 138
+                   r  +++ ka     +  ++il  ++++i+ v+++ ++ P+ ++
+  BKOHND_05175 248 RRQRAEEKA----MKLPVMILfpLLFFIFPVLFIAILGPAVIN 286
+                   554444444....455666653223444445666777776665 PP
+
+>> BKOHND_03850  Type II secretion system protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.3   0.0   8.9e-14   5.7e-11       1     120 [.     173     292 ..     173     295 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 40.3 bits;  conditional E-value: 8.9e-14
+      Tad_tadB   1 lpealdalsrslkaGaslldalervgedlkeplgsefklvlsrlalgidledvledsaervpveelrffaivvqineekGGnlkellsrlsevlrdr 97 
+                   +p  ++++  +++aG s   al+rv    ++ l+ ef+lvl + + g +l ++l+++  r ++  l  f+  + +  e+G  l+++l++  + +rd 
+  BKOHND_03850 173 FPSLAELMALAVSAGESASGALDRVCRTSHGELAGEFELVLGETRAGRPLVEALQRFSARTDLGPLVRFVDGIIVAVERGTPLADVLRAQAQDVRDT 269
+                   89999******************************************************************************************** PP
+
+      Tad_tadB  98 rkleekvkaltaearasavilaa 120
+                    k e +  a   e  + + i+ +
+  BKOHND_03850 270 AKRELMESAGKKEIAMMVAIVHC 292
+                   99999999999999999999877 PP
+
+>> BKOHND_07490  Tight adherence protein B
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.3   0.0   6.3e-12     4e-09      69     160 .]     171     262 ..     166     262 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 34.3 bits;  conditional E-value: 6.3e-12
+      Tad_tadB  69 faivvqineekGGnlkellsrlsevlrdrrkleekvkaltaearasavilaalPiglvvlvklmsPeyleflfkdptGrlvllyaviselvG 160
+                   +a+ + i + +G+ l+++l rl + l+ +   e+ ++++ a ++a++ +l+ lP+  ++l  ++  ++l++l+  p G  +l ++v+++++G
+  BKOHND_07490 171 LAACFDIAAASGCPLADVLTRLAAQLEAEDDAEAARQTALAGPKATVTLLTWLPVLGLGLGVALGVDPLSILLGTPLGMAALAAGVVLTVAG 262
+                   788999**********************************************************************************9987 PP
+
+>> BKOHND_03855  Type II secretion system protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.3   0.0   2.6e-11   1.6e-08       2     155 ..     109     261 ..     108     269 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 32.3 bits;  conditional E-value: 2.6e-11
+      Tad_tadB   2 pealdalsrslkaGaslldalervgedlkeplgsefklvlsrlalgidledvledsaervpveelrffaivvqineekGG.nlkellsrlsevlrdr 97 
+                   p+++d l  +++aG sl +al + g+  +e l++ f+      + g + + +l+++ er        ++ ++++ +e GG  l  ll  l+e lr++
+  BKOHND_03855 109 PDVVDHLRSAIRAGLSLPEALIQLGDKGPEELRHVFRDFGADYRAGGQFDPALNRLKERLADPVADRIVEALRLTREVGGsDLGRLLGTLGEFLRES 205
+                   99***************************************************************************999459************** PP
+
+      Tad_tadB  98 rkleekvkaltaearasavilaalPiglvvlvklmsPeyleflfkdptGrlvllyavi 155
+                     ++ +++a  + +   a +  a P +++vl+ ++ Pe ++  ++   G  vll +++
+  BKOHND_03855 206 ARTRSELEARQSWTVNAARLAVAAPWIVMVLL-ATRPEAVAA-YNTAMGAAVLLGGLV 261
+                   ********************99****999987.678999999.999999998875554 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (160 nodes)
+Target sequences:                       4459  (1473457 residues searched)
+Passed MSV filter:                       146  (0.0327428); expected 89.2 (0.02)
+Passed bias filter:                      115  (0.0257905); expected 89.2 (0.02)
+Passed Vit filter:                        13  (0.00291545); expected 4.5 (0.001)
+Passed Fwd filter:                         7  (0.00156986); expected 0.0 (1e-05)
+Initial search space (Z):               4459  [actual number of targets]
+Domain search space  (domZ):               7  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.01
+# Mc/sec: 22826.13
+//
+[ok]

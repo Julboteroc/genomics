@@ -1,0 +1,158 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/T4SS_virb4.hmm
+# target sequence database:        proteins_fasta/Arthrobacter_cavernae_PO-11.faa
+# output directed to file:         macsyfinder/Arthrobacter_cavernae_PO-11/hmmer_results/T4SS_virb4.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       virb4  [M=943]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+    2.3e-21   73.6   0.0    2.7e-21   73.4   0.0    1.0  1  JLFNCN_14240  Helicase HerA central domain-containing protein
+    1.8e-16   57.4   0.1    1.6e-15   54.3   0.1    1.9  1  JLFNCN_16500  AAA+ ATPase domain-containing protein
+    3.8e-16   56.3   0.0    5.2e-16   55.9   0.0    1.0  1  JLFNCN_05505  hypothetical protein
+    3.5e-11   39.9   0.0    6.4e-11   39.0   0.0    1.3  1  JLFNCN_14825  Type IV secretion system DNA-binding domain-con
+
+
+Domain annotation for each sequence (and alignments):
+>> JLFNCN_14240  Helicase HerA central domain-containing protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   73.4   0.0   2.9e-24   2.7e-21     478     787 ..     104     487 ..      49     522 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 73.4 bits;  conditional E-value: 2.9e-24
+         virb4 478 s.dl..ngntlvtGpsGaGKStllnellaqllkyg.prvfifDkgrsykklvralgGkyitlspgkpiglnPfq..........ledtead...... 554
+                   + +l  n  ++++G+ G GKStl+  ++  l   g + ++  D +++    v+algG++i+l+ g   +ln ++          l    +d      
+  JLFNCN_14240 104 RaRLisNPSAFLLGKPGLGKSTLVRRMMLGLSGQGvHPLVLGDLKGEHVDAVQALGGQVIRLGRGR-GYLNILDpgqaveaaqtL----EDkghhda 195
+                   353344899**************************9999***************************.899999966654433222....22566688 PP
+
+         virb4 555 ..........enraflkelfallaskpgepltpeerselsdairalye.................epeeyr....tlsdvlellqeiderakdlaer 620
+                             +  +++ +l+++  +    p t++e+++l++a+r l +                  p e r       d+  +lq    + + l + 
+  JLFNCN_14240 196 avrvradahgRRLNMVVSLITISRT---TPPTDQEQTILDRALRVLDDtfdgvpvlkdlldvitaAPDELRqvalDRGDMTVYLQ----ETRALEAT 285
+                   8888887766666688888888888...999***********8877775444444444444444444444433333344444555....45788888 PP
+
+         virb4 621 LkkwtrgGqygwvFdnesds.fdladfvvfeltellddpe.lrtpvlly.......Lfyrieqsmdgg....rpkliiiDEawkll.dnpqfaefie 703
+                   L   t gG  g++F  ++++ +   + vvf+++++ +++  l+++vll+         +  + ++d g    r +++++DE w++l + + + + ++
+  JLFNCN_14240 286 LLGLTGGGKLGEIFSRQTTNpMRRDRAVVFDVSSIDETETdLQAAVLLAcwsygfgTVNVANALADAGleprRNYFVVLDELWRALrAGKGMVDRVD 382
+                   8888899*******9999976777***********99888*888887776666886666666666777888459************66688****** PP
+
+         virb4 704 eglrtaRKyngalifaTQsiedflsspi......araiiensatkilLpqpkaeredyvegfglteaeieiik..............slepksrafl 780
+                    + r  R  + + ++++ +++d+l  p+      ar  +e s   i+   p+ e   +  + +l+ +e++ +               +  p++++fl
+  JLFNCN_14240 383 ALTRLNRSVGVGQVMISHTMSDLLALPAeedrmkARGFVERSGMVICAGLPASEMPLLTAAIPLSRQEQQKLIswqdppawdsrggdTEPPGRGKFL 479
+                   *************************774477778******************************888877776699999999998877888899999 PP
+
+         virb4 781 ikqgge.i 787
+                   ik gg+  
+  JLFNCN_14240 480 IKVGGRpG 487
+                   99988863 PP
+
+>> JLFNCN_16500  AAA+ ATPase domain-containing protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.3   0.1   1.7e-18   1.6e-15     479     728 ..      49     338 ..      29     453 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 54.3 bits;  conditional E-value: 1.7e-18
+         virb4 479 dlngntlvtGpsGaGKStllnellaqllkygprvfifDkgrsykkl......vralgGkyitlspgkpiglnPfql...edtead....enraflke 562
+                   + n ++lv G +G GK+++l ++++ql   g  vf  D ++   +l       + l ++  +l++     + P ++   +    d      ra +++
+  JLFNCN_16500  49 MMNRHGLVAGATGTGKTVTLHMMAEQLSTAGVPVFLADIKGDLSGLataataNEKLTARTESLGQPWEGKVFPVEFlslGG---DgngvPVRATITS 142
+                   558******************************************943333333333333333333345555555443333...1344656667777 PP
+
+         virb4 563 lfallaskpgepltpeerselsdairalye.epeeyrtlsdvlellq................eiderakdlaerLkkwtrgGqygwvFdnesdsfd 642
+                   +  +l+s    +l+++++s+l      +++  + e   l d+++ +q                  ++ a  +   L +   +G  + +F +++  fd
+  JLFNCN_16500 143 FGPILLS-RIMELNDTQESTLQLI-FHFADkQNLELIDLKDLRAVIQfltsdegkaelenlggLSKATAGVILRELVNLEAQGMEK-FFGEPE--FD 234
+                   7777777.6666777777777633.3333312222223333333333333554444444444422244555555555555556655.897776..55 PP
+
+         virb4 643 ...l........adfvvfeltellddpe.lrtpvllyLfyrieqsmdgg...r.pkliiiDEawkll..dnpqfaefieeglrtaRKyngalifaTQ 721
+                      l          + ++el +l+ +p  + t ++  L  ++e++ + g   + ++++++DEa+ l+  ++++f + i +  r +R ++ +++f+TQ
+  JLFNCN_16500 235 taeLlrtapdgrGVISCLELPTLQTKPMlFSTFLMWLLADLFEDLPEAGdldKpKLVFFLDEAHLLFngASKAFLDAITTTVRLIRSKGVGIFFVTQ 331
+                   33324566789999**************555555555777777777555555755789*********766688************************ PP
+
+         virb4 722 siedfls 728
+                   +++d+  
+  JLFNCN_16500 332 TPKDVPA 338
+                   ****987 PP
+
+>> JLFNCN_05505  hypothetical protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.9   0.0   5.5e-19   5.2e-16     469     728 ..     216     499 ..     196     510 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 55.9 bits;  conditional E-value: 5.5e-19
+         virb4 469 qpfffnlhdsdl.ngntlvtGpsGaGKStllnellaqllkyg........prvfifDkgrsykk..lvralgGkyitlspgkpiglnPfqledtead 554
+                   + + f + +++l   n+ ++G  G GK+ l+++l++q++  +        + + ifD+++ ++k  +v  +gG++++  p++ i +n f  + t ++
+  JLFNCN_05505 216 TEVDFWPSTTNLnQMNVGIVGDLGTGKTELVKALISQIREQArekqpsesTSMLIFDYKGDFQKeeFVSRVGGVVLE--PHQ-IPVNIFM-PVTGEH 308
+                   5556666666553579************************5555455556999*********9988***********..666.9999999.444422 PP
+
+         virb4 555 ..enraflkelfallaskpgepltpeerselsdairalyeepeeyr.tlsdvle.llqeiderakdlaerLkkwtrgGqygwvFdnesdsfdl.... 643
+                      + +++ +++++l +  ++ + p ++s+l +a+r+ly+ + +++ tl +v+  +l+ +  + +++   L+ ++     +++F ++   +++    
+  JLFNCN_05505 309 skLPYQQAAAFVDVLRK-IYRGVGPVQASLLNEAVRELYQQNDNRPpTLAEVRVaYLE-KSGNPDSVSSILDSFV----LSQIFSADRGVLKPfgel 399
+                   33566677777777777.66689*****************6666655*******9999.88999***********....788888888756644557 PP
+
+         virb4 644 ..adfvvfeltellddpe.lrtpvllyLfyrieqsmdggrp..............kliiiDEawklldnpqfaefieeglrtaRKyngalifaTQsi 723
+                      ++ ++ l+ l +d+   ++ v l L+ + +++++ ++p               ++++DEa +++ +++  + + +++ ++R ++ ++++a+Q +
+  JLFNCN_05505 400 leGKVLIVALDRLGQDQSaKNALVALFLNLYYDNMLRTKKPpfqgvapnqlrylkSFLLVDEAVNIMRYDF--QVLMDLMLQGRQFGYGVMLASQYL 494
+                   88***********999997666667779999*****988856999999999999999**********8877..8899999***************** PP
+
+         virb4 724 edfls 728
+                   ++f +
+  JLFNCN_05505 495 SHFKE 499
+                   *9975 PP
+
+>> JLFNCN_14825  Type IV secretion system DNA-binding domain-containing protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.0   0.0   6.8e-14   6.4e-11     439     769 ..     257     646 ..     235     673 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 39.0 bits;  conditional E-value: 6.8e-14
+         virb4 439 ssnlanllPfhnfslgkpggavmllptrsgqpfffnlhds.....................dlngntlvtGpsGaGKStllnellaqllkyg.prv. 512
+                   + +++ l+P+ +++ g+p  a+++   +++ p    + ++                     d   ++ + +p+G GK+ ++ ++ +q+   g + + 
+  JLFNCN_14825 257 TLSISELIPLIAYPIGSPMVAGLPRSASRHLPADTSIPTKgihigmanfpggerpvaisweDITKHMHIAAPTGTGKTEFMRTIGRQIIEAGmGMLl 353
+                   6788999999999999996567777777777777777777777778888888999999998779****************************53332 PP
+
+         virb4 513 .....fifDkgrsykklvralgGkyitls.pgkpiglnPfqledteadenraflkelfallaskpgepltpeerselsdairalyeepeeyrtlsdv 603
+                          fD   +  +  r  + ++i+l  p +p+g+n ++ +d    + ++++ ++++ +  ++++      +++  +a+r+l+++p+   t+sd+
+  JLFNCN_14825 354 ietkdDLFDRLLESIPRERINDVVVIDLNdPTSPVGFNVLDDGDPY--QTIENIESIVSNIHGDKDG---VWFKKVVYHALRTLMTRPG--ATVSDL 443
+                   2223345555555555599999999999615568*******88888..***************6666...89**************999..9***** PP
+
+         virb4 604 lellq..................................eiderakdlaerLkkwtrgGqygwvFdnesdsfdl......adfvvfeltellddpel 660
+                   + llq                                  + ++  + + +r  ++ +  +  ++F   + s+++       ++v +++t++++    
+  JLFNCN_14825 444 VPLLQptdeqlpwrkeiiknlkepeliqfwkdldkmgeqKAVQVVQPVIDRFWHFNSRKAVRNIFGQSTSSLSMadavaqGKIVLVNVTNIEKSTT- 539
+                   ********9999999999888888888888877777766556666666666666667788888**77776555445899************77754. PP
+
+         virb4 661 rtpvllyLfyrieqsmdgg...rpkliiiDEawklldnpqfaefieeglrtaRKyngalifaTQsiedflsspiaraiiensatkilLpqpkaered 754
+                      + + L+ +  ++++++   +p++++ DE ++l++ p     ++e+l +aR yn  +i+a Qs +++ + +i +a+ +n+ tk+ ++ ++++   
+  JLFNCN_14825 540 -KFIASMLISSAWKAVRDKrpdKPFFFMADEVQNLMSLPI---SLDEMLAQARSYNFPIIMANQSVSQLPQ-NIQDAAHNNARTKVVFQLESKDASR 631
+                   .33333344444444433447679************6666...78899***********************.99*******************999* PP
+
+         virb4 755 yvegfglteaeieii 769
+                   ++  fg +  e +++
+  JLFNCN_14825 632 MAGQFGSSVSEHDLM 646
+                   999999666555555 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (943 nodes)
+Target sequences:                       3760  (1192649 residues searched)
+Passed MSV filter:                       234  (0.062234); expected 75.2 (0.02)
+Passed bias filter:                      222  (0.0590426); expected 75.2 (0.02)
+Passed Vit filter:                       135  (0.0359043); expected 3.8 (0.001)
+Passed Fwd filter:                        52  (0.0138298); expected 0.0 (1e-05)
+Initial search space (Z):               3760  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.17u 0.00s 00:00:00.17 Elapsed: 00:00:00.18
+# Mc/sec: 6242.28
+//
+[ok]

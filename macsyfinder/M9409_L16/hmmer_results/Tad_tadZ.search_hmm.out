@@ -1,0 +1,72 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/Tad_tadZ.hmm
+# target sequence database:        proteins_fasta/M9409_L16.faa
+# output directed to file:         macsyfinder/M9409_L16/hmmer_results/Tad_tadZ.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Tad_tadZ  [M=190]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+    1.2e-25   88.2   0.0    1.8e-25   87.6   0.0    1.2  1  BKOHND_05160  MinD/ParA family protein
+      3e-23   80.4   0.0    4.7e-23   79.7   0.0    1.2  1  BKOHND_05120  AAA family ATPase
+
+
+Domain annotation for each sequence (and alignments):
+>> BKOHND_05160  MinD/ParA family protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.6   0.0   8.2e-29   1.8e-25       6     186 ..     140     320 ..     135     323 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 87.6 bits;  conditional E-value: 8.2e-29
+      Tad_tadZ   6 aerkgrviavvsakGGvGtStvAanlAlalaeekkkpvlLldldqasgdadlllgqdpaatlsdalaslerldeklLdsaltelepnldllaatkde 102
+                   + +kg vi v s+kGGvG +t+A n+A+ l +  + +v+ +dld+++gd +  l  dp+ t+ da+++  + d   L++ lt    ++    a++ +
+  BKOHND_05160 140 ESNKGLVIGVFSPKGGVGKTTIATNIAIGLGKIAPMSVVIVDLDLQFGDVASGLYLDPQHTVTDAVSPAASQDSLVLKAFLTVHPGGIYAVCAPPTP 236
+                   678999*********************************************99999***********************9999999*********** PP
+
+      Tad_tadZ 103 lstleieaaeleallgalaekydvvivDlpsslkeesrklLeeadrvvivldrslsslrkakrvldeverlrendrrlrlvine 186
+                   +++ ei+ +++ +ll++l+e++ +v+vD    l e  ++ +e+ ++vv+v   +++s+r  +  ld++++l+   +  ++v+n+
+  BKOHND_05160 237 VDADEITPDQVSRLLEQLSEQFQYVVVDTAPGLPEIGLAAMEQCTDVVWVSGMDIPSVRGLRSGLDVLRQLEILPETRHVVLNM 320
+                   ****************************8755555556779****************************998766665777775 PP
+
+>> BKOHND_05120  AAA family ATPase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   79.7   0.0   2.1e-26   4.7e-23       8     172 ..     141     305 ..     135     321 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 79.7 bits;  conditional E-value: 2.1e-26
+      Tad_tadZ   8 rkgrviavvsakGGvGtStvAanlAlalaeekkkpvlLldldqasgdadlllgqdpaatlsdalaslerldeklLdsaltelepnldllaatkdels 104
+                   + grviav+s+kGGvG +tv+ nlA+ l    + +v+ ldld ++gd +  l  dp+ t+ da+      d   L+s lt    ++  l a+ ++ +
+  BKOHND_05120 141 AGGRVIAVMSPKGGVGKTTVSTNLAVGLGRIAPMSVVILDLDMQFGDVASGLMLDPERTITDAVTGAAVHDSMVLKSYLTLHPAGIYALCAPLNPAE 237
+                   679*********************************************998889******************************************* PP
+
+      Tad_tadZ 105 tleieaaeleallgalaekydvvivDlpsslkeesrklLeeadrvvivldrslsslrkakrvldever 172
+                   + +i+ +++++l+ +la+++ +v+vD    l e  ++ Le  ++ v+v   +++s+r  +  + ++++
+  BKOHND_05120 238 ADRITGEQVNHLISQLANEFQYVVVDTAPGLGEHVLATLERGTDAVWVCGMDIPSIRGLRTGFGILRE 305
+                   ***************************9999999*********************9987765544444 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (190 nodes)
+Target sequences:                       4459  (1473457 residues searched)
+Passed MSV filter:                       196  (0.043956); expected 89.2 (0.02)
+Passed bias filter:                      175  (0.0392465); expected 89.2 (0.02)
+Passed Vit filter:                        31  (0.00695223); expected 4.5 (0.001)
+Passed Fwd filter:                        13  (0.00291545); expected 0.0 (1e-05)
+Initial search space (Z):               4459  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.01
+# Mc/sec: 15603.07
+//
+[ok]

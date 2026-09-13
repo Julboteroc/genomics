@@ -1,0 +1,57 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/Archaeal-T4P_arCOG04148.hmm
+# target sequence database:        proteins_fasta/M9409_L16.faa
+# output directed to file:         macsyfinder/M9409_L16/hmmer_results/Archaeal-T4P_arCOG04148.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       arCOG04148  [M=221]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+    4.5e-09   34.3   0.0    6.3e-09   33.8   0.0    1.3  1  BKOHND_13010  DNA repair protein RadA
+    6.8e-05   20.6   0.2      0.055   11.1   0.0    3.4  0  BKOHND_00610  excinuclease ABC subunit UvrA
+    0.00037   18.2   0.2      0.057   11.1   0.2    2.4  0  BKOHND_11800  chromosomal replication initiator protein DnaA
+
+
+Domain annotation for each sequence (and alignments):
+>> BKOHND_13010  DNA repair protein RadA
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.8   0.0   4.2e-12   6.3e-09       3      65 ..      78     140 ..      76     184 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 33.8 bits;  conditional E-value: 4.2e-12
+    arCOG04148   3 deldkrLggGiPkgslvlieGengtGKSvlsqrlaygllkegksvtyvsteltvkeflkqmes 65 
+                   deld+ LggG+  g+++l+ Ge g GKS l    a  ++++ + v+y++ e ++ ++    + 
+  BKOHND_13010  78 DELDRVLGGGLVPGAVILLAGEPGVGKSTLLLDVAAKFARTAQDVLYITGEESAAQVKLRADR 140
+                   9**************************************************999887666655 PP
+
+>> BKOHND_00610  excinuclease ABC subunit UvrA
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> BKOHND_11800  chromosomal replication initiator protein DnaA
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (221 nodes)
+Target sequences:                       4459  (1473457 residues searched)
+Passed MSV filter:                       210  (0.0470958); expected 89.2 (0.02)
+Passed bias filter:                      204  (0.0457502); expected 89.2 (0.02)
+Passed Vit filter:                        66  (0.0148015); expected 4.5 (0.001)
+Passed Fwd filter:                        16  (0.00358825); expected 0.0 (1e-05)
+Initial search space (Z):               4459  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
+# Mc/sec: 13227.07
+//
+[ok]

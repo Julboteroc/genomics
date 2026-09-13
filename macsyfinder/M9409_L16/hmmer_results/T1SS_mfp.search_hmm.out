@@ -1,0 +1,40 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/T1SS_mfp.hmm
+# target sequence database:        proteins_fasta/M9409_L16.faa
+# output directed to file:         macsyfinder/M9409_L16/hmmer_results/T1SS_mfp.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       mfp  [M=378]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+    0.00034   17.7   1.5     0.0048   14.0   0.2    2.2  0  BKOHND_18925  Biotin-dependent 3-methylcrotonyl-coenzyme A ca
+
+
+Domain annotation for each sequence (and alignments):
+>> BKOHND_18925  Biotin-dependent 3-methylcrotonyl-coenzyme A carboxylase alpha1 subunit
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (378 nodes)
+Target sequences:                       4459  (1473457 residues searched)
+Passed MSV filter:                       157  (0.0352097); expected 89.2 (0.02)
+Passed bias filter:                      103  (0.0230993); expected 89.2 (0.02)
+Passed Vit filter:                        21  (0.00470958); expected 4.5 (0.001)
+Passed Fwd filter:                         4  (0.000897062); expected 0.0 (1e-05)
+Initial search space (Z):               4459  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.02
+# Mc/sec: 25902.07
+//
+[ok]

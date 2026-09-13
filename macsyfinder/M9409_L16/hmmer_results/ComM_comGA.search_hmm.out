@@ -1,0 +1,108 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/ComM_comGA.hmm
+# target sequence database:        proteins_fasta/M9409_L16.faa
+# output directed to file:         macsyfinder/M9409_L16/hmmer_results/ComM_comGA.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       ComM_comGA  [M=258]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+    2.3e-19   67.4   0.1    3.9e-19   66.7   0.1    1.3  1  BKOHND_05165  Type II secretion system protein E
+    5.2e-19   66.3   0.2    8.5e-19   65.6   0.2    1.2  1  BKOHND_05125  CpaF family protein
+    1.8e-15   54.7   0.0    3.3e-15   53.8   0.0    1.4  1  BKOHND_03860  Pilus assembly protein, ATPase of CpaF family
+    6.5e-14   49.6   0.1    1.1e-13   48.8   0.1    1.3  1  BKOHND_07495  Secretion system protein E
+
+
+Domain annotation for each sequence (and alignments):
+>> BKOHND_05165  Type II secretion system protein E
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   66.7   0.1   3.5e-22   3.9e-19     101     237 ..     271     412 ..     241     430 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 66.7 bits;  conditional E-value: 3.5e-22
+    ComM_comGA 101 lkfkqlkellkalkkksGlllfsGPtgsGktttlyallkelakekklqvitlEDPvE..ikedellqlq.....vnekagltYeellkasLRhdPDv 190
+                   + + +++ell+a  k +  +++sG tg Gktt+l  l + l +++  +++t+ED vE  i++++++ l+        k  +t  ell+ sLR++PD 
+  BKOHND_05165 271 TLTPEMAELLNACVKAKLNIIVSGGTGTGKTTLLNVLSSFLPSDE--RIVTIEDAVElqIQQEHVVRLEsrppnTEGKGEVTIRELLRNSLRMRPDR 365
+                   44567888999998999999**************99999998888..9********944578889999633322456899***************** PP
+
+    ComM_comGA 191 lliGEiRDketAkiviraalsGhl.vlstiHaksakgviaRllelgis 237
+                   +++GE+R  e   + ++a  +Gh   lst+H++s ++++aRl  l + 
+  BKOHND_05165 366 IVVGEVRGGESLDM-LQAMNTGHDgSLSTVHSNSPRDAVARLETLVLM 412
+                   **********9987.68999999538****************988653 PP
+
+>> BKOHND_05125  CpaF family protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.6   0.2   7.6e-22   8.5e-19     105     237 ..     236     373 ..     225     391 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 65.6 bits;  conditional E-value: 7.6e-22
+    ComM_comGA 105 qlkellkalkkksGlllfsGPtgsGktttlyallkelakekklqvitlEDPvEi..kedellql.....qvnekagltYeellkasLRhdPDvlliG 194
+                   +++ell+a  + +  +++sG tg Gktt+l  l + l +++  +++t+ED vE   ++++++ l     ++  k  ++  el++ sLR++PD ++iG
+  BKOHND_05125 236 EIAELLHACVQARLNIIVSGGTGTGKTTLLNVLSSFLPADE--RIVTIEDAVELqlQQEHVVRLesrprNIEGKGEVSIRELVRNSLRMRPDRIVIG 330
+                   56677777777777899*************99999998888..9*********722588999995555558999*********************** PP
+
+    ComM_comGA 195 EiRDketAkiviraalsGhl.vlstiHaksakgviaRllelgis 237
+                   E+R  e   + ++a  +Gh   +st+Ha+s +++i+Rl  l + 
+  BKOHND_05125 331 EVRGGESLDM-LQAMNTGHDgSISTVHANSPRDAISRLETLVLM 373
+                   ******9987.68999999638****************988653 PP
+
+>> BKOHND_03860  Pilus assembly protein, ATPase of CpaF family
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.8   0.0     3e-18   3.3e-15     115     236 ..     191     317 ..     157     329 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 53.8 bits;  conditional E-value: 3e-18
+    ComM_comGA 115 kksGl.llfsGPtgsGktttlyallkelakekklqvitlEDPvEiked..ellqlq.....vnekagltYeellkasLRhdPDvlliGEiRDketAk 203
+                     sGl +l+sG t +Gktt+l  l+ ++ +++  +vit+E+  E + +  +++ lq     +  +  +   +l+k++LR++PD l++GE+R++e   
+  BKOHND_03860 191 VASGLnILVSGATQAGKTTMLNCLAASIGARE--RVITVEEIFELQFPlrDVVGLQcrqpnLEGEGEIPLRRLVKEALRMRPDRLVVGEVREAESLD 285
+                   467885788*******************9999..9*********98543367666522222667899*****************************9 PP
+
+    ComM_comGA 204 iviraalsGhlvlstiHaksakgviaRllelgi 236
+                   ++i a  sG   + t+Ha+sa++++++l  l +
+  BKOHND_03860 286 MLI-ALNSGLPGMCTVHANSAHDAVTKLCTLPL 317
+                   988.445888889**************998865 PP
+
+>> BKOHND_07495  Secretion system protein E
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   48.8   0.1   9.8e-17   1.1e-13     104     236 ..     195     332 ..     164     348 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 48.8 bits;  conditional E-value: 9.8e-17
+    ComM_comGA 104 kqlkellkalkkksGlllfsGPtgsGktttlyallkelakekklqvitlEDPvEik..edellqlq.....vnekagltYeellkasLRhdPDvlli 193
+                   + ++++l+ + +++  +l+sG tgsGktt+l +ll  ++  +  +++ +ED  E +  +++++ l+     +     +  +el++++LR++PD l++
+  BKOHND_07495 195 ALVQDVLERMVSRRLSFLISGATGSGKTTLLSTLLGLSHPGE--RLVLIEDASELNpvHPHVVSLEsrhgnLEGGGAVDLAELVRQALRMRPDRLVV 289
+                   556777788878888899********************9999..9999***999873356777775222113334458999**************** PP
+
+    ComM_comGA 194 GEiRDketAkiviraalsGhlv.lstiHaksakgviaRllelgi 236
+                   GE R +e+ + ++ a  +Gh+    tiHa++a  v aRl+ lg 
+  BKOHND_07495 290 GECRGAEVRE-LLTAMNTGHTGgGGTIHANTAAAVPARLTALGA 332
+                   *******966.6789999**97257***************9985 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (258 nodes)
+Target sequences:                       4459  (1473457 residues searched)
+Passed MSV filter:                       227  (0.0509083); expected 89.2 (0.02)
+Passed bias filter:                      221  (0.0495627); expected 89.2 (0.02)
+Passed Vit filter:                        71  (0.0159229); expected 4.5 (0.001)
+Passed Fwd filter:                        14  (0.00313972); expected 0.0 (1e-05)
+Initial search space (Z):               4459  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
+# Mc/sec: 13479.53
+//
+[ok]

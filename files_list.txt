@@ -1,0 +1,2 @@
+proteins_fasta/Arthrobacter_cavernae_PO-11.faa
+proteins_fasta/M9409_L16.faa

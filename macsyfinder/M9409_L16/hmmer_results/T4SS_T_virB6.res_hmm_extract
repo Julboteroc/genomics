@@ -1,0 +1,6 @@
+# gene: T4SS_T_virB6 extract from macsyfinder/M9409_L16/hmmer_results/T4SS_T_virB6.search_hmm.out hmm output
+# profile length= 433
+# i_evalue threshold= 0.001
+# coverage threshold= 0.500
+# hit_id	replicon_name	position_hit	hit_sequence_length	gene_name	i_eval	score	profile_coverage	sequence_coverage	begin	end
+BKOHND_20575	M9409_L16	4046	462	T4SS_T_virB6	4.100e-08	30.800	0.855	0.842	31	419

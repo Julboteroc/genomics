@@ -1,0 +1,67 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/ComM_comC.hmm
+# target sequence database:        proteins_fasta/Arthrobacter_cavernae_PO-11.faa
+# output directed to file:         macsyfinder/Arthrobacter_cavernae_PO-11/hmmer_results/ComM_comC.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       ComM_comC  [M=206]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+    5.9e-11   40.5   4.8    2.6e-09   35.2   2.5    2.0  1  JLFNCN_04960  Prepilin peptidase
+    1.2e-09   36.2   4.9    1.5e-09   36.0   4.9    1.1  1  JLFNCN_17215  Prepilin peptidase
+
+
+Domain annotation for each sequence (and alignments):
+>> JLFNCN_04960  Prepilin peptidase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.2   2.5   1.4e-12   2.6e-09     125     205 ..      93     177 ..      82     178 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 35.2 bits;  conditional E-value: 1.4e-12
+     ComM_comC 125 llsllvlflllallaillkeslGlGDikllavlglvlg...vkklllilflasvigliylllalllk.skkkkplpFvPfislgf 205
+                   +++  vl l++ +l  ++++++G GD+kl +vlgl+lg     +++   f a ++g +  l +l ++  + k  +pF+Pf+++g+
+  JLFNCN_04960  93 VAGGAVLWLFYFVLRVIYPAGMGFGDVKLAGVLGLYLGylgWAHVFAGTFAAFLFGGVWGLAVLATRrGNLKSAIPFGPFMLAGA 177
+                   67788999***************************8762116788888899999*****9999999999************9885 PP
+
+>> JLFNCN_17215  Prepilin peptidase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.0   4.9   7.8e-13   1.5e-09      59     205 ..      49     209 ..      17     210 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 36.0 bits;  conditional E-value: 7.8e-13
+     ComM_comC  59 Elvtgllfllivisa..eleslillillslllilsvtDlkylevpllllilfllv.lillkvl.......lsllsgllsllvlflllallaillkes 145
+                    ++t+llf+l+  ++    e    l+l ++++ ls +D+ + ++p+ l++  l++ ++ll  +         ll  +++  +lf+ + +l  + + s
+  JLFNCN_17215  49 AVITALLFALLALRFglGPELPAFLFLALFAVQLSRIDFIHHLLPNPLVLALLAAgFVLLGAAaaiapdwPGLLRAAAGGAILFVAYLILGLISPRS 145
+                   57899*********9544478888888999999***********987765544431333333345565543389999999***************** PP
+
+     ComM_comC 146 lGlGDikllavlglvlg...vkklllilflasvigliylllalllk.skkkkplpFvPfislgf 205
+                   lG GD+kl a lg++lg     ++l+  +l+ v+g ++ +l+l l+  +k  + + +P++++++
+  JLFNCN_17215 146 LGMGDVKLAAPLGMYLGylgWGQVLYGGLLGFVVGGVLTVLMLRLRsAEKPAETAHGPAMFAAA 209
+                   *************9876111678999999******99999999998899999999999999886 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (206 nodes)
+Target sequences:                       3760  (1192649 residues searched)
+Passed MSV filter:                       189  (0.050266); expected 75.2 (0.02)
+Passed bias filter:                       79  (0.0210106); expected 75.2 (0.02)
+Passed Vit filter:                         9  (0.00239362); expected 3.8 (0.001)
+Passed Fwd filter:                         2  (0.000531915); expected 0.0 (1e-05)
+Initial search space (Z):               3760  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 28096.41
+//
+[ok]

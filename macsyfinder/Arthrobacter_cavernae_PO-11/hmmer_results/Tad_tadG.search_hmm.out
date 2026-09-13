@@ -1,0 +1,54 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/Tad_tadG.hmm
+# target sequence database:        proteins_fasta/Arthrobacter_cavernae_PO-11.faa
+# output directed to file:         macsyfinder/Arthrobacter_cavernae_PO-11/hmmer_results/Tad_tadG.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Tad_tadG  [M=163]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+    6.3e-14   50.6  11.2    1.5e-13   49.3  11.2    1.6  1  JLFNCN_17200  Putative Flp pilus-assembly TadG-like N-termina
+
+
+Domain annotation for each sequence (and alignments):
+>> JLFNCN_17200  Putative Flp pilus-assembly TadG-like N-terminal domain-containing protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.3  11.2   4.1e-17   1.5e-13       1      98 [.      15     113 ..      15     147 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 49.3 bits;  conditional E-value: 4.1e-17
+      Tad_tadG   1 rGavavlvalalvaLigfaglalDlgrllllkteLQnaaDaaALaaareLdgrsggaalarAeaAaktllaanstlfande..valaadldvtfses 95 
+                   rGa  v+va+++++Lig+ ++a+D+g++++ ++eLQn aDa ALaaa+   ++sg  + a A+ +ak l+++n+++  ++   v+l++  +vt+s+s
+  JLFNCN_17200  15 RGAAGVMVAVMMLVLIGAGAMAVDVGQIYAERAELQNGADAGALAAAQLCASDSG-CTQAGADGVAKGLADQNAKDGLSNVrsVDLSVAGQVTVSTS 110
+                   68999****************************************9976666555.77888888899998777664332223455555555777766 PP
+
+      Tad_tadG  96 laa 98 
+                     +
+  JLFNCN_17200 111 TID 113
+                   654 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (163 nodes)
+Target sequences:                       3760  (1192649 residues searched)
+Passed MSV filter:                       247  (0.0656915); expected 75.2 (0.02)
+Passed bias filter:                      125  (0.0332447); expected 75.2 (0.02)
+Passed Vit filter:                        10  (0.00265957); expected 3.8 (0.001)
+Passed Fwd filter:                         3  (0.000797872); expected 0.0 (1e-05)
+Initial search space (Z):               3760  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.01
+# Mc/sec: 17906.85
+//
+[ok]

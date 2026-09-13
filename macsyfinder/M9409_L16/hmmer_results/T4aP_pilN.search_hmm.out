@@ -1,0 +1,57 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/T4aP_pilN.hmm
+# target sequence database:        proteins_fasta/M9409_L16.faa
+# output directed to file:         macsyfinder/M9409_L16/hmmer_results/T4aP_pilN.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       T4aP_pilN  [M=145]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+      2e-05   22.8   0.4    2.8e-05   22.3   0.4    1.2  1  BKOHND_19825  Cell division protein FtsL
+     0.0067   14.6   0.1      0.038   12.2   0.0    2.1  0  BKOHND_09155  Sensor protein QseC
+     0.0072   14.5   0.0      0.015   13.5   0.0    1.4  0  BKOHND_11930  Stk1 family PASTA domain-containing Ser/Thr kin
+
+
+Domain annotation for each sequence (and alignments):
+>> BKOHND_19825  Cell division protein FtsL
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.3   0.4   1.9e-08   2.8e-05      16      72 ..      43     106 ..      29     127 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 22.3 bits;  conditional E-value: 1.9e-08
+     T4aP_pilN  16 y..kkrlpvlaalvallllalalllyly.....lsseleeakaelaqlqkeiaeLqpqiaeike 72 
+                   +  k+r p++++++all++al+++l+l+     ++++l +++   + l k+ ++L +q ++ ++
+  BKOHND_19825  43 TprKRRAPFVVLCFALLAVALMAVLVLNisvstAQYQLVQLRSDQTTLTKQNQDLTQQVQNFDA 106
+                   13388899*****************999888887888888888888888888888888866554 PP
+
+>> BKOHND_09155  Sensor protein QseC
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> BKOHND_11930  Stk1 family PASTA domain-containing Ser/Thr kinase
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (145 nodes)
+Target sequences:                       4459  (1473457 residues searched)
+Passed MSV filter:                       413  (0.0926217); expected 89.2 (0.02)
+Passed bias filter:                      391  (0.0876878); expected 89.2 (0.02)
+Passed Vit filter:                        68  (0.0152501); expected 4.5 (0.001)
+Passed Fwd filter:                        12  (0.00269119); expected 0.0 (1e-05)
+Initial search space (Z):               4459  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
+# Mc/sec: 7908.92
+//
+[ok]

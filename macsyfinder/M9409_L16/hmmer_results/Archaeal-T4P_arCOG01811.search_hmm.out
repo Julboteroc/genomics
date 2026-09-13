@@ -1,0 +1,131 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/Archaeal-T4P_arCOG01811.hmm
+# target sequence database:        proteins_fasta/M9409_L16.faa
+# output directed to file:         macsyfinder/M9409_L16/hmmer_results/Archaeal-T4P_arCOG01811.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       arCOG01811  [M=243]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+    6.2e-30  102.1   3.1      1e-29  101.3   3.1    1.3  1  BKOHND_05135  Type II secretion system protein GspF domain-co
+    3.3e-29   99.7   1.0    6.2e-29   98.8   1.0    1.4  1  BKOHND_05130  Type II secretion system protein F
+    1.6e-25   87.6   2.4    1.6e-25   87.6   2.4    1.9  1  BKOHND_05170  Type II secretion system protein
+    3.3e-22   76.8   3.9    4.1e-22   76.4   3.9    1.1  1  BKOHND_05175  Type II secretion system protein
+    1.4e-20   71.4   0.3    2.5e-20   70.6   0.3    1.4  1  BKOHND_03850  Type II secretion system protein
+
+
+Domain annotation for each sequence (and alignments):
+>> BKOHND_05135  Type II secretion system protein GspF domain-containing protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  101.3   3.1   1.1e-32     1e-29       5     191 ..     105     292 ..      97     295 .] 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 101.3 bits;  conditional E-value: 1.1e-32
+    arCOG01811   5 giilgllalilsltlslliilllvllliplaipyirlerrieeleknlPdflrdlasslrsGlsleeAleevskagygpLsdefrrvvaeiklglsf 101
+                   + il++l+ ++++t++l+++l+l++ +ip ++++ r ++r+  +e +lP+ l+++  s+++Gl++e+A+ +  + g gpL++e+ r+++++++g+s 
+  BKOHND_05135 105 MGILMILRSPVGTTVLLALFLTLLAYFIPDILIHGRGAKRQAAIELELPNTLDQMLISVEAGLGFETAMARAGQNGKGPLAEELVRTLQDMQVGRSR 201
+                   3345558999999999999999999999999999999************************************************************ PP
+
+    arCOG01811 102 eealravakrlkskvlrrsariiiearksGgrlaevLeavakdlrellelkkerkastkmyvaliyisliiv.lplalvlvyvllktmasl 191
+                   ++a +a+a+r + ++lr ++r +++a ++G ++a+vL++ ak +r  ++ + e ka   +  +l+ ++++i+ +++++++   ++++m+ +
+  BKOHND_05135 202 KDAYMAMASRTDVPDLRSFVRAVVQADTYGIAIANVLRTQAKQMRVKRRQRAEEKAMKLPVKVLFPLMFCILpVLFIVIIGPAVINVMNNF 292
+                   ***************************************************9999988888888888888886888999988999999876 PP
+
+>> BKOHND_05130  Type II secretion system protein F
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   98.8   1.0   6.9e-32   6.2e-29       3     230 ..      96     312 ..      91     315 .] 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 98.8 bits;  conditional E-value: 6.9e-32
+    arCOG01811   3 llgiilgllalilsltlslliilllvllliplaipyirlerrieeleknlPdflrdlasslrsGlsleeAleevskagygpLsdefrrvvaeiklgl 99 
+                   ++g+ +g +++il+  ++ ++ ll+ +l++ l++++ + +rr+ ++e +l d l++la+ lr+G sl  ++  v+k+   p s+ef+r+v e+ lg+
+  BKOHND_05130  96 CIGVAIGAVGFILGGPILGVFLLLFTPLGA-LFFLSVLTSRRRAKFELQLGDTLQMLAGGLRAGHSLLRSVDAVAKEADAPTSEEFARLVNETRLGR 191
+                   57788888**************99999998.8899************************************************************** PP
+
+    arCOG01811 100 sfeealravakrlkskvlrrsariiiearksGgrlaevLeavakdlrellelkkerkastkmyvaliyisliivlplalvlvyvllktmaslgaasg 196
+                   ++ e+++  a+rl+s++++ +++ i   r++Gg+la+vL+ v++++re  ++k +++a  + + +  yi ++  lp+ + l+ ++          ++
+  BKOHND_05130 192 DLRESMQDAARRLRSEDFDWTSQAIEIHREVGGDLADVLDHVGETIRERSQIKGQVQALSAEGRISAYILMA--LPIGMFLYLSVAS--------PE 278
+                   ****************************************************99999999998887776554..4433333333322........22 PP
+
+    arCOG01811 197 algsidieeialilyisviiqsiisglliGkiry 230
+                    +g++  + +  ++ + ++++ ii+g+ ++++ +
+  BKOHND_05130 279 YVGTLYKSLLGWVMIGAGVVLLIIGGFWLSRVIK 312
+                   3345666666677777777777777777777665 PP
+
+>> BKOHND_05170  Type II secretion system protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.6   2.4   1.8e-28   1.6e-25       3     181 ..      91     268 ..      85     301 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 87.6 bits;  conditional E-value: 1.8e-28
+    arCOG01811   3 llgiilgllalilsltlslliilllvllliplaipyirlerrieeleknlPdflrdlasslrsGlsleeAleevskagygpLsdefrrvvaeiklgl 99 
+                   ++ i+ +l++l++++ + +++ ++l++++  l ++ ++  +r+ +++++l d l+ la+ lr+G s+  A+   + +   p s+e+rrv++e++lg+
+  BKOHND_05170  91 AGAIVGALVGLVIGVPAVSVLLVILAPFVGHL-VLGFLAGKRRAKFDQQLGDTLQLLAGGLRAGHSILRAIDAAAAESQSPTSEEMRRVITETSLGR 186
+                   34444455777777777777776666666655.55677889999***************************************************** PP
+
+    arCOG01811 100 sfeealravakrlkskvlrrsariiiearksGgrlaevLeavakdlrellelkkerkastkmyvaliyisliivlplalvlv 181
+                   ++  +l+  ++r+k++++  +a+ i  +r++Gg+laevL+ v +++re  e+k  +ka  + + +  yi ++  + ++l+l 
+  BKOHND_05170 187 DLLASLTDTSERMKNEDFVWIAQAIQINREVGGNLAEVLDQVNETIRERSEIKGHIKALAAEGKFSAYILIAMPIGIVLMLM 268
+                   *****************************************************99999988887766665444333333332 PP
+
+>> BKOHND_05175  Type II secretion system protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   76.4   3.9   4.6e-25   4.1e-22       6     190 ..      99     290 ..      94     294 .] 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 76.4 bits;  conditional E-value: 4.6e-25
+    arCOG01811   6 iilgllalilsltl......slliilllvllliplaipyirlerrieeleknlPdflrdlasslrsGlsleeAleevskagygpLsdefrrvvaeik 96 
+                   ++ + l +++s++       ++ ++ll++  +ip  ++y + + r+++++ +l + l+++  s+++Gl++e A+ +  + g gpL++e+ r++++++
+  BKOHND_05175  99 LVGASLFILISMSSpkpmikLVGLFLLFLGYFIPDLLLYSKGMERQKTMQLELANTLDQMLISVEAGLGFEGAMARAGENGKGPLAEEIIRTLQDMQ 195
+                   444444444444444446545555666666667778888888999**************************************************** PP
+
+    arCOG01811  97 lglsfeealravakrlkskvlrrsariiiearksGgrlaevLeavakdlrellelkkerkastkmyvaliyisliiv.lplalvlvyvllktmas 190
+                   +g+s  e+ +a+a+r + + lr +++ i++a ++G +++ vL+  ak +r  ++ + e ka   + ++l+ + ++i+ ++++++l   +++t+ +
+  BKOHND_05175 196 VGRSRRESYIALAERTNIPELRSFVQAIVQADTYGIAISRVLRIQAKVMRVKRRQRAEEKAMKLPVMILFPLLFFIFpVLFIAILGPAVINTVVT 290
+                   ********************************************************999999999999888888888788888888777777655 PP
+
+>> BKOHND_03850  Type II secretion system protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   70.6   0.3   2.8e-23   2.5e-20       6     151 ..     125     272 ..     114     293 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 70.6 bits;  conditional E-value: 2.8e-23
+    arCOG01811   6 iilgllalilsltlslliilllvlllipl..aipyirlerrieeleknlPdflrdlasslrsGlsleeAleevskagygpLsdefrrvvaeiklgls 100
+                   +++g  a  ++++l +++il ++l ++++  +++   ++rr +++  + P++   +a+++++G s + Al +v ++  g+L+ ef  v+ e+  g++
+  BKOHND_03850 125 VLVGAAAGQFNPFLAVVAILGSALGGFLFrdYWLGAQISRREKRMMAEFPSLAELMALAVSAGESASGALDRVCRTSHGELAGEFELVLGETRAGRP 221
+                   445555666667775555555555555444477888899********************************************************** PP
+
+    arCOG01811 101 feealravakrlkskvlrrsariiiearksGgrlaevLeavakdlrellel 151
+                   ++eal++++ r +   l r+++ ii a ++G +la+vL+a a+d+r++   
+  BKOHND_03850 222 LVEALQRFSARTDLGPLVRFVDGIIVAVERGTPLADVLRAQAQDVRDTAKR 272
+                   **********************************************98532 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (243 nodes)
+Target sequences:                       4459  (1473457 residues searched)
+Passed MSV filter:                       480  (0.107647); expected 89.2 (0.02)
+Passed bias filter:                      191  (0.0428347); expected 89.2 (0.02)
+Passed Vit filter:                        31  (0.00695223); expected 4.5 (0.001)
+Passed Fwd filter:                         7  (0.00156986); expected 0.0 (1e-05)
+Initial search space (Z):               4459  [actual number of targets]
+Domain search space  (domZ):               5  [number of targets reported over threshold]
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.01
+# Mc/sec: 18948.39
+//
+[ok]

@@ -1,0 +1,72 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/Tad_tadV.hmm
+# target sequence database:        proteins_fasta/Arthrobacter_cavernae_PO-11.faa
+# output directed to file:         macsyfinder/Arthrobacter_cavernae_PO-11/hmmer_results/Tad_tadV.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Tad_tadV  [M=132]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+    8.8e-19   65.7  17.8    1.7e-18   64.8  17.8    1.4  1  JLFNCN_04960  Prepilin peptidase
+    1.5e-18   65.0  13.4    1.5e-18   65.0  13.4    2.1  1  JLFNCN_17215  Prepilin peptidase
+
+
+Domain annotation for each sequence (and alignments):
+>> JLFNCN_04960  Prepilin peptidase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   64.8  17.8   8.8e-22   1.7e-18       4     131 ..      22     177 ..      18     178 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 64.8 bits;  conditional E-value: 8.8e-22
+      Tad_tadV   4 ivlvllllllaaaltDlrerripnklvlplllv....gllasavg...va...................lagallalvvgfllllllal.llggmGa 73 
+                     l+++++++ + ++D+r   +pn++v+p   v       + a+    v+                    +g +++++v  l++++l + +  gmG+
+  JLFNCN_04960  22 ACLYFAVMAVRLTIIDVRHHLLPNRIVFPSYGVagvlL--LGAAVlaeVSgaavpgkvpdgganlfgvpGLGTVAGGAVLWLFYFVLRViYPAGMGF 116
+                   568899**********************9776654332..22222346334556777888888886666334444444444444444336******* PP
+
+      Tad_tadV  74 GDvKLlavlgl...wlglsgvlvalllsallglvlaigllllrrstkkkslPygvaiaaGa 131
+                   GDvKL+ vlgl   +lg+++v+   ++++l+g+v+++++l++rr + k+++P+g++++aGa
+  JLFNCN_04960 117 GDVKLAGVLGLylgYLGWAHVFAGTFAAFLFGGVWGLAVLATRRGNLKSAIPFGPFMLAGA 177
+                   ***********77778899999999999********************************8 PP
+
+>> JLFNCN_17215  Prepilin peptidase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.0  13.4   7.9e-22   1.5e-18       4     132 .]      71     210 ..      68     210 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 65.0 bits;  conditional E-value: 7.9e-22
+      Tad_tadV   4 ivlvllllllaaaltDlrerripnklvlplllvgllasavg..va.....lagallalvvgfllllllal.llggmGaGDvKLlavlgl...wlgls 89 
+                    +l+l+l+++ ++ +D+    +pn lvl+ll++g+++  +   +a     l++a++++++ f+++l+l l   + +G+GDvKL+a lg+   +lg++
+  JLFNCN_17215  71 AFLFLALFAVQLSRIDFIHHLLPNPLVLALLAAGFVLLGAAaaIApdwpgLLRAAAGGAILFVAYLILGLiSPRSLGMGDVKLAAPLGMylgYLGWG 167
+                   5789*****************************998877766733566669999999999999999988889*****************888899** PP
+
+      Tad_tadV  90 gvlvalllsallglvlaigllllrrstkkkslPygvaiaaGal 132
+                   +vl+  ll++++g+vl++++l lr+++k  + + g+a++a+al
+  JLFNCN_17215 168 QVLYGGLLGFVVGGVLTVLMLRLRSAEKPAETAHGPAMFAAAL 210
+                   ****************************************986 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (132 nodes)
+Target sequences:                       3760  (1192649 residues searched)
+Passed MSV filter:                       619  (0.164628); expected 75.2 (0.02)
+Passed bias filter:                       98  (0.0260638); expected 75.2 (0.02)
+Passed Vit filter:                        10  (0.00265957); expected 3.8 (0.001)
+Passed Fwd filter:                         3  (0.000797872); expected 0.0 (1e-05)
+Initial search space (Z):               3760  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.01
+# Mc/sec: 12002.92
+//
+[ok]

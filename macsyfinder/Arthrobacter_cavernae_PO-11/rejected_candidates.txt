@@ -1,0 +1,47 @@
+# macsyfinder 2.1.6  (using MacSyLib 1.0.4 )
+# models : TXSScan-1.1.4
+# /home/julibote/miniconda3/bin/macsyfinder --db-type ordered_replicon --sequence-db proteins_fasta/Arthrobacter_cavernae_PO-11.faa --models-dir /home/julibote/TXSScan_model --models TXSScan all -o macsyfinder/Arthrobacter_cavernae_PO-11
+# Rejected candidates:
+
+Cluster:
+- model = T2SS
+- replicon = Arthrobacter_cavernae_PO-11
+- hits = (JLFNCN_17215, T4aP_pilD, 3383)
+This candidate has been rejected because:
+	- The quorum of mandatory genes required (3) is not reached: 0
+	- The quorum of genes required (6) is not reached: 1
+============================================================
+Cluster:
+- model = T4aP
+- replicon = Arthrobacter_cavernae_PO-11
+- hits = (JLFNCN_17215, T4aP_pilD, 3383)
+This candidate has been rejected because:
+	- The quorum of mandatory genes required (4) is not reached: 1
+	- The quorum of genes required (5) is not reached: 1
+============================================================
+Cluster:
+- model = Tad
+- replicon = Arthrobacter_cavernae_PO-11
+- hits = (JLFNCN_00740, Tad_tadZ, 145), (JLFNCN_00745, Tad_tadA, 146), (JLFNCN_00750, Tad_tadB, 147), (JLFNCN_00755, Tad_tadC, 148)
+This candidate has been rejected because:
+	- The quorum of genes required (6) is not reached: 4
+============================================================
+Cluster:
+- model = Tad
+- replicon = Arthrobacter_cavernae_PO-11
+- hits = (JLFNCN_00740, Tad_tadZ, 145), (JLFNCN_00745, Tad_tadA, 146), (JLFNCN_00750, Tad_tadB, 147), (JLFNCN_00755, Tad_tadC, 148)
+Cluster:
+- model = Tad
+- replicon = Arthrobacter_cavernae_PO-11
+- hits = (JLFNCN_11890, Tad_tadA, 2335), (JLFNCN_11895, Tad_tadC, 2336)
+This candidate has been rejected because:
+	- The quorum of genes required (6) is not reached: 4
+============================================================
+Cluster:
+- model = Tad
+- replicon = Arthrobacter_cavernae_PO-11
+- hits = (JLFNCN_11890, Tad_tadA, 2335), (JLFNCN_11895, Tad_tadC, 2336)
+This candidate has been rejected because:
+	- The quorum of mandatory genes required (4) is not reached: 2
+	- The quorum of genes required (6) is not reached: 2
+============================================================

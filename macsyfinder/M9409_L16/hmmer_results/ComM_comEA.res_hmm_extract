@@ -1,0 +1,6 @@
+# gene: ComM_comEA extract from macsyfinder/M9409_L16/hmmer_results/ComM_comEA.search_hmm.out hmm output
+# profile length= 143
+# i_evalue threshold= 0.001
+# coverage threshold= 0.500
+# hit_id	replicon_name	position_hit	hit_sequence_length	gene_name	i_eval	score	profile_coverage	sequence_coverage	begin	end
+BKOHND_01480	M9409_L16	295	321	ComM_comEA	5.300e-33	112.000	0.972	0.470	167	317

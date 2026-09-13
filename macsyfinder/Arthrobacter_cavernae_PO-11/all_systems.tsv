@@ -1,0 +1,53 @@
+# macsyfinder 2.1.6  (using MacSyLib 1.0.4 )
+# models : TXSScan-1.1.4
+# /home/julibote/miniconda3/bin/macsyfinder --db-type ordered_replicon --sequence-db proteins_fasta/Arthrobacter_cavernae_PO-11.faa --models-dir /home/julibote/TXSScan_model --models TXSScan all -o macsyfinder/Arthrobacter_cavernae_PO-11
+# Systems found:
+replicon	hit_id	gene_name	hit_pos	model_fqn	sys_id	sys_loci	locus_num	sys_wholeness	sys_score	sys_occ	hit_gene_ref	hit_status	hit_seq_len	hit_i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match	counterpart	used_in
+Arthrobacter_cavernae_PO-11	JLFNCN_00740	Tad_tadZ	145	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_2	2	1	0.583	4.500	2	Tad_tadZ	mandatory	364	8.8e-15	52.500	0.853	0.442	130	290		
+Arthrobacter_cavernae_PO-11	JLFNCN_00745	Tad_tadA	146	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_2	2	1	0.583	4.500	2	Tad_tadA	mandatory	439	6.6e-80	265.800	0.984	0.551	93	334		
+Arthrobacter_cavernae_PO-11	JLFNCN_00750	Tad_tadB	147	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_2	2	1	0.583	4.500	2	Tad_tadB	mandatory	277	5.1e-07	27.200	0.575	0.332	171	262		
+Arthrobacter_cavernae_PO-11	JLFNCN_00755	Tad_tadC	148	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_2	2	1	0.583	4.500	2	Tad_tadC	mandatory	206	8.8e-12	43.100	0.896	0.646	65	197		
+Arthrobacter_cavernae_PO-11	JLFNCN_17170	Tad_flp	3374	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_2	2	2	0.583	4.500	2	Tad_flp	mandatory	74	1.5e-08	31.900	0.577	0.405	20	49		
+Arthrobacter_cavernae_PO-11	JLFNCN_17175	Tad_tadC	3375	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_2	2	2	0.583	4.500	2	Tad_tadC	mandatory	291	7.7e-37	124.500	1.000	0.519	131	281		
+Arthrobacter_cavernae_PO-11	JLFNCN_17180	Tad_tadB	3376	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_2	2	2	0.583	4.500	2	Tad_tadB	mandatory	316	2.5e-36	122.500	0.994	0.503	146	304		
+Arthrobacter_cavernae_PO-11	JLFNCN_17185	Tad_tadA	3377	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_2	2	2	0.583	4.500	2	Tad_tadA	mandatory	492	2.9e-118	391.400	1.000	0.500	147	392		
+Arthrobacter_cavernae_PO-11	JLFNCN_17195	Tad_rcpC	3379	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_2	2	2	0.583	4.500	2	Tad_rcpC	accessory	255	2.5e-11	41.400	0.922	0.459	117	233		
+Arthrobacter_cavernae_PO-11	JLFNCN_17200	Tad_tadG	3380	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_2	2	2	0.583	4.500	2	Tad_tadG	neutral	332	1.5e-13	49.300	0.601	0.298	15	113		
+Arthrobacter_cavernae_PO-11	JLFNCN_17205	Tad_tadE	3381	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_2	2	2	0.583	4.500	2	Tad_tadE	accessory	127	4.2e-17	60.500	0.986	0.898	12	125		
+Arthrobacter_cavernae_PO-11	JLFNCN_17210	Tad_flp	3382	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_2	2	2	0.583	4.500	2	Tad_flp	mandatory	66	3.5e-08	30.800	0.808	0.591	20	58		
+
+Arthrobacter_cavernae_PO-11	JLFNCN_00740	Tad_tadZ	145	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_4	3	1	0.583	3.500	2	Tad_tadZ	mandatory	364	8.8e-15	52.500	0.853	0.442	130	290		
+Arthrobacter_cavernae_PO-11	JLFNCN_00745	Tad_tadA	146	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_4	3	1	0.583	3.500	2	Tad_tadA	mandatory	439	6.6e-80	265.800	0.984	0.551	93	334		
+Arthrobacter_cavernae_PO-11	JLFNCN_00750	Tad_tadB	147	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_4	3	1	0.583	3.500	2	Tad_tadB	mandatory	277	5.1e-07	27.200	0.575	0.332	171	262		
+Arthrobacter_cavernae_PO-11	JLFNCN_00755	Tad_tadC	148	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_4	3	1	0.583	3.500	2	Tad_tadC	mandatory	206	8.8e-12	43.100	0.896	0.646	65	197		
+Arthrobacter_cavernae_PO-11	JLFNCN_11890	Tad_tadA	2335	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_4	3	2	0.583	3.500	2	Tad_tadA	mandatory	407	1.5e-76	254.800	0.996	0.597	81	323		
+Arthrobacter_cavernae_PO-11	JLFNCN_11895	Tad_tadC	2336	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_4	3	2	0.583	3.500	2	Tad_tadC	mandatory	284	4.5e-09	34.300	0.805	0.430	91	212		
+Arthrobacter_cavernae_PO-11	JLFNCN_17170	Tad_flp	3374	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_4	3	3	0.583	3.500	2	Tad_flp	mandatory	74	1.5e-08	31.900	0.577	0.405	20	49		
+Arthrobacter_cavernae_PO-11	JLFNCN_17175	Tad_tadC	3375	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_4	3	3	0.583	3.500	2	Tad_tadC	mandatory	291	7.7e-37	124.500	1.000	0.519	131	281		
+Arthrobacter_cavernae_PO-11	JLFNCN_17180	Tad_tadB	3376	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_4	3	3	0.583	3.500	2	Tad_tadB	mandatory	316	2.5e-36	122.500	0.994	0.503	146	304		
+Arthrobacter_cavernae_PO-11	JLFNCN_17185	Tad_tadA	3377	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_4	3	3	0.583	3.500	2	Tad_tadA	mandatory	492	2.9e-118	391.400	1.000	0.500	147	392		
+Arthrobacter_cavernae_PO-11	JLFNCN_17195	Tad_rcpC	3379	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_4	3	3	0.583	3.500	2	Tad_rcpC	accessory	255	2.5e-11	41.400	0.922	0.459	117	233		
+Arthrobacter_cavernae_PO-11	JLFNCN_17200	Tad_tadG	3380	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_4	3	3	0.583	3.500	2	Tad_tadG	neutral	332	1.5e-13	49.300	0.601	0.298	15	113		
+Arthrobacter_cavernae_PO-11	JLFNCN_17205	Tad_tadE	3381	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_4	3	3	0.583	3.500	2	Tad_tadE	accessory	127	4.2e-17	60.500	0.986	0.898	12	125		
+Arthrobacter_cavernae_PO-11	JLFNCN_17210	Tad_flp	3382	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_4	3	3	0.583	3.500	2	Tad_flp	mandatory	66	3.5e-08	30.800	0.808	0.591	20	58		
+
+Arthrobacter_cavernae_PO-11	JLFNCN_11890	Tad_tadA	2335	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_3	2	1	0.500	4.000	1	Tad_tadA	mandatory	407	1.5e-76	254.800	0.996	0.597	81	323		
+Arthrobacter_cavernae_PO-11	JLFNCN_11895	Tad_tadC	2336	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_3	2	1	0.500	4.000	1	Tad_tadC	mandatory	284	4.5e-09	34.300	0.805	0.430	91	212		
+Arthrobacter_cavernae_PO-11	JLFNCN_17170	Tad_flp	3374	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_3	2	2	0.500	4.000	1	Tad_flp	mandatory	74	1.5e-08	31.900	0.577	0.405	20	49		
+Arthrobacter_cavernae_PO-11	JLFNCN_17175	Tad_tadC	3375	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_3	2	2	0.500	4.000	1	Tad_tadC	mandatory	291	7.7e-37	124.500	1.000	0.519	131	281		
+Arthrobacter_cavernae_PO-11	JLFNCN_17180	Tad_tadB	3376	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_3	2	2	0.500	4.000	1	Tad_tadB	mandatory	316	2.5e-36	122.500	0.994	0.503	146	304		
+Arthrobacter_cavernae_PO-11	JLFNCN_17185	Tad_tadA	3377	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_3	2	2	0.500	4.000	1	Tad_tadA	mandatory	492	2.9e-118	391.400	1.000	0.500	147	392		
+Arthrobacter_cavernae_PO-11	JLFNCN_17195	Tad_rcpC	3379	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_3	2	2	0.500	4.000	1	Tad_rcpC	accessory	255	2.5e-11	41.400	0.922	0.459	117	233		
+Arthrobacter_cavernae_PO-11	JLFNCN_17200	Tad_tadG	3380	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_3	2	2	0.500	4.000	1	Tad_tadG	neutral	332	1.5e-13	49.300	0.601	0.298	15	113		
+Arthrobacter_cavernae_PO-11	JLFNCN_17205	Tad_tadE	3381	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_3	2	2	0.500	4.000	1	Tad_tadE	accessory	127	4.2e-17	60.500	0.986	0.898	12	125		
+Arthrobacter_cavernae_PO-11	JLFNCN_17210	Tad_flp	3382	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_3	2	2	0.500	4.000	1	Tad_flp	mandatory	66	3.5e-08	30.800	0.808	0.591	20	58		
+
+Arthrobacter_cavernae_PO-11	JLFNCN_17170	Tad_flp	3374	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_1	1	1	0.500	5.000	1	Tad_flp	mandatory	74	1.5e-08	31.900	0.577	0.405	20	49		
+Arthrobacter_cavernae_PO-11	JLFNCN_17175	Tad_tadC	3375	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_1	1	1	0.500	5.000	1	Tad_tadC	mandatory	291	7.7e-37	124.500	1.000	0.519	131	281		
+Arthrobacter_cavernae_PO-11	JLFNCN_17180	Tad_tadB	3376	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_1	1	1	0.500	5.000	1	Tad_tadB	mandatory	316	2.5e-36	122.500	0.994	0.503	146	304		
+Arthrobacter_cavernae_PO-11	JLFNCN_17185	Tad_tadA	3377	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_1	1	1	0.500	5.000	1	Tad_tadA	mandatory	492	2.9e-118	391.400	1.000	0.500	147	392		
+Arthrobacter_cavernae_PO-11	JLFNCN_17195	Tad_rcpC	3379	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_1	1	1	0.500	5.000	1	Tad_rcpC	accessory	255	2.5e-11	41.400	0.922	0.459	117	233		
+Arthrobacter_cavernae_PO-11	JLFNCN_17200	Tad_tadG	3380	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_1	1	1	0.500	5.000	1	Tad_tadG	neutral	332	1.5e-13	49.300	0.601	0.298	15	113		
+Arthrobacter_cavernae_PO-11	JLFNCN_17205	Tad_tadE	3381	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_1	1	1	0.500	5.000	1	Tad_tadE	accessory	127	4.2e-17	60.500	0.986	0.898	12	125		
+Arthrobacter_cavernae_PO-11	JLFNCN_17210	Tad_flp	3382	TXSScan/bacteria/diderm/Tad	Arthrobacter_cavernae_PO-11_Tad_1	1	1	0.500	5.000	1	Tad_flp	mandatory	66	3.5e-08	30.800	0.808	0.591	20	58		
+

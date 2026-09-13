@@ -1,0 +1,76 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/ComM_comFA.hmm
+# target sequence database:        proteins_fasta/M9409_L16.faa
+# output directed to file:         macsyfinder/M9409_L16/hmmer_results/ComM_comFA.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       ComFA  [M=326]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+    1.1e-15   55.5   0.3    2.7e-13   47.6   0.0    2.3  1  BKOHND_18275  transcription-repair coupling factor
+    1.8e-09   35.0   0.7    8.4e-08   29.6   0.1    2.6  1  BKOHND_00560  excinuclease ABC subunit UvrB
+      4e-08   30.6   0.1    2.6e-05   21.4   0.0    3.0  0  BKOHND_02920  ATP-dependent DNA helicase RecG
+
+
+Domain annotation for each sequence (and alignments):
+>> BKOHND_18275  transcription-repair coupling factor
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.6   0.0   1.8e-16   2.7e-13     203     315 ..     868     981 ..     861     987 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 47.6 bits;  conditional E-value: 1.8e-16
+         ComFA 203 lkrqikkqlksqlpllifvpeiklleklaeilkkllpaekiefvsse.dedrlekv.eafregeldilvtttiLerGvtfpkvdvlvveaehrlfte 297
+                       ++++l  + +++   + ++++e++a  +++l+p+ ++e+ + + +e rle++   f e+++d+lv tti+e G+ +++ ++l+v+  +  +  
+  BKOHND_18275 868 TSAAVRRELMREGQVFFVHNRVSTIERTAAKIRELVPEARVEVAHGQmSESRLEQIiVDFWEKRFDVLVCTTIIETGLDISNANTLIVDGAD-KYGL 963
+                   5667888888888999999**************************86367899875279**************************9998655.4*** PP
+
+         ComFA 298 ssLiqiaGrvGrsldrpt 315
+                   s L q+ GrvGr  +r+ 
+  BKOHND_18275 964 SQLHQLRGRVGRGRERAY 981
+                   ************999875 PP
+
+>> BKOHND_00560  excinuclease ABC subunit UvrB
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.6   0.1   5.6e-11   8.4e-08     204     325 ..     443     564 ..     418     565 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 29.6 bits;  conditional E-value: 5.6e-11
+         ComFA 204 krqikkqlksqlpllifvpeiklleklaeilkkllpaekiefvsse..dedrlekveafregeldilvtttiLerGvtfpkvd.vlvveaehrlf.. 295
+                     +ik++  ++ ++l+     ++ e l+++l  +   +k+e+++s+  +  r+e ++++r g +d+lv   +L  G+ +p+v  v +++a+++ f  
+  BKOHND_00560 443 LGEIKTRTAKNERVLVTTLTKRMAEDLTDYLLGH--GVKVEYLHSDvdTLRRVELLRELRMGVFDVLVGINLLREGLDLPEVSlVSILDADKEGFlr 537
+                   4456666666678999888889999999999988..9*******96324578899999999*********************9455899*9987722 PP
+
+         ComFA 296 tessLiqiaGrvGrsldrptgkvlffhegl 325
+                   +++sLiq  Gr+ r+    +g+v+++ + +
+  BKOHND_00560 538 SSTSLIQTIGRAARN---VSGQVHMYADRI 564
+                   5568***99998886...579999997765 PP
+
+>> BKOHND_02920  ATP-dependent DNA helicase RecG
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (326 nodes)
+Target sequences:                       4459  (1473457 residues searched)
+Passed MSV filter:                       126  (0.0282575); expected 89.2 (0.02)
+Passed bias filter:                      118  (0.0264633); expected 89.2 (0.02)
+Passed Vit filter:                        25  (0.00560664); expected 4.5 (0.001)
+Passed Fwd filter:                        12  (0.00269119); expected 0.0 (1e-05)
+Initial search space (Z):               4459  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.03
+# Mc/sec: 14634.46
+//
+[ok]

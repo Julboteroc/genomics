@@ -1,0 +1,54 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/ComM_comEA.hmm
+# target sequence database:        proteins_fasta/M9409_L16.faa
+# output directed to file:         macsyfinder/M9409_L16/hmmer_results/ComM_comEA.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       ComM_comEA  [M=143]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+      4e-33  112.4   0.0    5.3e-33  112.0   0.0    1.2  1  BKOHND_01480  Competence ComEA helix-hairpin-helix repeat reg
+
+
+Domain annotation for each sequence (and alignments):
+>> BKOHND_01480  Competence ComEA helix-hairpin-helix repeat region domain protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  112.0   0.0   1.2e-36   5.3e-33       1     139 [.     167     317 ..     167     321 .] 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 112.0 bits;  conditional E-value: 1.2e-36
+    ComM_comEA   1 ivvdvkGavksPGvyelkvgdrvldalekaGGltdkadekrlnlaqklqdelvvyvpkkgeea............aseqasagtasstskeakvnln 85 
+                   ivv v Gav++ Gv el +g+r++ a+  aGG t  ad +rlnla+ l d+  ++vp+ ge a             s + s+g++   ++ ak++ln
+  BKOHND_01480 167 IVVHVTGAVNRAGVVELPEGSRIHGAIAAAGGSTATADLERLNLAAVLADGQKIHVPQVGESAdtsstdgenghgGSATGSSGSGGAAADGAKIDLN 263
+                   6899***********************************************************99999999888767777778888999******** PP
+
+    ComM_comEA  86 tasleelqeisGiGekkaediiayreenGkfktvedlkkvsGiGektleklkeq 139
+                   tas eel ++  +G+  a+ i ++r+++G+f tve+l  v G+G+k le l   
+  BKOHND_01480 264 TASVEELGTLPRVGPVLAQRIFDWRKDHGRFSTVEELDAVDGVGPKMLETLLPL 317
+                   *************************************************98655 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (143 nodes)
+Target sequences:                       4459  (1473457 residues searched)
+Passed MSV filter:                        97  (0.0217538); expected 89.2 (0.02)
+Passed bias filter:                       79  (0.017717); expected 89.2 (0.02)
+Passed Vit filter:                         8  (0.00179412); expected 4.5 (0.001)
+Passed Fwd filter:                         3  (0.000672797); expected 0.0 (1e-05)
+Initial search space (Z):               4459  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 25380.19
+//
+[ok]

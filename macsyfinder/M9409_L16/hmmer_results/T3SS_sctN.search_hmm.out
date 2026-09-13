@@ -1,0 +1,69 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/T3SS_sctN.hmm
+# target sequence database:        proteins_fasta/M9409_L16.faa
+# output directed to file:         macsyfinder/M9409_L16/hmmer_results/T3SS_sctN.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       sctN  [M=434]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+    4.1e-60  201.8   0.5    5.4e-60  201.4   0.5    1.0  1  BKOHND_03425  F0F1 ATP synthase subunit beta
+
+
+Domain annotation for each sequence (and alignments):
+>> BKOHND_03425  F0F1 ATP synthase subunit beta
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  201.4   0.5   1.2e-63   5.4e-60      16     421 ..      13     429 ..       2     440 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 201.4 bits;  conditional E-value: 1.2e-63
+          sctN  16 vavvGrvtevsgtllkavlpdvriGelCllkeadesllleaevvGft......dekallsplgelaGlsssaevvptgralevgvgegLLGrvldgl 106
+                      +Gr+ +v g ++++  p+  i  + +  +++ +l  e++ + f+      d+ +  + l +++Gl ++++vv tg    v+vg+g+ G++ + l
+  BKOHND_03425  13 SGATGRIARVIGPVVDVEFPADAIPSIYNALTTEITLNGETKTITFEvalhlgDNLIRAISLQATDGLVRGTNVVDTGSPITVPVGDGVKGHIFNVL 109
+                   4578***********************99988888888888877765222222444445677899******************************** PP
+
+          sctN 107 grpldg.gelaevaevrpvdaaapdpmerkkiekplstGirviDslltlgeGqrvGifaaaGvGkstLlamlirnaeaD...vnvlaLiGerGrevr 199
+                   g+pld  +++ +  +   ++++ap+  + +  ++ l tGi+viD l    +G ++G+f++aGvGk++L++++i   + +     v+a +Ger re  
+  BKOHND_03425 110 GKPLDVdESEIQASDHWAIHRKAPAFATLEGSTEMLETGIKVIDLLTPYIKGGKIGLFGGAGVGKTVLIQEMITRVARNfggTSVFAGVGERTREGN 206
+                   *****966667888899****************************************************998877654422279************* PP
+
+          sctN 200 efiekelgeegkkrsvlvvatsDrssverakaayvataiaeyfrd.qGkrvlLllDsltrfaralreiglaaGepparrgyppsvfaaLPrLleraG 295
+                   ++  +  +   +k + lv+   D++   r++ a  a ++aeyfrd q + vlL++D + rf++a  e++   G  p+  gy p   +++  L er  
+  BKOHND_03425 207 DLWVEMEEAGVLKDTALVFGQMDEPPGTRLRVALSALTMAEYFRDvQNQDVLLFIDNIFRFTQAGSEVSTLLGRMPSAVGYQPNLADEMGLLQERIT 303
+                   9987777888899999****************************977899*********************************************** PP
+
+          sctN 296 lsekGsitalYtvLvedddmndPvadevrsiLDGhivLsrklaerghyPaiDvlasisrvlt.qvvseehrklaarlrelLakyeevelllrlGeYk 391
+                    ++  sit++ ++ v  dd +dP    + + LD    Lsr++a rg yPa+D l s sr+l+ q + ++h ++a r++++L k +e++ ++ +    
+  BKOHND_03425 304 STKGHSITSMQAIYVPADDYTDPAPATTFAHLDATTELSREIASRGLYPAVDPLTSTSRILDpQYIGKDHYNTAVRVKQILQKNKELQDIIAILGVD 400
+                   99999********************************************************7589**************************996655 PP
+
+          sctN 392 kGedketDk.avdkidalesfLrqdtdevve 421
+                   + +  e Dk +v +  ++++fL q+t    +
+  BKOHND_03425 401 ELS--EEDKiVVSRARRIQQFLSQNTYTAKQ 429
+                   544..34441678899********9876655 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (434 nodes)
+Target sequences:                       4459  (1473457 residues searched)
+Passed MSV filter:                       270  (0.0605517); expected 89.2 (0.02)
+Passed bias filter:                      178  (0.0399193); expected 89.2 (0.02)
+Passed Vit filter:                        54  (0.0121103); expected 4.5 (0.001)
+Passed Fwd filter:                        14  (0.00313972); expected 0.0 (1e-05)
+Initial search space (Z):               4459  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.03
+# Mc/sec: 16555.69
+//
+[ok]

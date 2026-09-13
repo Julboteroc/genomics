@@ -1,0 +1,75 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/Tad_flp.hmm
+# target sequence database:        proteins_fasta/M9409_L16.faa
+# output directed to file:         macsyfinder/M9409_L16/hmmer_results/Tad_flp.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Tad_flp  [M=52]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+    5.5e-12   43.2   1.3    7.6e-12   42.7   1.3    1.2  1  BKOHND_05140  Flp family type IVb pilin
+    3.5e-08   31.0   5.0    4.3e-08   30.7   4.5    1.6  1  BKOHND_05100  Flp/Fap pilin component protein
+     0.0018   15.9   0.9     0.0024   15.5   0.9    1.2  1  BKOHND_07480  DUF4244 domain-containing protein
+
+
+Domain annotation for each sequence (and alignments):
+>> BKOHND_05140  Flp family type IVb pilin
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.7   1.3   5.1e-15   7.6e-12       5      51 ..       9      52 ..       6      53 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 42.7 bits;  conditional E-value: 5.1e-15
+       Tad_flp  5 ikrFlkdeeGataiEYgliavaiAvlivavlssdkgfltaLkekfss 51
+                  + r++ de+Gata+EYg+ +++iAv+i+  ++ ++g   +L + f +
+  BKOHND_05140  9 MIRLRSDEKGATAVEYGIMVALIAVVIIVAVGLLGG---TLTTMFEQ 52
+                  66899*******************************...88888876 PP
+
+>> BKOHND_05100  Flp/Fap pilin component protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.7   4.5   2.9e-11   4.3e-08      10      36 ..      20      46 ..      11      59 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 30.7 bits;  conditional E-value: 2.9e-11
+       Tad_flp 10 kdeeGataiEYgliavaiAvlivavls 36
+                    e+Gata+EYgl++++iA++iv +++
+  BKOHND_05100 20 SSEKGATAVEYGLLVALIAAVIVVMVG 46
+                  569******************998765 PP
+
+>> BKOHND_07480  DUF4244 domain-containing protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.5   0.9   1.6e-06    0.0024       7      50 ..      46      94 ..      41      96 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 15.5 bits;  conditional E-value: 1.6e-06
+       Tad_flp  7 rFlkdeeGataiEYgliavai...Avlivavlssd..kgfltaLkekfs 50
+                  r++  e G +++EY++   a+   A  +v +l sd   gfl +L+ +++
+  BKOHND_07480 46 RLMGSEVGMATAEYAIATLAAvgfAGILVFILRSDevRGFLLNLIRTAL 94
+                  6777899********85444458888999*****9999*****998765 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (52 nodes)
+Target sequences:                       4459  (1473457 residues searched)
+Passed MSV filter:                       325  (0.0728863); expected 89.2 (0.02)
+Passed bias filter:                      176  (0.0394707); expected 89.2 (0.02)
+Passed Vit filter:                        24  (0.00538237); expected 4.5 (0.001)
+Passed Fwd filter:                         5  (0.00112133); expected 0.0 (1e-05)
+Initial search space (Z):               4459  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 11445.36
+//
+[ok]

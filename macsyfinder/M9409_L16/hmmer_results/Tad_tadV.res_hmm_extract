@@ -1,0 +1,7 @@
+# gene: Tad_tadV extract from macsyfinder/M9409_L16/hmmer_results/Tad_tadV.search_hmm.out hmm output
+# profile length= 132
+# i_evalue threshold= 0.001
+# coverage threshold= 0.500
+# hit_id	replicon_name	position_hit	hit_sequence_length	gene_name	i_eval	score	profile_coverage	sequence_coverage	begin	end
+BKOHND_05095	M9409_L16	1001	221	Tad_tadV	9.000e-20	69.100	0.977	0.633	75	214
+BKOHND_17925	M9409_L16	3531	186	Tad_tadV	8.300e-19	66.000	0.962	0.828	23	176

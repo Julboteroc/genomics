@@ -1,0 +1,54 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/ComM_comEA.hmm
+# target sequence database:        proteins_fasta/Arthrobacter_cavernae_PO-11.faa
+# output directed to file:         macsyfinder/Arthrobacter_cavernae_PO-11/hmmer_results/ComM_comEA.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       ComM_comEA  [M=143]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+    2.7e-34  116.0   0.0    3.6e-34  115.6   0.0    1.2  1  JLFNCN_06805  ComEA family DNA-binding protein
+
+
+Domain annotation for each sequence (and alignments):
+>> JLFNCN_06805  ComEA family DNA-binding protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  115.6   0.0   9.5e-38   3.6e-34       1     142 [.     145     292 .]     145     292 .] 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 115.6 bits;  conditional E-value: 9.5e-38
+    ComM_comEA   1 ivvdvkGavksPGvyelkvgdrvldalekaGGltdkadekrlnlaqklqdelvvyvpkkgeeaaseqasagt......asstskeakvnlntaslee 91 
+                   iv+ v Gav++PGv  l +g+rv++a+  aGG t  a+ + lnla+ +qd++ v+vp+ ge  +   a+ g       +s  ++  kvnln as ee
+  JLFNCN_06805 145 IVLHVAGAVQHPGVVRLPEGSRVFEAIAAAGGATPSAELNGLNLAAVVQDGTKVHVPAVGEAPSGAVAGDGMmgadagGSGVGSGGKVNLNSASVEE 241
+                   57889********************************************************996666665555556667889999************ PP
+
+    ComM_comEA  92 lqeisGiGekkaediiayreenGkfktvedlkkvsGiGektleklkeqitv 142
+                   l ++  +G+  a+ i+++r e+G f +ve+l  v G+G+k +e lk+ +tv
+  JLFNCN_06805 242 LGTLPRVGPVMAQRIVDWRREHGPFASVEELDAVDGVGPKLMESLKDLVTV 292
+                   *************************************************98 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (143 nodes)
+Target sequences:                       3760  (1192649 residues searched)
+Passed MSV filter:                        80  (0.0212766); expected 75.2 (0.02)
+Passed bias filter:                       61  (0.0162234); expected 75.2 (0.02)
+Passed Vit filter:                        11  (0.00292553); expected 3.8 (0.001)
+Passed Fwd filter:                         3  (0.000797872); expected 0.0 (1e-05)
+Initial search space (Z):               3760  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 22372.27
+//
+[ok]

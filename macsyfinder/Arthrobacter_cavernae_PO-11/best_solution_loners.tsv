@@ -1,0 +1,4 @@
+# macsyfinder 2.1.6  (using MacSyLib 1.0.4 )
+# models : TXSScan-1.1.4
+# /home/julibote/miniconda3/bin/macsyfinder --db-type ordered_replicon --sequence-db proteins_fasta/Arthrobacter_cavernae_PO-11.faa --models-dir /home/julibote/TXSScan_model --models TXSScan all -o macsyfinder/Arthrobacter_cavernae_PO-11
+# No Loners found

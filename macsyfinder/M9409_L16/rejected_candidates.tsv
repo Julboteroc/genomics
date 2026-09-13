@@ -1,0 +1,43 @@
+# macsyfinder 2.1.6  (using MacSyLib 1.0.4 )
+# models : TXSScan-1.1.4
+# /home/julibote/miniconda3/bin/macsyfinder --db-type ordered_replicon --sequence-db proteins_fasta/M9409_L16.faa --models-dir /home/julibote/TXSScan_model --models TXSScan all -o macsyfinder/M9409_L16
+# Rejected candidates found:
+candidate_id	replicon	model_fqn	cluster_id	hit_id	hit_pos	gene_name	function	reasons
+M9409_L16_T2SS_1	M9409_L16	TXSScan/bacteria/diderm/T2SS	c23	BKOHND_05095	1001	T4aP_pilD	T2SS_gspO	The quorum of mandatory genes required (3) is not reached: 0/The quorum of genes required (6) is not reached: 1
+
+M9409_L16_T4aP_2	M9409_L16	TXSScan/bacteria/diderm/T4aP	c25	BKOHND_05095	1001	T4aP_pilD	T4aP_pilD	The quorum of mandatory genes required (4) is not reached: 1/The quorum of genes required (5) is not reached: 1
+
+M9409_L16_Tad_3	M9409_L16	TXSScan/bacteria/diderm/Tad	c30	BKOHND_03855	756	Tad_tadC	Tad_tadC	The quorum of mandatory genes required (4) is not reached: 2/The quorum of genes required (6) is not reached: 2
+M9409_L16_Tad_3	M9409_L16	TXSScan/bacteria/diderm/Tad	c30	BKOHND_03860	757	Tad_tadA	Tad_tadA	The quorum of mandatory genes required (4) is not reached: 2/The quorum of genes required (6) is not reached: 2
+
+M9409_L16_Tad_5	M9409_L16	TXSScan/bacteria/diderm/Tad	c30	BKOHND_03855	756	Tad_tadC	Tad_tadC	The quorum of mandatory genes required (4) is not reached: 3/The quorum of genes required (6) is not reached: 3
+M9409_L16_Tad_5	M9409_L16	TXSScan/bacteria/diderm/Tad	c30	BKOHND_03860	757	Tad_tadA	Tad_tadA	The quorum of mandatory genes required (4) is not reached: 3/The quorum of genes required (6) is not reached: 3
+M9409_L16_Tad_5	M9409_L16	TXSScan/bacteria/diderm/Tad	c33	BKOHND_07485	1475	Tad_tadC	Tad_tadC	The quorum of mandatory genes required (4) is not reached: 3/The quorum of genes required (6) is not reached: 3
+M9409_L16_Tad_5	M9409_L16	TXSScan/bacteria/diderm/Tad	c33	BKOHND_07490	1476	Tad_tadB	Tad_tadB	The quorum of mandatory genes required (4) is not reached: 3/The quorum of genes required (6) is not reached: 3
+M9409_L16_Tad_5	M9409_L16	TXSScan/bacteria/diderm/Tad	c33	BKOHND_07495	1477	Tad_tadA	Tad_tadA	The quorum of mandatory genes required (4) is not reached: 3/The quorum of genes required (6) is not reached: 3
+
+M9409_L16_Tad_8	M9409_L16	TXSScan/bacteria/diderm/Tad	c30	BKOHND_03855	756	Tad_tadC	Tad_tadC	The quorum of genes required (6) is not reached: 4
+M9409_L16_Tad_8	M9409_L16	TXSScan/bacteria/diderm/Tad	c30	BKOHND_03860	757	Tad_tadA	Tad_tadA	The quorum of genes required (6) is not reached: 4
+M9409_L16_Tad_8	M9409_L16	TXSScan/bacteria/diderm/Tad	c33	BKOHND_07485	1475	Tad_tadC	Tad_tadC	The quorum of genes required (6) is not reached: 4
+M9409_L16_Tad_8	M9409_L16	TXSScan/bacteria/diderm/Tad	c33	BKOHND_07490	1476	Tad_tadB	Tad_tadB	The quorum of genes required (6) is not reached: 4
+M9409_L16_Tad_8	M9409_L16	TXSScan/bacteria/diderm/Tad	c33	BKOHND_07495	1477	Tad_tadA	Tad_tadA	The quorum of genes required (6) is not reached: 4
+M9409_L16_Tad_8	M9409_L16	TXSScan/bacteria/diderm/Tad	c35	BKOHND_17925	3531	Tad_tadV	Tad_tadV	The quorum of genes required (6) is not reached: 4
+
+M9409_L16_Tad_6	M9409_L16	TXSScan/bacteria/diderm/Tad	c30	BKOHND_03855	756	Tad_tadC	Tad_tadC	The quorum of mandatory genes required (4) is not reached: 3/The quorum of genes required (6) is not reached: 3
+M9409_L16_Tad_6	M9409_L16	TXSScan/bacteria/diderm/Tad	c30	BKOHND_03860	757	Tad_tadA	Tad_tadA	The quorum of mandatory genes required (4) is not reached: 3/The quorum of genes required (6) is not reached: 3
+M9409_L16_Tad_6	M9409_L16	TXSScan/bacteria/diderm/Tad	c35	BKOHND_17925	3531	Tad_tadV	Tad_tadV	The quorum of mandatory genes required (4) is not reached: 3/The quorum of genes required (6) is not reached: 3
+
+M9409_L16_Tad_4	M9409_L16	TXSScan/bacteria/diderm/Tad	c33	BKOHND_07485	1475	Tad_tadC	Tad_tadC	The quorum of mandatory genes required (4) is not reached: 3/The quorum of genes required (6) is not reached: 3
+M9409_L16_Tad_4	M9409_L16	TXSScan/bacteria/diderm/Tad	c33	BKOHND_07490	1476	Tad_tadB	Tad_tadB	The quorum of mandatory genes required (4) is not reached: 3/The quorum of genes required (6) is not reached: 3
+M9409_L16_Tad_4	M9409_L16	TXSScan/bacteria/diderm/Tad	c33	BKOHND_07495	1477	Tad_tadA	Tad_tadA	The quorum of mandatory genes required (4) is not reached: 3/The quorum of genes required (6) is not reached: 3
+
+M9409_L16_Tad_7	M9409_L16	TXSScan/bacteria/diderm/Tad	c33	BKOHND_07485	1475	Tad_tadC	Tad_tadC	The quorum of genes required (6) is not reached: 4
+M9409_L16_Tad_7	M9409_L16	TXSScan/bacteria/diderm/Tad	c33	BKOHND_07490	1476	Tad_tadB	Tad_tadB	The quorum of genes required (6) is not reached: 4
+M9409_L16_Tad_7	M9409_L16	TXSScan/bacteria/diderm/Tad	c33	BKOHND_07495	1477	Tad_tadA	Tad_tadA	The quorum of genes required (6) is not reached: 4
+M9409_L16_Tad_7	M9409_L16	TXSScan/bacteria/diderm/Tad	c35	BKOHND_17925	3531	Tad_tadV	Tad_tadV	The quorum of genes required (6) is not reached: 4
+
+M9409_L16_Tad_9	M9409_L16	TXSScan/bacteria/diderm/Tad	c35	BKOHND_17925	3531	Tad_tadV	Tad_tadV	The quorum of mandatory genes required (4) is not reached: 1/The quorum of genes required (6) is not reached: 1
+
+M9409_L16_pT4SSt_10	M9409_L16	TXSScan/bacteria/diderm/pT4SSt	c37	BKOHND_20575	4046	T4SS_T_virB6	T4SS_T_virB6	The quorum of mandatory genes required (1) is not reached: 0/The quorum of genes required (6) is not reached: 2
+M9409_L16_pT4SSt_10	M9409_L16	TXSScan/bacteria/diderm/pT4SSt	c37	BKOHND_20590	4049	T4SS_t4cp1	T4SS_t4cp1	The quorum of mandatory genes required (1) is not reached: 0/The quorum of genes required (6) is not reached: 2
+

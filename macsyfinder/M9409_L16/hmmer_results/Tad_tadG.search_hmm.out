@@ -1,0 +1,72 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/Tad_tadG.hmm
+# target sequence database:        proteins_fasta/M9409_L16.faa
+# output directed to file:         macsyfinder/M9409_L16/hmmer_results/Tad_tadG.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Tad_tadG  [M=163]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+    7.8e-16   57.0   5.7      3e-14   51.9   5.7    2.1  1  BKOHND_05110  Putative Flp pilus-assembly TadG-like N-termina
+    4.8e-13   48.0   8.0    1.3e-12   46.6   8.0    1.7  1  BKOHND_05150  Putative Flp pilus-assembly TadG-like N-termina
+
+
+Domain annotation for each sequence (and alignments):
+>> BKOHND_05110  Putative Flp pilus-assembly TadG-like N-terminal domain-containing protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.9   5.7   1.3e-17     3e-14       1     101 [.      11     111 ..      11     152 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 51.9 bits;  conditional E-value: 1.3e-17
+      Tad_tadG   1 rGavavlvalalvaLigfaglalDlgrllllkteLQnaaDaaALaaareLdgrsggaalarAeaAaktllaanstlfandevalaadldvtfsesla 97 
+                   rG+va+++a+ lv+L+g+ +la+D++ +++ +++LQn aD++ALa a+    ++ +aa+    + a t+++ n+ + +++ v+ ++++ v  +++ +
+  BKOHND_05110  11 RGVVAPMTAILLVFLMGMTALAVDVSMMYSEHAQLQNGADSSALAIAQACAATPPAAACGTPVSSASTYANGNALDEHSNVVSATVSSGVVNVTTQS 107
+                   79**************************************************9999*************9888887777778766655555555544 PP
+
+      Tad_tadG  98 asda 101
+                   ++da
+  BKOHND_05110 108 RDDA 111
+                   4443 PP
+
+>> BKOHND_05150  Putative Flp pilus-assembly TadG-like N-terminal domain-containing protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.6   8.0   5.9e-16   1.3e-12       1      94 [.      23     119 ..      23     156 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 46.6 bits;  conditional E-value: 5.9e-16
+      Tad_tadG   1 rGavavlvalalvaLigfaglalDlgrllllkteLQnaaDaaALaaareLdgrsg..gaalarAeaAaktllaanstlfande..valaadldvtfs 93 
+                   rGav vlva+ lv+L+ f ++a+D+g l++ +t+L n aDaaALa a++  ++++  g + + + aAa t ++an+ l + ++  ++  a  +vt+ 
+  BKOHND_05150  23 RGAVSVLVAILLVVLLSFGAIAVDVGMLYAERTQLRNGADAAALAIAQKCAKNAAdpGCSTNSTLAAALTNGNANDGLSNIKStvLD-KAARTVTVT 118
+                   7*************************************************9988877677777777888887777665554444233.333334443 PP
+
+      Tad_tadG  94 e 94 
+                   +
+  BKOHND_05150 119 A 119
+                   3 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (163 nodes)
+Target sequences:                       4459  (1473457 residues searched)
+Passed MSV filter:                       297  (0.0666069); expected 89.2 (0.02)
+Passed bias filter:                      157  (0.0352097); expected 89.2 (0.02)
+Passed Vit filter:                        22  (0.00493384); expected 4.5 (0.001)
+Passed Fwd filter:                         3  (0.000672797); expected 0.0 (1e-05)
+Initial search space (Z):               4459  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.01
+# Mc/sec: 18786.07
+//
+[ok]

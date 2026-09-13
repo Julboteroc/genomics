@@ -1,0 +1,170 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/T6SSi_tssH.hmm
+# target sequence database:        proteins_fasta/M9409_L16.faa
+# output directed to file:         macsyfinder/M9409_L16/hmmer_results/T6SSi_tssH.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       cog0542.mat_id  [M=872]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+   7.7e-231  766.8  16.6   1.7e-229  762.3  16.6    1.9  1  BKOHND_09415  ATP-dependent chaperone ClpB
+   3.5e-218  724.9   8.6     5e-122  406.7   3.7    2.0  1  BKOHND_12900  ATP-dependent Clp protease, ATP-binding subunit
+   9.5e-216  716.8   6.9   2.3e-118  394.7   3.0    2.0  1  BKOHND_17115  ATP-dependent Clp protease, ATP-binding subunit
+
+
+Domain annotation for each sequence (and alignments):
+>> BKOHND_09415  ATP-dependent chaperone ClpB
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  762.3  16.6  1.1e-232  1.7e-229       4     850 ..       4     844 ..       2     865 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 762.3 bits;  conditional E-value: 1.1e-232
+  cog0542.mat_id   4 kLnslakkaleaaaalclsrqhaevelehlllkllenpesdlrvilkraeidvdklkkelaaeldrlkkgs...tevpalsehlvelleqawlla 95 
+                     k+ +++++al aaa  +++ ++++ve  hll++l+++ e+    +l++++ d+d ++ + +++++ l+ +s    ++++ls + ++++++a   a
+    BKOHND_09415   4 KFTTKSQEALSAAAMNASTAGNPQVEPAHLLKALMDQREGVAVALLRATGADPDAVSVQSSTAIKALPASSgtsVQQAQLSRTALQAIKNAQNEA 98 
+                     6778999*************************************************999999988887654111567899999999999998766 PP
+
+  cog0542.mat_id  96 sleleeaqirsghlllalleepelrklatklsallekvkleeLkkkldelveesaetalakseaeadaskaaktkaeakeeaLdrftvdlteqar 190
+                       +l+++ + ++hlll+l   ++   ++ kl++  +   +e+L   l  +     +++++++++            e+  +aL++f +dlt  ar
+    BKOHND_09415  99 D-KLGDTFVSTEHLLLGLSAGSD---AVGKLMRD-AGASHEALLAALPGV---RGDRKVTNADP------------ENTFQALEKFGTDLTAIAR 173
+                     4.789999********9977666...23333322.233444444433333...33344444444............334579************* PP
+
+  cog0542.mat_id 191 sGklDPvlgrdeeirllvDiLlrrrknnPilvGeaGvGktavveGlalrivagdvPeaLkdvelktLDlgllqaGasvkGefekrlknvidevkk 285
+                     sGklDPv+grd eir+++ +L+rr knnP+++Ge+GvGktavveGla+riva+dvPe+L++  l +LDl+ + aGa  +Gefe+rlk v++e+k+
+    BKOHND_09415 174 SGKLDPVIGRDAEIRRIIQVLSRRTKNNPVIIGEPGVGKTAVVEGLAQRIVANDVPESLRGKTLIALDLASMVAGAKYRGEFEERLKAVLEEIKS 268
+                     *********************************************************************************************** PP
+
+  cog0542.mat_id 286 svkPiiLfiDeahtliGaGgq.aGqaDaanllkPaLarGeLrtiaattWaeykkyfekDaaLtrrfqvvkvdePdedkavlmlrGlksimekhhg 379
+                     s+  i+ fiDe ht++GaG   + + Da n+lkP LarGeLr i att  ey++ +ekD+aL+rrfq v v+eP+ d  + +lrGlk+++e hh+
+    BKOHND_09415 269 SEGQIVTFIDELHTVVGAGASgDSSMDAGNMLKPMLARGELRLIGATTLDEYRENIEKDPALERRFQQVFVGEPSVDDTIGILRGLKERYEAHHK 363
+                     *******************8624578********************************************************************* PP
+
+  cog0542.mat_id 380 vlildealkaavrLsaryisgrqLPDkavsvLDtacarvalslsatPkaldelkkrleakelelealeresalgvaeaerlkelkeeldaleeel 474
+                     v i d+al aa+ Ls+ryisgrqLPDka++++D a++r+++++++ P+++d+l+++++++ +e  al +e+   +a+ erl++l++++++++e l
+    BKOHND_09415 364 VSIADSALVAAATLSNRYISGRQLPDKAIDLVDEAASRLRMEIDSAPEEIDQLRRQVDRLTMEELALANEK--DAASVERLAALRADMADKKEAL 456
+                     *************************************************************9998888776..567889**************** PP
+
+  cog0542.mat_id 475 aelearweqekelveeilelraelleeeeavdkarealaeae................eelaele.aeLae.lqgeeplvaaqvdaeavaeviad 551
+                     ++l+arwe ek+  +++ +l+a++ e ++a +k +++ + a                 ++ ae+e a++a    ++e +va +v a  +aevi++
+    BKOHND_09415 457 SALNARWEAEKAGLNHVGDLKARIDELRSAAEKYQREGDLAAasrilygelpalerelSAAAEAEaARVAGgGAKQELMVADEVTAGDIAEVISA 551
+                     ************************999998888776666655679***99999998662223322022332134567788999************ PP
+
+  cog0542.mat_id 552 WtGiPlgkllkdeietvlnlkelLkervvGqdhaleaiakrlktaraeledpnkPkGvfllvGpsGvGktetalalaeklyGgeknlitinlsey 646
+                     WtGiP g++l++e +++l+++e L++r++Gq++a++a++  ++ ara+++dpn+P+G fl++Gp+GvGkte a ala+ l+  e+ ++ i++sey
+    BKOHND_09415 552 WTGIPAGRMLQGESQKLLHMEEELGRRLIGQKKAVTAVSDAVRRARAGISDPNRPTGSFLFLGPTGVGKTELAKALADFLFDDERAMVRIDMSEY 646
+                     *********************************************************************************************** PP
+
+  cog0542.mat_id 647 qekhtvsrLkGsPPGyvGyGeGGvLteavrrkPysvvLLDevekahpdvlelfyqvfDkGvleDgeGreidfkntvilltsnlGtetimqlcldv 741
+                      ekh+v+rL+G+PPGyvGy eGG Lteavrr+PysvvLLDevekahp+v +++ qv+D G l+Dg+Gr++df+n++++ltsnlG++ +      v
+    BKOHND_09415 647 GEKHSVARLVGAPPGYVGYEEGGQLTEAVRRRPYSVVLLDEVEKAHPEVFDILLQVLDDGRLTDGQGRTVDFRNVILVLTSNLGSQFL------V 735
+                     ***************************************************************************************9......7 PP
+
+  cog0542.mat_id 742 eeapepdalaeaLrdeLlkvfkPallarl.evvpylPlgdevlkeivelkLarikkrlkkrykaeleldeelideivsratesesGarnidaile 835
+                     +++ +++a + a+  +++++fkP +l rl evv +  l+ e l++ivel++a + krl++r ++ele++e     ++     +  Gar +  +++
+    BKOHND_09415 736 DQTLDANAKRSAVMATVHASFKPEFLNRLdEVVLFDALDVEELARIVELQVAELGKRLHDR-RLELEVSEGARAWLAMTGFDPAYGARPLRRLVQ 829
+                     88888888899999***************5699999**********************987.79******************************* PP
+
+  cog0542.mat_id 836 ktllPelskelLerl 850
+                     +++  +l+k++L+  
+    BKOHND_09415 830 REIGDRLAKAILAGD 844
+                     **********99854 PP
+
+>> BKOHND_12900  ATP-dependent Clp protease, ATP-binding subunit ClpA
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  406.7   3.7  3.4e-125    5e-122       2     482 ..       2     468 ..       1     472 [. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 406.7 bits;  conditional E-value: 3.4e-125
+  cog0542.mat_id   2 lekLnslakkaleaaaalclsrqhaevelehlllkllenpesdlrvilkraeidvdklkkelaaeldrlkkgstevpalsehlvelleqawllas 96 
+                     +e++ + a++++  a   +   +h+++  eh ll l++++e+   + l+   i+ d +++++++ + + +++ +    +++   ++le + l  +
+    BKOHND_12900   2 FERFTDRARRVVVLAQEEARMLNHNYIGTEHILLGLIHEGEGVAAKALESLSISLDGVREQVQEIIGQGQQAPSGHIPFTPRAKKVLELS-LREA 95 
+                     67778888888888888888999***********************************************99999999********9987.5778 PP
+
+  cog0542.mat_id  97 leleeaqirsghlllalleepe..lrklatklsallekvkleeLkkkldelveesaetalakseaeadaskaaktkaeakeeaLdrftvdlteqa 189
+                     l+l+++ i ++h+ll+l++e e    ++  kl a l++v+++ ++     + +e++ t + ++++       +   + a +  Ld+f  +lt+ a
+    BKOHND_12900  96 LQLGHNYIGTEHILLGLIREGEgvAAQVLVKLGADLNRVRQQVIQLLSGYQGKETTGTGVGAGQP------EG---TPAGSVVLDQFGRNLTQAA 181
+                     9*****************99881123445555566666666666666665555555555555555......22...2344678************ PP
+
+  cog0542.mat_id 190 rsGklDPvlgrdeeirllvDiLlrrrknnPilvGeaGvGktavveGlalrivagdvPeaLkdvelktLDlgllqaGasvkGefekrlknvidevk 284
+                     r+ klDPv+gr++e+++++ +L+rr knnP+l+Ge+GvGktavveGla+ iv gdvPe++kd +l+tLDlg l aG+  +G+fe+rlk+v++e++
+    BKOHND_12900 182 RENKLDPVIGREQEMERVMQVLSRRTKNNPVLIGEPGVGKTAVVEGLAQAIVRGDVPETIKDKQLYTLDLGSLVAGSRYRGDFEERLKKVLKEIR 276
+                     **********************************************************************************************8 PP
+
+  cog0542.mat_id 285 ksvkPiiLfiDeahtliGaGgqaGqaDaanllkPaLarGeLrtiaattWaeykkyfekDaaLtrrfqvvkvdePdedkavlmlrGlksimekhhg 379
+                     +    iiLfiDe htl+GaG ++G  Daa +lkP LarGeL+ti att  ey+k++ekDaaL+rrfq ++v+eP+  +a+++l+Gl+ ++e hh 
+    BKOHND_12900 277 T-RGDIILFIDEIHTLVGAGAAEGAIDAASILKPMLARGELQTIGATTLDEYRKHIEKDAALERRFQPIQVKEPSVAHAIEILKGLRDRYEAHHR 370
+                     6.568****************************************************************************************** PP
+
+  cog0542.mat_id 380 vlildealkaavrLsaryisgrqLPDkavsvLDtacarvalslsatPkaldelkkrleakelelealeresalgvaeaerlkelkeeldaleeel 474
+                     v+i+d al +a++Ls+ryis r LPDka++++D a+ar+++   + P +l+ +++r++++++     e+esa+ +++ e  ++l++++++l +e+
+    BKOHND_12900 371 VTITDGALASAANLSERYISDRFLPDKAIDLIDEAGARLRIRRMTAPPELKAMDERIAELKM-----EKESAIDAQDFEGAASLRDKEQKLIAER 460
+                     ****************************************************9999987765.....6899999999999999999999999999 PP
+
+  cog0542.mat_id 475 aelearwe 482
+                     ae e +w+
+    BKOHND_12900 461 AEKERHWK 468
+                     99999997 PP
+
+>> BKOHND_17115  ATP-dependent Clp protease, ATP-binding subunit ClpA
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  394.7   3.0  1.5e-121  2.3e-118       2     483 ..       2     469 ..       1     473 [. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 394.7 bits;  conditional E-value: 1.5e-121
+  cog0542.mat_id   2 lekLnslakkaleaaaalclsrqhaevelehlllkllenpesdlrvilkraeidvdklkkelaaeldrlkkgstevpalsehlvelleqawllas 96 
+                     +e++ + a++a+  a   + + +h+++  ehlll l++++e+   + l+  +i+ + +++++++ l   + +      +++   ++le a+   +
+    BKOHND_17115   2 FERFTDRARRAVVLAQEEARTLNHNYIGTEHLLLGLIHEGEGVAAKALESLGISLEGVREQVQEILGPGQPSPAGHIPFTPRAKKVLELAL-REA 95 
+                     7888899999999999999999*********************************************99998899999*********9985.678 PP
+
+  cog0542.mat_id  97 leleeaqirsghlllalleepelr..klatklsallekvkleeLkkkldelveesaetalakseaeadaskaaktk.aeakeeaLdrftvdlteq 188
+                     l+l+++ i ++h+ll+l++e e +  ++  kl a l +v+++ ++     + +e++ + +           a++++ + a +  Ld+f  +lt+ 
+    BKOHND_17115  96 LQLGHNYIGTEHILLGLIHEGEGVaaQVLVKLGADLTRVRQQVIQLLSGYQGKETTGAGE----------GAGRPEgTPAGSVVLDQFGRNLTQA 180
+                     9******************99832003333334444444444433333333333322222..........23333303345779*********** PP
+
+  cog0542.mat_id 189 arsGklDPvlgrdeeirllvDiLlrrrknnPilvGeaGvGktavveGlalrivagdvPeaLkdvelktLDlgllqaGasvkGefekrlknvidev 283
+                     ar+ klDPv+gr++e+++++ +L+rr knnP+l+Ge+GvGktavveGla+ iv gdvPe+L+d +++tLDlg + aG+  +G+fe+rlk+v++e+
+    BKOHND_17115 181 ARENKLDPVIGREQEMERVMQVLSRRTKNNPVLIGEPGVGKTAVVEGLAQAIVRGDVPETLRDKQIYTLDLGSVVAGSKYRGDFEERLKKVLKEI 275
+                     *********************************************************************************************** PP
+
+  cog0542.mat_id 284 kksvkPiiLfiDeahtliGaGgqaGqaDaanllkPaLarGeLrtiaattWaeykkyfekDaaLtrrfqvvkvdePdedkavlmlrGlksimekhh 378
+                     ++    i+LfiDe htl+GaG ++G  Daa +lkP LarGeL+ti att  +y++++ekDaaL+rrfq ++v+eP+  + +++l+Gl+ ++e hh
+    BKOHND_17115 276 RT-RGDILLFIDEIHTLVGAGAAEGAIDAASILKPLLARGELQTIGATTLDDYRRHIEKDAALERRFQPIQVKEPSVAHTIEILQGLRDRYEAHH 369
+                     86.568***************************************************************************************** PP
+
+  cog0542.mat_id 379 gvlildealkaavrLsaryisgrqLPDkavsvLDtacarvalslsatPkaldelkkrleakelelealeresalgvaeaerlkelkeeldaleee 473
+                      v+i+d al aa++Ls+ryis r LPDka++++D a+ar+++   + P +l+ + + ++  ++      +esa+ +++ e  ++l++++++l ++
+    BKOHND_17115 370 RVTITDGALVAAANLSERYISDRFLPDKAIDLIDEAGARLRIRRMTAPPELKAMAETIADVRT-----AKESAIDAQDYEGAASLRDQEQKLVAQ 459
+                     ***************************************************999999887654.....689999999999999999999999999 PP
+
+  cog0542.mat_id 474 laelearweq 483
+                     + e e rw+ 
+    BKOHND_17115 460 RREKERRWKA 469
+                     9999999985 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (872 nodes)
+Target sequences:                       4459  (1473457 residues searched)
+Passed MSV filter:                       202  (0.0453016); expected 89.2 (0.02)
+Passed bias filter:                      146  (0.0327428); expected 89.2 (0.02)
+Passed Vit filter:                        27  (0.00605517); expected 4.5 (0.001)
+Passed Fwd filter:                         5  (0.00112133); expected 0.0 (1e-05)
+Initial search space (Z):               4459  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.08u 0.01s 00:00:00.09 Elapsed: 00:00:00.08
+# Mc/sec: 14851.51
+//
+[ok]

@@ -1,0 +1,21 @@
+# macsyfinder 2.1.6  (using MacSyLib 1.0.4 )
+# models : TXSScan-1.1.4
+# /home/julibote/miniconda3/bin/macsyfinder --db-type ordered_replicon --sequence-db proteins_fasta/M9409_L16.faa --models-dir /home/julibote/TXSScan_model --models TXSScan all -o macsyfinder/M9409_L16
+# Systems found:
+sol_id	replicon	hit_id	gene_name	hit_pos	model_fqn	sys_id	sys_loci	locus_num	sys_wholeness	sys_score	sys_occ	hit_gene_ref	hit_status	hit_seq_len	hit_i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match	counterpart	used_in
+1	M9409_L16	BKOHND_05100	Tad_flp	1002	TXSScan/bacteria/diderm/Tad	M9409_L16_Tad_5	1	1	0.583	5.700	2	Tad_flp	mandatory	64	4.3e-08	30.700	0.519	0.422	20	46		
+1	M9409_L16	BKOHND_05105	Tad_tadE	1003	TXSScan/bacteria/diderm/Tad	M9409_L16_Tad_5	1	1	0.583	5.700	2	Tad_tadE	accessory	145	1.2e-24	85.200	0.986	0.890	15	143		
+1	M9409_L16	BKOHND_05110	Tad_tadG	1004	TXSScan/bacteria/diderm/Tad	M9409_L16_Tad_5	1	1	0.583	5.700	2	Tad_tadG	neutral	350	3e-14	51.900	0.620	0.289	11	111		
+1	M9409_L16	BKOHND_05115	Tad_rcpC	1005	TXSScan/bacteria/diderm/Tad	M9409_L16_Tad_5	1	1	0.583	5.700	2	Tad_rcpC	accessory	252	4.3e-11	40.900	0.922	0.452	117	230		
+1	M9409_L16	BKOHND_05125	Tad_tadA	1007	TXSScan/bacteria/diderm/Tad	M9409_L16_Tad_5	1	1	0.583	5.700	2	Tad_tadA	mandatory	480	6.3e-116	384.000	1.000	0.512	134	379		
+1	M9409_L16	BKOHND_05130	Tad_tadB	1008	TXSScan/bacteria/diderm/Tad	M9409_L16_Tad_5	1	1	0.583	5.700	2	Tad_tadB	mandatory	315	3.9e-35	118.800	0.988	0.502	146	303		
+1	M9409_L16	BKOHND_05135	Tad_tadC	1009	TXSScan/bacteria/diderm/Tad	M9409_L16_Tad_5	1	1	0.583	5.700	2	Tad_tadC	mandatory	295	1.3e-37	127.300	1.000	0.512	133	283		
+1	M9409_L16	BKOHND_05140	Tad_flp	1010	TXSScan/bacteria/diderm/Tad	M9409_L16_Tad_5	1	1	0.583	5.700	2	Tad_flp	mandatory	79	7.6e-12	42.700	0.904	0.557	9	52		
+1	M9409_L16	BKOHND_05145	Tad_tadE	1011	TXSScan/bacteria/diderm/Tad	M9409_L16_Tad_5	1	1	0.583	5.700	2	Tad_tadE	accessory	129	7.2e-23	79.500	0.873	0.853	7	116		
+1	M9409_L16	BKOHND_05150	Tad_tadG	1012	TXSScan/bacteria/diderm/Tad	M9409_L16_Tad_5	1	1	0.583	5.700	2	Tad_tadG	neutral	351	1.3e-12	46.600	0.577	0.276	23	119		
+1	M9409_L16	BKOHND_05155	Tad_rcpC	1013	TXSScan/bacteria/diderm/Tad	M9409_L16_Tad_5	1	1	0.583	5.700	2	Tad_rcpC	accessory	258	6.9e-09	33.800	0.897	0.442	116	229		
+1	M9409_L16	BKOHND_05165	Tad_tadA	1015	TXSScan/bacteria/diderm/Tad	M9409_L16_Tad_5	1	1	0.583	5.700	2	Tad_tadA	mandatory	521	1.1e-115	383.200	1.000	0.472	173	418		
+1	M9409_L16	BKOHND_05170	Tad_tadB	1016	TXSScan/bacteria/diderm/Tad	M9409_L16_Tad_5	1	1	0.583	5.700	2	Tad_tadB	mandatory	310	1.4e-36	123.500	0.988	0.510	141	298		
+1	M9409_L16	BKOHND_05175	Tad_tadC	1017	TXSScan/bacteria/diderm/Tad	M9409_L16_Tad_5	1	1	0.583	5.700	2	Tad_tadC	mandatory	294	1.7e-32	110.600	0.987	0.507	134	282		
+1	M9409_L16	BKOHND_17925	Tad_tadV	3531	TXSScan/bacteria/diderm/Tad	M9409_L16_Tad_5	1	-1	0.583	5.700	2	Tad_tadV	mandatory	186	8.3e-19	66.000	0.962	0.828	23	176		
+

@@ -1,0 +1,125 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/Tad_tadB.hmm
+# target sequence database:        proteins_fasta/Arthrobacter_cavernae_PO-11.faa
+# output directed to file:         macsyfinder/Arthrobacter_cavernae_PO-11/hmmer_results/Tad_tadB.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Tad_tadB  [M=160]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+    1.4e-36  123.2   0.5    2.5e-36  122.5   0.5    1.4  1  JLFNCN_17180  Type II secretion system F family protein
+      2e-13   48.0   0.1      3e-13   47.4   0.1    1.2  1  JLFNCN_17175  Type II secretion system F family protein
+    5.5e-12   43.4   0.0    9.9e-12   42.5   0.0    1.4  1  JLFNCN_11900  Type II secretion system F family protein
+    2.3e-07   28.3   0.0    5.1e-07   27.2   0.0    1.5  1  JLFNCN_00750  Tight adherence protein B
+    1.5e-06   25.7   0.0    2.1e-06   25.2   0.0    1.2  1  JLFNCN_11895  Type II secretion system F family protein
+      0.019   12.4   0.0      0.029   11.8   0.0    1.2  0  JLFNCN_00755  Type II secretion system F family protein
+
+
+Domain annotation for each sequence (and alignments):
+>> JLFNCN_17180  Type II secretion system F family protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  122.5   0.5     4e-39   2.5e-36       2     160 .]     146     304 ..     145     304 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 122.5 bits;  conditional E-value: 4e-39
+      Tad_tadB   2 pealdalsrslkaGaslldalervgedlkeplgsefklvlsrlalgidledvledsaervpveelrffaivvqineekGGnlkellsrlsevlrdrr 98 
+                   p+ l++l+  ++aG+sll a++ ++++ ++p+++e+ +++++ ++g dl + l+d+a r + e+++ +a +++i +e GG l+e+l+ ++e++rdr+
+  JLFNCN_17180 146 PDTLQMLTGGMRAGHSLLRAVDAAAQESEAPMAEEMGRIVNETRIGRDLGESLNDVAIRTQSEDFSWIAQAIEIHREVGGDLAEVLDHVGETIRDRN 242
+                   99*********************************************************************************************** PP
+
+      Tad_tadB  99 kleekvkaltaearasavilaalPiglvvlvklmsPeyleflfkdptGrlvllyaviselvG 160
+                   +++++vkal+ae r+sa +l+alP+++++ +++m+P y+++  +   G +++ +av++ ++G
+  JLFNCN_17180 243 QIRRQVKALSAEGRMSALVLLALPVVMFIALQFMNPVYAQTFTSTVPGYVMIAVAVVMLSLG 304
+                   *****************************************555556999999998888776 PP
+
+>> JLFNCN_17175  Type II secretion system F family protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.4   0.1   4.8e-16     3e-13       1     128 [.     150     277 ..     150     287 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 47.4 bits;  conditional E-value: 4.8e-16
+      Tad_tadB   1 lpealdalsrslkaGaslldalervgedlkeplgsefklvlsrlalgidledvledsaervpveelrffaivvqineekGGnlkellsrlsevlrdr 97 
+                   lp++ld++  s++aG     a+ r +e+ k+pl++ef + l+ +++g + +d+  ++ erv+v ++r+f+ +v     +G  ++ +l++  + +r +
+  JLFNCN_17175 150 LPNSLDQMLISVQAGLGFEAAMARTAENGKGPLADEFIRTLQDIQVGRSRKDAYLALSERVDVPDVRSFIRAVVQADAYGIAIAKVLKAQAQEMRTK 246
+                   79****************************************************************************************9999999 PP
+
+      Tad_tadB  98 rkleekvkaltaearasavilaalPiglvvl 128
+                   r  +++ +a+    ++   ++ ++++ l+++
+  JLFNCN_17175 247 RRQRAEEHAMKIPVKILFPLIFCIFPTLFII 277
+                   9999999999999999887777766666554 PP
+
+>> JLFNCN_11900  Type II secretion system F family protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.5   0.0   1.6e-14   9.9e-12       1     125 [.     173     298 ..     173     307 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 42.5 bits;  conditional E-value: 1.6e-14
+      Tad_tadB   1 lpealdalsrslkaGaslldalervgedlkeplgsefklvlsrlalgidledvledsaervpveelrffaivvqineekGGnlkellsrlsevlrdr 97 
+                   +p  ++++  +++aG s   al+rv   +++ l++ef lvl   + g +l ++l+++ +r ++  l  f+  + +  e+G  l+++l++  + +rd+
+  JLFNCN_11900 173 FPSLAELMALAVSAGESAMGALDRVCRSARGELAKEFSLVLADTRAGKPLVEALQEFSSRTELPPLVRFVDGLVVAIERGTPLADVLRAQAADVRDA 269
+                   89999******************************************************************************************99 PP
+
+      Tad_tadB  98 rkleekvkaltaearasavil.aalPigl 125
+                    k e +  a   e  + + ++ ++lP  +
+  JLFNCN_11900 270 SKRELMESAGRKEIGMMVPLVfGVLPLTV 298
+                   99888888888887776644415555554 PP
+
+>> JLFNCN_00750  Tight adherence protein B
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.2   0.0   8.1e-10   5.1e-07      69     160 .]     171     262 ..     156     262 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 27.2 bits;  conditional E-value: 8.1e-10
+      Tad_tadB  69 faivvqineekGGnlkellsrlsevlrdrrkleekvkaltaearasavilaalPiglvvlvklmsPeyleflfkdptGrlvllyaviselvG 160
+                   +a+ + + e +G+ l+++l r    l+ +    + ++++ a ++a++ +l+ lP+  ++l  ++  ++l +l+ + +G  +l ++v+++++G
+  JLFNCN_00750 171 LAACLDVAETSGCPLADILTRFCTQLEAEDDADAARQTALAGPKATVRLLSWLPVLGLGLGMVLGVDPLGILLGNAVGVAALAAGVVLTVAG 262
+                   789999**********************************************************************************9987 PP
+
+>> JLFNCN_11895  Type II secretion system F family protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.2   0.0   3.3e-09   2.1e-06       2     156 ..     109     262 ..     108     266 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 25.2 bits;  conditional E-value: 3.3e-09
+      Tad_tadB   2 pealdalsrslkaGaslldalervgedlkeplgsefklvlsrlalgidledvledsaervpveelrffaivvqineekGG.nlkellsrlsevlrdr 97 
+                   p+++d l  +++aG sl +a+ + g   +e l++ f       + g + +++l ++ +r        ++ ++++ +e GG  l  ll  l e lr++
+  JLFNCN_11895 109 PDVVDHLRSAIRAGLSLPEAIIQLGYKGPEELRHLFLDFGADYRSGGHFDAALGKLKDRLADPVADRIIEALRMTREVGGsDLGRLLGTLAEFLRES 205
+                   99***************************************************************************999459************** PP
+
+      Tad_tadB  98 rkleekvkaltaearasavilaalPiglvvlvklmsPeyleflfkdptGrlvllyavis 156
+                     ++ +++a  + +   a +  a P +++v v ++ Pe +   +++  G  vll ++ +
+  JLFNCN_11895 206 ARTRSELEARQSWTVNAARLAVAAPWIVLV-VLASRPEAMHA-YNSALGAAVLLGGLLI 262
+                   ************999999988888887765.56899*****9.9*****9999876655 PP
+
+>> JLFNCN_00755  Type II secretion system F family protein
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (160 nodes)
+Target sequences:                       3760  (1192649 residues searched)
+Passed MSV filter:                        98  (0.0260638); expected 75.2 (0.02)
+Passed bias filter:                       81  (0.0215426); expected 75.2 (0.02)
+Passed Vit filter:                        11  (0.00292553); expected 3.8 (0.001)
+Passed Fwd filter:                         6  (0.00159574); expected 0.0 (1e-05)
+Initial search space (Z):               3760  [actual number of targets]
+Domain search space  (domZ):               6  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 21693.44
+//
+[ok]

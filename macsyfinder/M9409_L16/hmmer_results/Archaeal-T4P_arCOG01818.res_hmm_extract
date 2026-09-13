@@ -1,0 +1,8 @@
+# gene: Archaeal-T4P_arCOG01818 extract from macsyfinder/M9409_L16/hmmer_results/Archaeal-T4P_arCOG01818.search_hmm.out hmm output
+# profile length= 435
+# i_evalue threshold= 0.001
+# coverage threshold= 0.500
+# hit_id	replicon_name	position_hit	hit_sequence_length	gene_name	i_eval	score	profile_coverage	sequence_coverage	begin	end
+BKOHND_05125	M9409_L16	1007	480	Archaeal-T4P_arCOG01818	1.100e-63	213.400	0.825	0.762	53	418
+BKOHND_05165	M9409_L16	1015	521	Archaeal-T4P_arCOG01818	3.600e-64	215.000	0.779	0.691	97	456
+BKOHND_07495	M9409_L16	1477	426	Archaeal-T4P_arCOG01818	6.800e-54	181.100	0.683	0.697	74	370

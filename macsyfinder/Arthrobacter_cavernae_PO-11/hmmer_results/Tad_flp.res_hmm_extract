@@ -1,0 +1,7 @@
+# gene: Tad_flp extract from macsyfinder/Arthrobacter_cavernae_PO-11/hmmer_results/Tad_flp.search_hmm.out hmm output
+# profile length= 52
+# i_evalue threshold= 0.001
+# coverage threshold= 0.500
+# hit_id	replicon_name	position_hit	hit_sequence_length	gene_name	i_eval	score	profile_coverage	sequence_coverage	begin	end
+JLFNCN_17170	Arthrobacter_cavernae_PO-11	3374	74	Tad_flp	1.500e-08	31.900	0.577	0.405	20	49
+JLFNCN_17210	Arthrobacter_cavernae_PO-11	3382	66	Tad_flp	3.500e-08	30.800	0.808	0.591	20	58

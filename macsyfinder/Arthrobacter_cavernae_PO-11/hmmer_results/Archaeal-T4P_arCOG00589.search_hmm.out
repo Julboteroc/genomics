@@ -1,0 +1,286 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/Archaeal-T4P_arCOG00589.hmm
+# target sequence database:        proteins_fasta/Arthrobacter_cavernae_PO-11.faa
+# output directed to file:         macsyfinder/Arthrobacter_cavernae_PO-11/hmmer_results/Archaeal-T4P_arCOG00589.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       arCOG00589  [M=219]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+    2.5e-31  107.0   0.0    3.8e-31  106.4   0.0    1.3  1  JLFNCN_17190  Putative septum site-determining protein MinD
+      1e-28   98.4   0.1    2.3e-27   94.0   0.1    2.2  1  JLFNCN_01280  Polysaccharide biosynthesis tyrosine autokinase
+    4.1e-26   89.9   0.4    5.1e-26   89.6   0.4    1.1  1  JLFNCN_07470  ParA-like ATPase involved in chromosome/plasmid
+      2e-25   87.6   0.0    1.7e-24   84.6   0.0    2.3  1  JLFNCN_01335  Polysaccharide biosynthesis tyrosine autokinase
+    1.4e-24   84.9   0.0    1.9e-24   84.4   0.0    1.1  1  JLFNCN_02570  ParA-like ATPase involved in chromosome/plasmid
+    9.5e-23   78.9   0.0    1.2e-22   78.6   0.0    1.1  1  JLFNCN_14325  AAA family ATPase
+      1e-21   75.5   0.0    2.6e-21   74.2   0.0    1.7  1  JLFNCN_11305  Iron-sulfur cluster carrier protein
+    1.6e-21   74.9   0.0    2.1e-21   74.5   0.0    1.1  1  JLFNCN_07375  ParA family protein
+    1.3e-13   49.1   0.0    4.4e-13   47.3   0.0    1.8  1  JLFNCN_11745  P-loop NTPase
+    1.2e-07   29.5   0.0    2.4e-07   28.5   0.0    1.5  1  JLFNCN_00740  septum site-determining protein Ssd
+    1.6e-05   22.6   0.3    2.6e-05   21.9   0.0    1.5  1  JLFNCN_14270  Chromosome partitioning protein ParA
+    0.00013   19.6   0.2      0.012   13.2   0.0    3.0  0  JLFNCN_12845  signal recognition particle protein
+    0.00017   19.2   0.0     0.0057   14.2   0.2    2.1  0  JLFNCN_05860  dethiobiotin synthase
+    0.00044   17.9   6.0      0.044   11.4   0.6    2.6  0  JLFNCN_12820  signal recognition particle-docking protein Fts
+
+
+Domain annotation for each sequence (and alignments):
+>> JLFNCN_17190  Putative septum site-determining protein MinD
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  106.4   0.0   1.4e-33   3.8e-31       1     217 [.     149     371 ..     149     373 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 106.4 bits;  conditional E-value: 1.4e-33
+    arCOG00589   1 iavtsgKGGtGKTtiavnlaaalsl.kgkrvllvDgDlrnasltlllgvsaknitledvlagaadltevvystp.....ntlsvvpsgasledmrka 91 
+                   iav+s KGG+GKTt+a nla+ l   +   v++vD+Dl+  ++++ l ++++  t+ d + g a+ + +v +t        ++ + + ++  +m ++
+  JLFNCN_17190 149 IAVMSPKGGVGKTTVATNLAVGLGGlAPMGVVIVDLDLQFGDVASGLLLDPE-RTITDAVLGPASQDSMVLKTYlsvhpASIYALCAPRNPVEMDRI 244
+                   89*********************999999****************9999999.9********999999999775555446666666699999**9** PP
+
+    arCOG00589  92 dpsrlsrlleelnrkfdvviiDtpagltlknvlalasadelilVatpenlsvidalkvlelarelge..evvgivlNkvrpdqedeavaaiekelsv 186
+                   + + ++rlle+l+++f++v+iDt +gl + ++ al+ a+  + V   + +s+   +  l++++el+   e + +vlN+++p++   a a++e +++v
+  JLFNCN_17190 245 NAEHVTRLLEQLRQEFQYVVIDTAPGLGEHVLAALENATDAVWVCGMDIPSIRGLRTGLHILDELQLlpEHRHVVLNMADPKSG-LALADVEATIGV 340
+                   *****************************************************************99****************9.89********** PP
+
+    arCOG00589 187 pllaviPfdkdveealaegtplvldypdspa 217
+                   p+ ++iP ++++  ++++g+pl++d  + pa
+  JLFNCN_17190 341 PVDVAIPRSRTLPFSTNKGVPLLQDGARDPA 371
+                   **********************999776666 PP
+
+>> JLFNCN_01280  Polysaccharide biosynthesis tyrosine autokinase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   94.0   0.1   8.6e-30   2.3e-27       2     173 ..     265     438 ..     264     460 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 94.0 bits;  conditional E-value: 8.6e-30
+    arCOG00589   2 avtsgKGGtGKTtiavnlaaalslkgkrvllvDgDlrnasltlllgvsaknitledvlagaadltevvystp.ntlsvvpsgasledmrkad.psrl 96 
+                    vts   G GK+t+a n+a+al+++g+rv+lvD+Dlr +++  +lg++ +n  l  vl g+a +++++ +   ++l+v+ sg +  + +++   +++
+  JLFNCN_01280 265 MVTSSLPGEGKSTTATNIAIALAQAGQRVALVDADLRRPTVNEYLGLD-RNAGLTTVLLGKAHVDDLLQHWGeDELYVLSSGQIPPNPSELLgSDEM 360
+                   6888888****************************************9.55******************8779********9998888777779999 PP
+
+    arCOG00589  97 srlleelnrkfdvviiDtpagl.tlknvlalasadelilVatpenlsvidalkvlelarelgeevvgivlNkvrpdqe 173
+                    +++++l+r+fd viiD+p+ l   ++ ++++    +i+V++ ++ + +d +k l  ++ +g  v+g+vlNk   +  
+  JLFNCN_01280 361 LKVVRHLEREFDTVIIDAPPLLpVTDAAVLSQHVGGVIVVVSSQKVKHNDLVKSLGALKLVGASVLGVVLNKLPTKGA 438
+                   99********************9999999****************9**************************887765 PP
+
+>> JLFNCN_07470  ParA-like ATPase involved in chromosome/plasmid partitioning or cellulose biosynthesis protein BcsQ
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.6   0.4   1.9e-28   5.1e-26       1     208 [.      70     295 ..      70     305 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 89.6 bits;  conditional E-value: 1.9e-28
+    arCOG00589   1 iavtsgKGGtGKTtiavnlaaalslkgkrvllvDgDlrnasltlllgvsakn..itledvlag.aadltevvystp.ntlsvvpsgasledmrkad. 92 
+                   ia+++ KGG+GKTt ++nlaaal++ g+rvllvD D +   l+  lg ++++   t+ +vl + + d+++++ +t  ++++++p++++l+++ +++ 
+  JLFNCN_07470  70 IAMVNQKGGVGKTTSTINLAAALAEYGRRVLLVDFDPQG-ALSAGLGANPHEldLTVYNVLMDrKVDIRDAIQQTGvDGVDLLPANIDLSAA-EVQl 164
+                   788999******************************766.56666888887777888888876478*******999*********8888777.3335 PP
+
+    arCOG00589  93 ......psrlsrlleelnrkfdvviiDtpagltlknvlalasadelilVatpenlsvidalkvlelarelge......evvgivlNkvrpdqe..de 175
+                          + l r+l+++++++dvv+iD+++ l l +v+al +a  +i+ +  e  ++  +  + e +++++       +v g+   ++++ ++   e
+  JLFNCN_07470 165 vnevarEQVLDRALKSVEDHYDVVLIDCQPSLGLLTVNALTAAHGVIIPLICEFFALRAVALLVETIEKVQDrlnprlQVDGVLATMYDARTLhsRE 261
+                   5788855555********************************************9998888888888888878888999999999999999887755 PP
+
+    arCOG00589 176 avaaiekelsvpll.aviPfdkdveealaegtpl 208
+                   +++++ + ++ +++  vi  + + ++a+++ +p+
+  JLFNCN_07470 262 VISRLVEAFGDKVFeTVIKRSIKFADATVAAEPI 295
+                   6666655555555413455555555555555555 PP
+
+>> JLFNCN_01335  Polysaccharide biosynthesis tyrosine autokinase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   84.6   0.0   6.5e-27   1.7e-24      10     173 ..     304     469 ..     295     476 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 84.6 bits;  conditional E-value: 6.5e-27
+    arCOG00589  10 tGKTtiavnlaaalslkgkrvllvDgDlrnasltlllgvsaknitledvlagaadltevvystp...ntlsvvpsgasledmrkad.psrlsrllee 102
+                    GK+t+a nla+al+++g+ v+lvD+Dlr + +  +lg++ +   l   l g adl++++   p   + l+v+ sg +  + +++    +++ l+++
+  JLFNCN_01335 304 EGKSTTATNLAIALAQAGQSVCLVDADLRRPMINEYLGLDRS-AGLTTALVGVADLNDLLQ--PwgdDSLYVLASGQIPPNPSELLgSPEMRHLIDR 397
+                   5**************************************977.******************..6679********999988877777999******* PP
+
+    arCOG00589 103 lnrkfdvviiDtpagl.tlknvlalasadelilVatpenlsvidalkvlelarelgeevvgivlNkvrpdqe 173
+                   l++ fdvv+iD+p+ l   ++ ++++    ++lV+  ++l  +d +k l  ++++g +v+g+vlN+  ++  
+  JLFNCN_01335 398 LEHAFDVVVIDAPPLLpVTDAAVLSQHVGGVVLVVGCQRLRQQDLEKSLGALEMVGSNVLGVVLNRLPAKGP 469
+                   ****************9999999*******************************************987765 PP
+
+>> JLFNCN_02570  ParA-like ATPase involved in chromosome/plasmid partitioning or cellulose biosynthesis protein BcsQ
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   84.4   0.0   7.2e-27   1.9e-24       2     215 ..      94     333 ..      93     339 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 84.4 bits;  conditional E-value: 7.2e-27
+    arCOG00589   2 avtsgKGGtGKTtiavnlaaalslkgkrvllvDgDlrnasltlllgvsakn..itledvlagaadltevvystp.......ntlsvvpsgasledmr 89 
+                   +v++ KGG+GKTt++vn+aaal+ +g +vl++D D +  +++  lg++ +    ++ dvl ++  l++vv   p          ++  +ga++e ++
+  JLFNCN_02570  94 TVSNQKGGVGKTTTTVNIAAALASAGLNVLVIDIDPQG-NASTALGIEHHAdvDSIYDVLINDLPLKDVVAPCPdipnlicAPATIHLAGAEIELVS 189
+                   78999******************************765.66666888765555999***************87799666664444555566666664 PP
+
+    arCOG00589  90 kad.psrlsrlleelnr........kfdvviiDtpagltlknvlalasadelilVatpenlsvidalkvlelarelge......evvgivlNkvrpd 171
+                    +   +rl+r+++   +        + d+++iD+p+ l l +v+a+ +a e+++ ++ e ++++   ++l+ ++++++       v  i l +++  
+  JLFNCN_02570 190 LVArEQRLRRAIDVYAKereragegRLDFIFIDCPPSLGLLTVNAFCAASEVLIPIQCEYYALEGLSQLLKNIEMIQKhlnselVVSTILLTMYDGR 286
+                   444789999999998888999******************************************8777777766666666667844455569999999 PP
+
+    arCOG00589 172 qe..deavaaiekelsvpll.aviPfdkdveealaegtplvldypds 215
+                   ++  ++++++++  +  ++l av+P +++++ea + ++ ++ + p+s
+  JLFNCN_02570 287 TNlaAQVASEVRLHFPEQVLgAVVPRSVRISEAPSYQQTVMTYDPTS 333
+                   996666666666666665553799********988888888888876 PP
+
+>> JLFNCN_14325  AAA family ATPase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   78.6   0.0   4.5e-25   1.2e-22       3     177 ..      24     213 ..      22     249 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 78.6 bits;  conditional E-value: 4.5e-25
+    arCOG00589   3 vtsgKGGtGKTtiavnlaaalslkgkrvllvDgDlrnasltlllgvsaknitledvlag..aadltevvystp.ntlsvvpsgasledmrkad..ps 94 
+                   v + KGG+GKT ++++la+ l l gk+vl++D+D + a++t  l+ + +  ++ dvl g  a  l +++ +t+  +++++ps+ sl+ +++ +  + 
+  JLFNCN_14325  24 VGNRKGGVGKTSVTLGLATGLRLIGKKVLVIDLDPQ-ANVTEALEGTGE-FDVFDVLYGgeAGTLGQAITETSwSGIDLIPSSESLARLESESmlTP 118
+                   5567******************************55.578888888877.********97667899******9*********999999954446644 PP
+
+    arCOG00589  95 rl..srlleelnr......kfdvviiDtpagltlknvlalasadelilVatpenlsvidalkvlelarelge........evvgivlNkvrpdqede 175
+                   +l  + +            ++d+++iD+p+ l + +++ l  ad +++V++p   sv+ ++ +le +++++         e +gi++Nk+ + ++ e
+  JLFNCN_14325 119 ELrlKTAA----WgadelsEYDHILIDLPPALGRLTLNGLIWADRVLAVTEPAAFSVKGVTEFLETVKKVKSlphlnpalEFMGIIINKTSSPLTSE 211
+                   44103333....1345699**********************************************9999999999999***********99888754 PP
+
+    arCOG00589 176 av 177
+                    +
+  JLFNCN_14325 212 HA 213
+                   44 PP
+
+>> JLFNCN_11305  Iron-sulfur cluster carrier protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   74.2   0.0   9.7e-24   2.6e-21       2     218 ..     117     348 ..     116     349 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 74.2 bits;  conditional E-value: 9.7e-24
+    arCOG00589   2 avtsgKGGtGKTtiavnlaaalslkgkrvllvDgDlrnasltlllgvsaknitledvlagaadltevvystpntlsvvpsgasledmrkad...... 92 
+                   av+sgKGG+GK+ ++vnla al+++g rv +vD+D+   s+++l+g+++k++ + d++     l  v y    +++v+ +g+  ++ + +       
+  JLFNCN_11305 117 AVASGKGGVGKSSVTVNLACALAAQGLRVGIVDADVHGFSVPSLMGITQKPTQVDDMI-----LPPVAY----GVKVISIGMFVTGNQPVAwrgpml 204
+                   89************************************************99999999.....777888....788888877777776666665555 PP
+
+    arCOG00589  93 psrlsrlleelnr.kfdvviiDtpagl.tlknvl..alasadelilVatpenlsvidalkvlelarelgeevvgivlNkvrpdqe............ 173
+                    ++l++ l ++   + d +++D+p+g  +  ++    l  + e+++V+tp+ ++   a++   +a + g++ +g++ N+   +              
+  JLFNCN_11305 205 HRALEQFLTDVYFgDLDALFLDLPPGTgD-IAISvaQLLPSAEILVVTTPQAAAADVAERAGTIATQTGQKLAGVIENMSFLEMPdggrmelfgsgg 300
+                   67777777777779*************54.444336999999************************************975555559999******9 PP
+
+    arCOG00589 174 .deavaaiekelsv..pllaviPfdkdveealaegtplvldypdspas 218
+                    + ++++++  ++   pll+ iP d +++e   +g p+vld+p + a+
+  JLFNCN_11305 301 gAVLAERLSAVVGSdvPLLGQIPLDIRLREGGDAGRPVVLDAPGTAAA 348
+                   97777888888776669**************************87765 PP
+
+>> JLFNCN_07375  ParA family protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   74.5   0.0   7.9e-24   2.1e-21       2     174 ..       5     203 ..       4     246 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 74.5 bits;  conditional E-value: 7.9e-24
+    arCOG00589   2 avtsgKGGtGKTtiavnlaaalslkgkrvllvDgDlrnasltlllgvsakn.itledvlag..aadltevvystp..............ntlsvvps 81 
+                    ++s KGG+GKT ++ +la+a  ++g ++l+vD+D  + ++t  lgv++ +  ++  +l++  +a+l+e v s                 ++ v  +
+  JLFNCN_07375   5 SISSLKGGVGKTSVTTGLASAALAAGIPTLVVDLDPHA-DATTALGVQPGEqLDIGRMLKNprKARLSENVASSGwvsnangrgaharvLDVAVGSA 100
+                   68999***************99999**********666.66667****9655777777777776666666663334444445554663344444444 PP
+
+    arCOG00589  82 gasledmrkadpsrlsrlleelnr..kfdvviiDtpagltlknvlalasadelilVatpenlsvidalkvlelarelge......evvgivlNkvrp 170
+                    + + d  ++ ++ l+rl + l    ++++v++D+p+ l+  + +a  ++d ++lVa+p   sv+ ++++   ++ +++        +giv N+vr+
+  JLFNCN_07375 101 YTGIYDRPDLGRRDLRRLSAVLAAgeQYELVLVDCPPSLNGLTRMAWNASDRVVLVAEPGLFSVAGTERTMRAIQLFRKefapnlAPAGIVANRVRS 197
+                   66666666666888888888888888*************999999*********************9999998888888899999999********9 PP
+
+    arCOG00589 171 dqe..d 174
+                    +    
+  JLFNCN_07375 198 GSAehT 203
+                   988441 PP
+
+>> JLFNCN_11745  P-loop NTPase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.3   0.0   1.7e-15   4.4e-13       1     173 [.     157     355 ..     157     371 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 47.3 bits;  conditional E-value: 1.7e-15
+    arCOG00589   1 iavtsgKGGtGKTtiavnlaaalslkgkrvllvDgDlrnasltlllgvsakn.......itledvlagaadltevvystp.....ntlsvvpsgasl 85 
+                   iav++  G  G+T +a n+aa l+++gk vllvD+D + as++ +lg+ +++             l + a l+++    p     ++++v+ +    
+  JLFNCN_11745 157 IAVWGPTGAPGRTLVATNIAAELAAEGKSVLLVDADSYGASIAAVLGLLDESaglaqacRLADQGLLDTAALKRIAT--PvftkaGEFRVLTGISRA 251
+                   7888899999***************************************9985555553222222334555555555..355777999999997788 PP
+
+    arCOG00589  86 edmrkadpsrlsrlleelnrkfdvviiDtp............agl.tlknvl..alasadelilVatpenlsv.idalkvlelarelgeevvgivlN 166
+                   +  +++   +ls++le+ ++  dvv++D+              +  ++++ +  +l++ad++++V + +   v   ++ + el   + +   ++vlN
+  JLFNCN_11745 252 DRWTELRAAALSSVLERAREIADVVVVDAGfcleadeelsfdTMApRRNAATlrSLEVADTVYAVGSADAIGVpRLVRALAELELAVPQASPRVVLN 348
+                   8888999**********************98888888888874443333333569999*******999999995334444445445555666789** PP
+
+    arCOG00589 167 kvrpdqe 173
+                   kvrp++ 
+  JLFNCN_11745 349 KVRPSSA 355
+                   ****987 PP
+
+>> JLFNCN_00740  septum site-determining protein Ssd
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.5   0.0     9e-10   2.4e-07       3     124 ..     136     263 ..     134     329 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 28.5 bits;  conditional E-value: 9e-10
+    arCOG00589   3 vtsgKGGtGKTtiavnlaaalslkgkrvllvDgDlrnasltlllgvsakn....itledvlagaadltevvystp..ntlsvvpsgasledmrkadp 93 
+                    t+g GG+G +t a+ la a +  g r+ll+DgD     l+l l  ++ +    ++l +  +g +d  ++  s p  +++s +    + e   ++dp
+  JLFNCN_00740 136 LTGGSGGAGASTAAAWLAQAAAGHGARTLLIDGDPWGGGLELTLAAEDTPglrwPDLAEA-RGSIDHAQLSDSLPvaGGFSFLSWPGTRERPPAVDP 231
+                   5789**************************************999998877655555554.35555555555555878888887755555556679* PP
+
+    arCOG00589  94 srlsrlleelnrkfdvviiDtpagl.tlknvl 124
+                    ++  ++++ +r f+vvi+D   g  +l ++ 
+  JLFNCN_00740 232 ASVAAVMDAARRGFEVVIVDIGRGTdSLRSFA 263
+                   ********************987775665555 PP
+
+>> JLFNCN_14270  Chromosome partitioning protein ParA
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.9   0.0   9.5e-08   2.6e-05       1     174 [.     208     407 ..     208     453 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 21.9 bits;  conditional E-value: 9.5e-08
+    arCOG00589   1 iavtsgKGGtGKTtiavnlaaalsl.kgkrvllvDgDlrnasltlllgvsaknitledvlag..........aadltevvystp.ntlsvvpsgasl 85 
+                   +av++ KGG+ KT + v l+a+l+  +g  ++  D +    +l+  ++  a++ ++ d+++           aa++ + v++ + ++++v+ s+ + 
+  JLFNCN_14270 208 VAVVNRKGGANKTPTVVMLSAILARySGAATVAWDNNESQGTLGWRTEKGAHDRSVLDLIDAsqsllspstnAAEIAKFVHHQTaDKFDVLRSDENE 304
+                   689999***************************************9999999999999999999999999999999999998889*********999 PP
+
+    arCOG00589  86 edmrkadpsrlsrlleelnrkfdvviiDtp..agltlknvlalasadelilVatpenlsv..idalkvlelarelge....evvgivlNkvrpdqe. 173
+                   e+ +++  +++  + + l r++ +vi+D+   a  + +  ++  +++ ++ V+  e+ +     +l++le+ +  +     + v iv  +++++ + 
+  JLFNCN_14270 305 EGDHEVTADEVDIAHQVLTRYYRLVIMDSGntARAANWRRMIEHTNQLVVPVTAIEDRAEaaRLTLQTLESRGGHDAelarNAVVIVSESTDAKRSm 401
+                   9999********9*****************4444455555577777777777777663332355555555433333355544555555555555445 PP
+
+    arCOG00589 174 .....d 174
+                        +
+  JLFNCN_14270 402 sgealK 407
+                   554441 PP
+
+>> JLFNCN_12845  signal recognition particle protein
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> JLFNCN_05860  dethiobiotin synthase
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> JLFNCN_12820  signal recognition particle-docking protein FtsY
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (219 nodes)
+Target sequences:                       3760  (1192649 residues searched)
+Passed MSV filter:                       175  (0.0465426); expected 75.2 (0.02)
+Passed bias filter:                      168  (0.0446809); expected 75.2 (0.02)
+Passed Vit filter:                        48  (0.012766); expected 3.8 (0.001)
+Passed Fwd filter:                        17  (0.00452128); expected 0.0 (1e-05)
+Initial search space (Z):               3760  [actual number of targets]
+Domain search space  (domZ):              14  [number of targets reported over threshold]
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.03
+# Mc/sec: 7771.72
+//
+[ok]

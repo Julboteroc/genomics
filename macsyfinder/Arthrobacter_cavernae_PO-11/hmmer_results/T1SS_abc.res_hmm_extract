@@ -1,0 +1,16 @@
+# gene: T1SS_abc extract from macsyfinder/Arthrobacter_cavernae_PO-11/hmmer_results/T1SS_abc.search_hmm.out hmm output
+# profile length= 501
+# i_evalue threshold= 0.001
+# coverage threshold= 0.500
+# hit_id	replicon_name	position_hit	hit_sequence_length	gene_name	i_eval	score	profile_coverage	sequence_coverage	begin	end
+JLFNCN_00160	Arthrobacter_cavernae_PO-11	31	635	T1SS_abc	7.500e-74	247.000	0.998	0.838	48	579
+JLFNCN_05920	Arthrobacter_cavernae_PO-11	1162	667	T1SS_abc	1.600e-83	278.900	0.942	0.715	131	607
+JLFNCN_05925	Arthrobacter_cavernae_PO-11	1163	577	T1SS_abc	5.700e-63	211.100	0.932	0.821	56	529
+JLFNCN_07645	Arthrobacter_cavernae_PO-11	1506	583	T1SS_abc	1.400e-65	219.800	0.976	0.859	35	535
+JLFNCN_07650	Arthrobacter_cavernae_PO-11	1507	630	T1SS_abc	2.900e-83	278.100	0.942	0.757	105	581
+JLFNCN_13630	Arthrobacter_cavernae_PO-11	2676	1152	T1SS_abc	1.000e-04	19.000	0.637	0.275	107	423
+JLFNCN_13630	Arthrobacter_cavernae_PO-11	2676	1152	T1SS_abc	1.500e-36	124.000	0.860	0.375	680	1111
+JLFNCN_15965	Arthrobacter_cavernae_PO-11	3138	604	T1SS_abc	1.100e-75	253.100	0.952	0.796	56	536
+JLFNCN_15970	Arthrobacter_cavernae_PO-11	3139	614	T1SS_abc	1.900e-86	288.600	0.960	0.814	69	568
+JLFNCN_17400	Arthrobacter_cavernae_PO-11	3420	613	T1SS_abc	1.500e-49	166.900	0.928	0.781	85	563
+JLFNCN_18485	Arthrobacter_cavernae_PO-11	3634	569	T1SS_abc	1.900e-96	321.500	0.942	0.838	33	509

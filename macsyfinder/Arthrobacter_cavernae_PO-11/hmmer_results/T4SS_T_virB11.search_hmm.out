@@ -1,0 +1,110 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/T4SS_T_virB11.hmm
+# target sequence database:        proteins_fasta/Arthrobacter_cavernae_PO-11.faa
+# output directed to file:         macsyfinder/Arthrobacter_cavernae_PO-11/hmmer_results/T4SS_T_virB11.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       T_virB11  [M=328]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+    7.3e-75  249.7   6.6    7.3e-75  249.7   6.6    1.4  1  JLFNCN_17185  Pilus assembly protein, ATPase
+    1.3e-48  163.4   2.1    1.8e-48  163.0   2.1    1.1  1  JLFNCN_11890  Pilus assembly protein, ATPase of CpaF family
+    1.8e-48  162.9   5.5    2.6e-48  162.4   5.5    1.1  1  JLFNCN_00745  TadA family conjugal transfer-associated ATPase
+
+
+Domain annotation for each sequence (and alignments):
+>> JLFNCN_17185  Pilus assembly protein, ATPase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  249.7   6.6   5.8e-78   7.3e-75      15     310 ..     126     432 ..     111     446 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 249.7 bits;  conditional E-value: 5.8e-78
+      T_virB11  15 armlrtalgp.aiaaaledpevvevmlnpdgrlwvdrlseGladtgeelseadg.eriirlvahhvgaevhagsprvsaelPetGerfegllPPv.v 108
+                   a+++   lg  ai+++l+dpe+ evm+n   +++v+r+++ l++t++++s+ ++  rii  + + vg  ++++sp+v a lP+ G+r ++++PP+ v
+  JLFNCN_17185 126 AEIIDDVLGHgAIQRFLDDPEITEVMVNRYDSIYVERFGR-LHKTEAKFSSDEAlRRIIERIVSRVGRRIDESSPLVDARLPD-GSRVNAIIPPLaV 220
+                   4456667775389*************************97.5566666666554389*************************9.**********637 PP
+
+      T_virB11 109 aaPafairkpavavftlddyvaagiltaaqaellrravaerknilvaGgtstGkttlanallaevaktedrvvliedtrelqcaaknlvalrtk... 202
+                   ++P+++irk   + +t+++ ++ g l+ + aellr++v +r ni+v+Ggt+tGkttl n l +     edr+v ied++elq + + +v l ++   
+  JLFNCN_17185 221 NGPSLTIRKFGREALTVNNLIEFGSLSPEMAELLRACVLARMNIIVSGGTGTGKTTLLNVLSS-FIPVEDRIVTIEDAVELQLQQEHVVRLESRpan 316
+                   89*********************************************************8655.55789**********************998444 PP
+
+      T_virB11 203 ...dgvvslsdlvrsslrlrPdrivvGevrGaealdllkaWgtGhPGgiatihagsalgalrrleqliqeavvtvp....raliaeaidlvavlsg. 291
+                      +g vs+ dlvr slr+rPdrivvGevrG+e+ld+l+a +tGh G i+t+ha+s   a+ rle l++ a +  p    r+ +a a++l++++++ 
+  JLFNCN_17185 317 iegRGEVSIRDLVRNSLRMRPDRIVVGEVRGGESLDMLQAMNTGHDGSISTVHANSPRDAVARLETLVLMAGMDLPlraiREQVASAVNLIVHITRl 413
+                   444589***************************************************************99998875444667899********876 PP
+
+      T_virB11 292 rgskrrleelarvegldae 310
+                   r+ +rr++++++v+g++++
+  JLFNCN_17185 414 RDGTRRVTHITEVQGMEGD 432
+                   899************9986 PP
+
+>> JLFNCN_11890  Pilus assembly protein, ATPase of CpaF family
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  163.0   2.1   1.4e-51   1.8e-48      25     302 ..      71     356 ..      56     371 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 163.0 bits;  conditional E-value: 1.4e-51
+      T_virB11  25 aiaaaledpevvevmlnpdgrlwvdrlseGladtgeelseadgeriirlvahhvgaevhagsprvsaelPetGerfegllPPvvaa.Pafairkpav 120
+                   a++ +l+dp++ ev ln+  +++v r +e  + t+  lse+++  ++  + ++ g  ++ +sp v a lP+ G+r+  ++P v+    a  irk  +
+  JLFNCN_11890  71 ALQPLLDDPTIEEVWLNAPNEVYVARNGES-ELTSIILSEQQVRDLVERMLKSSGRRLDLSSPFVDAALPD-GSRLHVVIPDVTRKhWAVNIRKFVA 165
+                   57789********************97765.56788999999999**9999*******************9.***********9652699******* PP
+
+      T_virB11 121 avftlddyvaagiltaaqaellrravaerknilvaGgtstGkttlanallaevaktedrvvliedtrelqcaaknlvalrtk......dgvvslsdl 211
+                   +   l++ v+ g lt + a++l +ava+  nilv+G+t +Gktt+ n l a ++ + +rv+ +e++ elq   +++v l+ +      +g + l  l
+  JLFNCN_11890 166 KASRLEHLVELGTLTPQSARFLGAAVASGLNILVSGATQAGKTTMLNCLAASIG-SRERVITVEEIFELQFPLRDVVGLQCRqanlegEGEIPLRRL 261
+                   *************************************************99998.579*********************99833443348899**** PP
+
+      T_virB11 212 vrsslrlrPdrivvGevrGaealdllkaWgtGhPGgiatihagsalgalrrleqliqeavvtvpral....iaeaidlvavlsgrgskrr.leela 302
+                   v+ +lr+rPdr+vvGevr ae+ld+l a + G PG ++t+ha+sa  a++++  l + a  +++ a+    +a  idlv++ s++ + rr ++e+ 
+  JLFNCN_11890 262 VKEALRMRPDRLVVGEVREAESLDMLIALNSGLPG-MCTVHANSAHDAVTKICTLPLLAGENISSAFvvptVASCIDLVVHCSRHANGRRqVTEIL 356
+                   **********************************7.78*************999877776666666522227999********9988765267765 PP
+
+>> JLFNCN_00745  TadA family conjugal transfer-associated ATPase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  162.4   5.5   2.1e-51   2.6e-48      26     303 ..      84     368 ..      74     383 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 162.4 bits;  conditional E-value: 2.1e-51
+      T_virB11  26 iaaaledpevvevmlnpdgrlwvdrlseGladtgeelseadger..iirlvahhvgaevhagsprvsaelPetGerfegllPPvvaaPa.fairkpa 119
+                   ++++ +dp+v ++ +n  +++w+dr ++Gl+++ ++++++ + r   +rlva+  g  +++gsp v   l   G r  ++lPP+++a + ++ir + 
+  JLFNCN_00745  84 LQQLARDPAVTDIFVNGTQSVWLDR-GHGLERSAVHFESEAQIRalAVRLVAAG-GRRLDDGSPCVDVRLDG-GYRVHAVLPPISTAGTlLSIRIRR 177
+                   467789******************9.78******99998888773358***986.789************87.***********99876379***** PP
+
+      T_virB11 120 vavftlddyvaagiltaaqaellrravaerknilvaGgtstGkttlanallaevaktedrvvliedtrelqcaaknlvalrtkdg......vvslsd 210
+                    +vftl++  a g++     +llr+ ++ r   l++G+t++Gkttl  ++l  +++ e+r+vlied+ el+   + +v+l +++g         l +
+  JLFNCN_00745 178 EEVFTLAELRAGGMFGPLVEQLLRAVMQRRLSFLISGATGSGKTTLLSTMLG-LSRPEERLVLIEDAAELNPVHPHVVSLESRHGnlegggALDLGE 273
+                   ********99999999999999999999999******************996.899**************************9862222225689** PP
+
+      T_virB11 211 lvrsslrlrPdrivvGevrGaealdllkaWgtGhPGgiatihagsalgalrrleqliqea..vvtvpraliaeaidlvavlsgrgskrrleelar 303
+                   lvr +lr+rPdr++vGe rGae  +ll a +tGh Gg +tiha++a +   rl  l   a     + r  ++ a+d v+++++  + r ++++  
+  JLFNCN_00745 274 LVRQALRMRPDRLIVGECRGAEVRELLTALNTGHTGGGGTIHANTAEAVPARLVALGALAglSQDAVRLQVSSALDAVIHVERTARGRTVASIGL 368
+                   ************************************************99999998654411556678889******************999865 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (328 nodes)
+Target sequences:                       3760  (1192649 residues searched)
+Passed MSV filter:                       255  (0.0678191); expected 75.2 (0.02)
+Passed bias filter:                      127  (0.0337766); expected 75.2 (0.02)
+Passed Vit filter:                        23  (0.00611702); expected 3.8 (0.001)
+Passed Fwd filter:                         4  (0.00106383); expected 0.0 (1e-05)
+Initial search space (Z):               3760  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
+# Mc/sec: 18326.57
+//
+[ok]

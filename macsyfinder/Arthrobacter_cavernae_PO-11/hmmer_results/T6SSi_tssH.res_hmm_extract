@@ -1,0 +1,6 @@
+# gene: T6SSi_tssH extract from macsyfinder/Arthrobacter_cavernae_PO-11/hmmer_results/T6SSi_tssH.search_hmm.out hmm output
+# profile length= 872
+# i_evalue threshold= 0.001
+# coverage threshold= 0.500
+# hit_id	replicon_name	position_hit	hit_sequence_length	gene_name	i_eval	score	profile_coverage	sequence_coverage	begin	end
+JLFNCN_09380	Arthrobacter_cavernae_PO-11	1842	889	T6SSi_tssH	1.900e-229	761.900	0.992	0.966	4	862

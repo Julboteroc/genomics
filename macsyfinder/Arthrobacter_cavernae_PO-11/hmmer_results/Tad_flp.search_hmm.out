@@ -1,0 +1,83 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/Tad_flp.hmm
+# target sequence database:        proteins_fasta/Arthrobacter_cavernae_PO-11.faa
+# output directed to file:         macsyfinder/Arthrobacter_cavernae_PO-11/hmmer_results/Tad_flp.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Tad_flp  [M=52]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+    1.1e-08   32.4   1.1    1.5e-08   31.9   1.1    1.2  1  JLFNCN_17170  Flp family type IVb pilin
+    2.2e-08   31.4   1.5    3.5e-08   30.8   1.2    1.5  1  JLFNCN_17210  Flp family type IVb pilin
+     0.0033   14.8   1.0     0.0045   14.4   1.0    1.2  1  JLFNCN_00760  DUF4244 domain-containing protein
+      0.006   14.0   2.5      0.026   12.0   2.5    2.0  0  JLFNCN_17205  Pilus assembly protein
+      0.011   13.1   0.1      0.056   10.9   0.0    2.3  0  JLFNCN_02740  Peptodoglycan polymerase FtsW/RodA/SpoVE
+
+
+Domain annotation for each sequence (and alignments):
+>> JLFNCN_17170  Flp family type IVb pilin
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.9   1.1     2e-11   1.5e-08       6      35 ..      20      49 ..      16      60 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 31.9 bits;  conditional E-value: 2e-11
+       Tad_flp  6 krFlkdeeGataiEYgliavaiAvlivavl 35
+                   ++l+ e+Gata+EY ++a++iA  iva +
+  JLFNCN_17170 20 ISLLASERGATATEYSILAGFIAMIIVAGV 49
+                  578999*********************976 PP
+
+>> JLFNCN_17210  Flp family type IVb pilin
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.8   1.2   4.7e-11   3.5e-08      10      51 ..      20      58 ..      12      63 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 30.8 bits;  conditional E-value: 4.7e-11
+       Tad_flp 10 kdeeGataiEYgliavaiAvlivavlssdkgfltaLkekfss 51
+                    e+Gata+EY l++++iA+ iv  ++   g  ++L+++f++
+  JLFNCN_17210 20 SSEKGATATEYSLLVGLIALIIVGGVGLF-G--KNLNTFFND 58
+                  569*******************9854422.2..345554444 PP
+
+>> JLFNCN_00760  DUF4244 domain-containing protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.4   1.0     6e-06    0.0045      12      50 ..      98     141 ..      91     143 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 14.4 bits;  conditional E-value: 6e-06
+       Tad_flp  12 eeGataiEYgliavai...Avlivavlssd..kgfltaLkekfs 50 
+                   e G +++EY++   a+   A l+v +l sd   gfl +L+ +++
+  JLFNCN_00760  98 ELGMATAEYAIATLAAvgfAGLLVVILRSDevRGFLLNLIRTAL 141
+                   779*******86444468899*********999******98765 PP
+
+>> JLFNCN_17205  Pilus assembly protein
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> JLFNCN_02740  Peptodoglycan polymerase FtsW/RodA/SpoVE
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (52 nodes)
+Target sequences:                       3760  (1192649 residues searched)
+Passed MSV filter:                       245  (0.0651596); expected 75.2 (0.02)
+Passed bias filter:                      136  (0.0361702); expected 75.2 (0.02)
+Passed Vit filter:                        18  (0.00478723); expected 3.8 (0.001)
+Passed Fwd filter:                         7  (0.0018617); expected 0.0 (1e-05)
+Initial search space (Z):               3760  [actual number of targets]
+Domain search space  (domZ):               5  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 9717.17
+//
+[ok]

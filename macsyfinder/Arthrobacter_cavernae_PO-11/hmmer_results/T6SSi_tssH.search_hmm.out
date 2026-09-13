@@ -1,0 +1,102 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/T6SSi_tssH.hmm
+# target sequence database:        proteins_fasta/Arthrobacter_cavernae_PO-11.faa
+# output directed to file:         macsyfinder/Arthrobacter_cavernae_PO-11/hmmer_results/T6SSi_tssH.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       cog0542.mat_id  [M=872]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+   4.5e-231  767.3  15.1   1.9e-229  761.9  15.1    2.0  1  JLFNCN_09380  ATP-dependent chaperone ClpB
+   2.5e-185  615.9   7.4    1.6e-94  315.5   0.3    2.0  0  JLFNCN_18310  ATP-dependent Clp protease ATP-binding subunit
+   1.5e-143  477.7   7.4    6.4e-97  323.4   0.2    2.0  0  JLFNCN_15865  hypothetical protein
+
+
+Domain annotation for each sequence (and alignments):
+>> JLFNCN_09380  ATP-dependent chaperone ClpB
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  761.9  15.1  1.5e-232  1.9e-229       4     868 ..       4     862 ..       3     865 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 761.9 bits;  conditional E-value: 1.5e-232
+  cog0542.mat_id   4 kLnslakkaleaaaalclsrqhaevelehlllkllenpesdlrvilkraeidvdklkkelaaeldrlkkg...stevpalsehlvelleqawlla 95 
+                     k+ +++++al aaa  +++ +++++e  hll++l+++ e+    +l++++ d+d ++ + +++++ l+ +   s ++++ls   +++++ a    
+    JLFNCN_09380   4 KFTTKSQEALSAAAMNASTAGNPQLEPAHLLKALMDQREGVAVALLRATGADPDAVSVQASTAIKALPASsgsSVQQAQLSRPSLQAIQAAQ-HE 97 
+                     56678999*************************************************99999999887651114577899*99999998775.68 PP
+
+  cog0542.mat_id  96 sleleeaqirsghlllalleepelrklatklsallek..vkleeLkkkldelveesaetalakseaeadaskaaktkaeakeeaLdrftvdlteq 188
+                     s +l+++ + ++hlll+l   ++      ++ +ll      +e+L   l  +     ++++             ++  e+  +aL++f +dlt  
+    JLFNCN_09380  98 SEKLGDSFVSTEHLLLGLAAGSD------AVGKLLRDagASHEALLAALPGVR---GDRKV------------NSPDPENTFQALEKFGTDLTAI 171
+                     999**************987766......333333320023333333332222...22333............33334556679*********** PP
+
+  cog0542.mat_id 189 arsGklDPvlgrdeeirllvDiLlrrrknnPilvGeaGvGktavveGlalrivagdvPeaLkdvelktLDlgllqaGasvkGefekrlknvidev 283
+                     arsGklDPv+grd+eir+++ +L+rr knnP+l+Ge+GvGktavveGla+r+vagdvPe+L++  l +LDl+ + aGa  +Gefe+rlk v++e+
+    JLFNCN_09380 172 ARSGKLDPVIGRDSEIRRVIQVLSRRTKNNPVLIGEPGVGKTAVVEGLAQRMVAGDVPESLRGKTLIALDLASMVAGAKYRGEFEERLKAVLEEI 266
+                     *********************************************************************************************** PP
+
+  cog0542.mat_id 284 kksvkPiiLfiDeahtliGaGgq.aGqaDaanllkPaLarGeLrtiaattWaeykkyfekDaaLtrrfqvvkvdePdedkavlmlrGlksimekh 377
+                     k+s+  i+ fiDe ht++GaG   +   Da n+lkP LarGeLr i att  ey++ +ekDaaL+rrfq v v+eP+ d  + +lrGlk+++e h
+    JLFNCN_09380 267 KNSNGQIVTFIDELHTVVGAGATgDSAMDAGNMLKPMLARGELRLIGATTLDEYRENIEKDAALERRFQQVYVGEPSVDDTIGILRGLKERYEAH 361
+                     *********************8724578******************************************************************* PP
+
+  cog0542.mat_id 378 hgvlildealkaavrLsaryisgrqLPDkavsvLDtacarvalslsatPkaldelkkrleakelelealeresalgvaeaerlkelkeeldalee 472
+                     h+v i d+al aa+ Ls+ryisgrqLPDka++++D a++r+++++++ P+++d+l+++++++ +e  al+ e+    ++ erl++l++++++++e
+    JLFNCN_09380 362 HKVAIADSALVAAATLSNRYISGRQLPDKAIDLVDEAASRLRMEIDSAPEEIDQLRRAVDRLTMEELALQGET--DPESVERLAALRADMADKKE 454
+                     **************************************************************99988887775..67889*************** PP
+
+  cog0542.mat_id 473 elaelearweqekelveeilelraelleeeeavdkarealaeae..................eelaeleaeLaelqgeeplvaaqvdaeavaevi 549
+                      la l+arwe ek+  +++ el+a++ e ++a +k +++ +  +                  ++ +e  ++ +   + e +va +v a+ +aevi
+    JLFNCN_09380 455 ALAGLNARWEAEKAGLNRVGELKAKIDELRSAAEKYQREGDLESasrilygelpalerelnaAAEEESARAESGAAKPELMVAEEVTADDIAEVI 549
+                     **************************999888777555444333568***999999988753222222222233455677999************ PP
+
+  cog0542.mat_id 550 adWtGiPlgkllkdeietvlnlkelLkervvGqdhaleaiakrlktaraeledpnkPkGvfllvGpsGvGktetalalaeklyGgeknlitinls 644
+                     ++WtGiP g++l++e + +l+++e+L++r++Gq++a++a++  ++ ara+++dpn+P+G fl++Gp+GvGkte a ala+ l+  e+ ++ +++s
+    JLFNCN_09380 550 SAWTGIPAGRMLQGESQRLLHMEEVLGRRLIGQSKAVAAVSDAVRRARAGISDPNRPTGSFLFLGPTGVGKTELAKALADFLFDDERAMVRLDMS 644
+                     *********************************************************************************************** PP
+
+  cog0542.mat_id 645 eyqekhtvsrLkGsPPGyvGyGeGGvLteavrrkPysvvLLDevekahpdvlelfyqvfDkGvleDgeGreidfkntvilltsnlGtetimqlcl 739
+                     ey ekhtv+rL+G+PPGyvGy eGG Lteavrr+PysvvLLDevekahp+v +++ qv+D G l+Dg Gr++df+nt+++ltsn G++ +     
+    JLFNCN_09380 645 EYGEKHTVARLVGAPPGYVGYAEGGQLTEAVRRRPYSVVLLDEVEKAHPEVFDILLQVLDDGRLTDGHGRTVDFRNTILVLTSNHGSQFL----- 734
+                     ****************************************************************************************99..... PP
+
+  cog0542.mat_id 740 dveeapepdalaeaLrdeLlkvfkPallarl.evvpylPlgdevlkeivelkLarikkrlkkrykaeleldeelideivsratesesGarnidai 833
+                      v+ + ++++ ++a+   +++ fkP +l rl e+v +  l+ + l++ivel++a ++ rl++r ++ le+++     ++     +  Gar +  +
+    JLFNCN_09380 735 -VDPTLDAKTKRDAVLAVVNANFKPEFLNRLdEIVLFDALSVDELARIVELQVAELSTRLRDR-RLALEVSDGARAWLAMTGYDPAFGARPLRRL 827
+                     .555666667778889999************5588999**********************988.67899999999******************** PP
+
+  cog0542.mat_id 834 lektllPelskelLerlaegkpverirlsgedkel 868
+                     +++++  +l+ke+L+    +    ++  +++ +el
+    JLFNCN_09380 828 VQREVGDRLAKEILAGHIVDGDTVQVDTAADVDEL 862
+                     **************987777666666666666665 PP
+
+>> JLFNCN_18310  ATP-dependent Clp protease ATP-binding subunit
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> JLFNCN_15865  hypothetical protein
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (872 nodes)
+Target sequences:                       3760  (1192649 residues searched)
+Passed MSV filter:                       168  (0.0446809); expected 75.2 (0.02)
+Passed bias filter:                      118  (0.031383); expected 75.2 (0.02)
+Passed Vit filter:                        19  (0.00505319); expected 3.8 (0.001)
+Passed Fwd filter:                         5  (0.00132979); expected 0.0 (1e-05)
+Initial search space (Z):               3760  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.06u 0.00s 00:00:00.06 Elapsed: 00:00:00.07
+# Mc/sec: 14827.33
+//
+[ok]

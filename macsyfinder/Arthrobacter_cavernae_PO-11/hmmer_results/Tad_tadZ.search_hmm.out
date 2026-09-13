@@ -1,0 +1,113 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/Tad_tadZ.hmm
+# target sequence database:        proteins_fasta/Arthrobacter_cavernae_PO-11.faa
+# output directed to file:         macsyfinder/Arthrobacter_cavernae_PO-11/hmmer_results/Tad_tadZ.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Tad_tadZ  [M=190]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+    3.4e-26   89.8   0.0    4.8e-26   89.2   0.0    1.2  1  JLFNCN_17190  Putative septum site-determining protein MinD
+    3.5e-17   60.4   0.2    6.3e-17   59.5   0.2    1.3  1  JLFNCN_01280  Polysaccharide biosynthesis tyrosine autokinase
+    9.1e-16   55.7   0.2    5.5e-15   53.2   0.2    2.0  1  JLFNCN_11745  P-loop NTPase
+    5.8e-15   53.1   0.0    8.8e-15   52.5   0.0    1.2  1  JLFNCN_00740  septum site-determining protein Ssd
+
+
+Domain annotation for each sequence (and alignments):
+>> JLFNCN_17190  Putative septum site-determining protein MinD
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.2   0.0   5.2e-29   4.8e-26       4     184 ..     140     320 ..     137     325 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 89.2 bits;  conditional E-value: 5.2e-29
+      Tad_tadZ   4 seaerkgrviavvsakGGvGtStvAanlAlalaeekkkpvlLldldqasgdadlllgqdpaatlsdalaslerldeklLdsaltelepnldllaatk 100
+                   s++ + grviav+s+kGGvG +tvA nlA+ l    +  v+ +dld+++gd +  l  dp+ t+ da+  + + d   L+  l      +  l a+ 
+  JLFNCN_17190 140 SPQSSGGRVIAVMSPKGGVGKTTVATNLAVGLGGLAPMGVVIVDLDLQFGDVASGLLLDPERTITDAVLGPASQDSMVLKTYLSVHPASIYALCAPR 236
+                   5677889********************************************9866667*************************99999********* PP
+
+      Tad_tadZ 101 delstleieaaeleallgalaekydvvivDlpsslkeesrklLeeadrvvivldrslsslr...kakrvldeverlrendrrlrlvi 184
+                   ++++  +i+a+++ +ll++l++++ +v++D    l e  ++ Le+a++ v+v   +++s+r    +  +lde+++l e+ +    v+
+  JLFNCN_17190 237 NPVEMDRINAEHVTRLLEQLRQEFQYVVIDTAPGLGEHVLAALENATDAVWVCGMDIPSIRglrTGLHILDELQLLPEHRHV---VL 320
+                   *******************************9999999****************9999976111555668888887776654...44 PP
+
+>> JLFNCN_01280  Polysaccharide biosynthesis tyrosine autokinase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.5   0.2   6.7e-20   6.3e-17       8     163 ..     259     412 ..     254     425 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 59.5 bits;  conditional E-value: 6.7e-20
+      Tad_tadZ   8 rkgrviavvsakGGvGtStvAanlAlalaeekkkpvlLldldqasgdadlllgqdpaatlsdalaslerldeklLdsaltel.epnldllaatkdel 103
+                   +k+r + v+s  +G G St+A n+A+ala+  +++v+L+d+d++  + +  lg d +a+l  +l     +d+      l ++ e+ l +l++ + + 
+  JLFNCN_01280 259 QKSRAVMVTSSLPGEGKSTTATNIAIALAQA-GQRVALVDADLRRPTVNEYLGLDRNAGLTTVLLGKAHVDD-----LLQHWgEDELYVLSSGQIPP 349
+                   7899***************************.*****************************88877666654.....44555257899999988777 PP
+
+      Tad_tadZ 104 stle.ieaaeleallgalaekydvvivDlpsslkeesrklLeead..rvvivldrslsslrka 163
+                   + +e ++ +e+ ++++ l++++d+vi+D+p +l     ++L++    ++v+v  ++++++  +
+  JLFNCN_01280 350 NPSElLGSDEMLKVVRHLEREFDTVIIDAPPLLPVTDAAVLSQHVggVIVVVSSQKVKHNDLV 412
+                   76662689**********************999999999999875225666666777666555 PP
+
+>> JLFNCN_11745  P-loop NTPase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.2   0.2   5.9e-18   5.5e-15       9     187 ..     153     350 ..     146     353 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 53.2 bits;  conditional E-value: 5.9e-18
+      Tad_tadZ   9 kgrviavvsakGGvGtStvAanlAlalaeekkkpvlLldldqasgdadlll.gqdpaatlsdalasler..ldeklLdsaltel...epnldllaat 99 
+                   +g++iav ++ G  G ++vA n+A +la+e +k+vlL+d+d     ++++l   d+ a+l++a++  ++  ld+++L++ +t +   +  +++l + 
+  JLFNCN_11745 153 QGQIIAVWGPTGAPGRTLVATNIAAELAAE-GKSVLLVDADSYGASIAAVLgLLDESAGLAQACRLADQglLDTAALKRIATPVftkAGEFRVLTGI 248
+                   899***************************.**********9877777776468*********98766555******7776655222558******* PP
+
+      Tad_tadZ 100 kdelstleieaaeleallgalaekydvvivDlp...............sslkeesrklLeeadrvvivldrslsslrkakrvldeverlrendrrlr 181
+                   + +++  e+ aa+l  +l+  +e +dvv+vD++                 +++++++ Le ad+v+ v   +   +   +r+l e+e++ +++++ r
+  JLFNCN_11745 249 SRADRWTELRAAALSSVLERAREIADVVVVDAGfcleadeelsfdtmaPRRNAATLRSLEVADTVYAVGSADAIGVPRLVRALAELELAVPQASP-R 344
+                   *********************************65554444433332223344455556666666666555555555555666666666666666.6 PP
+
+      Tad_tadZ 182 lvinec 187
+                   +v+n++
+  JLFNCN_11745 345 VVLNKV 350
+                   666655 PP
+
+>> JLFNCN_00740  septum site-determining protein Ssd
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.5   0.0   9.4e-18   8.8e-15       9     170 ..     130     290 ..     123     295 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 52.5 bits;  conditional E-value: 9.4e-18
+      Tad_tadZ   9 kgrviavvsakGGvGtStvAanlAlalaeekkkpvlLldldqasgdadlll..gqdpaatlsdalaslerldeklLdsaltelepnldllaatkdel 103
+                    g v+ +++++GG+G+St Aa lA a a   + ++lL+d+d   g ++l l  + +p+++  d   + +++d + L+  l     +++ l+ ++   
+  JLFNCN_00740 130 GGHVLGLTGGSGGAGASTAAAWLAQAAAGH-GARTLLIDGDPWGGGLELTLaaEDTPGLRWPDLAEARGSIDHAQLSDSLPVAG-GFSFLSWPGTRE 224
+                   5788999********************999.*****************99977888899999**************99887666.************ PP
+
+      Tad_tadZ 104 stleieaaeleallgalaekydvvivDlpsslkeesrklLeeadrvvivldrslsslrkakrvldev 170
+                   +  +++ a + a++ a ++ ++vvivD +   ++ +r++    dr++++++ +l+s+ +a r+l+e+
+  JLFNCN_00740 225 RPPAVDPASVAAVMDAARRGFEVVIVDIG-RGTDSLRSFAWDCDRILLLATAQLKSAVAAARLLNEL 290
+                   *****************************.88899999999***********************997 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (190 nodes)
+Target sequences:                       3760  (1192649 residues searched)
+Passed MSV filter:                       148  (0.0393617); expected 75.2 (0.02)
+Passed bias filter:                      138  (0.0367021); expected 75.2 (0.02)
+Passed Vit filter:                        30  (0.00797872); expected 3.8 (0.001)
+Passed Fwd filter:                        15  (0.00398936); expected 0.0 (1e-05)
+Initial search space (Z):               3760  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
+# Mc/sec: 11015.83
+//
+[ok]

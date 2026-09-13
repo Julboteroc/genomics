@@ -1,0 +1,114 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/T4SS_virb4.hmm
+# target sequence database:        proteins_fasta/M9409_L16.faa
+# output directed to file:         macsyfinder/M9409_L16/hmmer_results/T4SS_virb4.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       virb4  [M=943]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+    4.1e-33  112.7   0.0    5.3e-33  112.4   0.0    1.0  1  BKOHND_20585  ATP-binding protein
+    2.5e-18   63.8   0.1    1.2e-10   38.4   0.0    2.0  1  BKOHND_10460  Helicase HerA-like C-terminal domain-containing
+    7.6e-14   49.0   0.0      2e-13   47.6   0.0    1.5  1  BKOHND_21335  hypothetical protein
+    3.3e-11   40.2   0.0     0.0035   13.7   0.0    4.0  0  BKOHND_18535  Cell division protein FtsK
+
+
+Domain annotation for each sequence (and alignments):
+>> BKOHND_20585  ATP-binding protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  112.4   0.0   4.7e-36   5.3e-33     423     806 ..      66     483 ..      48     485 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 112.4 bits;  conditional E-value: 4.7e-36
+         virb4 423 qLPgngklrgrtrtisssnlanllPfhnfsl.gkpggavmllptrsgqpfffnlh...ds...dlngntlvtGpsGaGKStllnellaqllkyg.pr 511
+                   +L g ++lr+ ++  s+  +a+ +Pf ++s  g++g  +++    ++++f ++++   d+   +    ++v+G+ G GKS+  ++l+a+    g   
+  BKOHND_20585  66 SLRGPHRLRPAPHRASTLTFAAAYPFITESGlGHEG-TYIGTDVFGSGAFSYDPWilyDKgviS-GPSIVVIGTVGTGKSMCGKSLVARSITLGrKA 160
+                   455778999******************999867776.6888888899********886444543.599**************************666 PP
+
+         virb4 512 vfifDkgrsykklvralgGkyitlspgkpiglnPfqledtead............enraflkelfallaskpgepltpeerselsdairalyeepee 596
+                   +++ D+++++    +a+gGk+i+++pg   ++nP++ ++                + r  l +l++l+    g pl p e ++l+ a+++  + ++ 
+  BKOHND_20585 161 AVASDPKGEWVAVANAVGGKVISVGPGRAARVNPLDAGPRSSAlseaqwqavvrqRRRYLLVALVSLMRQ--GMPLRPVEHTALDMALMETVA-ENS 254
+                   6***********************************9666544666668888874444477777777776..*******************99.555 PP
+
+         virb4 597 yrtlsdvle.llq........eiderakdlaerLkkwtrgGqygwvFdnesds.fdl.adfvvfeltellddpelrtpvllyLfyrieqsm....dg 678
+                   ++tl  vl+ ll+          ++ +  +   L++ ++ G    +Fd++s+  fd  a++ v + + l +  e +  + +++   + +++    dg
+  BKOHND_20585 255 NPTLPMVLDhLLNpsketiglVGKDGGLAVSHSLRRTVS-GDLEGMFDAPSTVaFDAdAPMMVMDTSALIGASEQALSLAAACGATWLEAAvtnpDG 350
+                   7899999998888****9988445567778889***887.55555*******55**99****************66666666666666666688898 PP
+
+         virb4 679 grpkliiiDEawklldnpqfaefieeglrtaRKyngalifaTQsiedfls........spiaraiiensatkilLpqpkaeredyvegfglteaeie 767
+                   g+  l++ DE+w++l++p++ +++ e +r aR y+ a  ++    +d+ +         ++a  ++  ++t+i+ +q+ ++    +e++gl+eae e
+  BKOHND_20585 351 GK-RLVVYDEGWRMLADPYMLAKMSEQWRLARTYGIANLLIMHKVADLNEigdsssghRQKALGLLTEADTRIIYRQKHDAMRLTKEALGLSEAECE 446
+                   88.69*********************************************9998776444699***************99999************** PP
+
+         virb4 768 iikslepksraflikqgge.ialfrlsldpeelavlsssp 806
+                    +++l ++ +  l k g++ +++ + + ++ el+v+++++
+  BKOHND_20585 447 HVENLPKGVG--LWKVGNRsFIVANRVTTD-ELEVFGTDD 483
+                   ***7777666..889999963333333444.799999875 PP
+
+>> BKOHND_10460  Helicase HerA-like C-terminal domain-containing protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   38.4   0.0     1e-13   1.2e-10     645     728 ..     246     336 ..     177     399 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 38.4 bits;  conditional E-value: 1e-13
+         virb4 645 dfvvfeltellddpelrtpvlly.Lfyrieqsmdgg...r.pkliiiDEawklldnpq..faefieeglrtaRKyngalifaTQsiedfls 728
+                    ++++el +l+ +p +++ +l+  L  ++e++ + g   + ++++++DEa+ l+++ +  f e i +  r +R ++ +++f+TQ+++d+  
+  BKOHND_10460 246 VVTCLELPTLQTKPMVFSTFLMWlLADLFEDLPEAGdldKpKLVFFLDEAHLLFNDASkaFLEAITTTVRLIRSKGVGIFFVTQTPKDVPA 336
+                   589***********9555555553667777777544555755789*********885555****************************987 PP
+
+>> BKOHND_21335  hypothetical protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.6   0.0   1.8e-16     2e-13     479     759 ..     273     597 ..     257     614 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 47.6 bits;  conditional E-value: 1.8e-16
+         virb4 479 dlngntlvtGpsGaGKStllnellaqllkygprvfifDk.....grsykklvralgGkyitlspgk...piglnPfqledtead..enraflkelfa 565
+                   ++  ++ vtG +G GKStll+++++++   g+ + ++D+     +r + +l +++ ++ + +++g+   p+ lnP++  ++++     +a + + f 
+  BKOHND_21335 273 RV-RHIHVTGRTGTGKSTLLATMARSVAEQGQGLLVLDPhgtlvDRIAAELPESALARTLLIRAGNvtdPVPLNPLAT-EDPVAldMAIADILAGFY 367
+                   56.89*********************************83333345556668999999999999997778*******5.445555577888888888 PP
+
+         virb4 566 llas.kpgepltpeerselsdairalyeepeeyrtlsdvlellq...............................eiderakdlaerLkkwtrgGqy 630
+                   +++     + + p+ +s+ +  +r+l+++++++ ++ dv  ll                                e  e +  +  + +++t+  + 
+  BKOHND_21335 368 VMFDpGRTGIVGPRFESAVGMCLRTLAAFKGKRASILDVPRLLTdksfqhraraavtnpavlgfwtnhdlstrsnEHGELIAWITSKWERFTTTAAL 464
+                   88886666789********************999999999999999999999999999999999999999987776677778888888888888999 PP
+
+         virb4 631 gwvF.dnesd.sfdl....adfvvfeltellddpelrtpv.llyLfyrieqsmdgg...rpkliiiDEawklldnpqfaefieeglrtaRKyngali 717
+                     ++  ++ + ++d       +v ++l++    + ++  + +ly ++ ++ ++ ++   +p+ ++iDEa++++     a  +  +l ++RKy+ +++
+  BKOHND_21335 465 RAILgTGHDTlNLDAamehGHIVLLDLSKGAIGGPAAELLgFLYTTRIWTAALGRKtdaTPYTVMIDEAHSFM-----AGALPAMLSEGRKYGLSVV 556
+                   9999445554347747799********998888886666669999999999994346757************9.....999**************** PP
+
+         virb4 718 faTQsiedflsspiaraiiensatkilLpqpkaeredyvegf 759
+                   +a Q + ++++ + ++a+  n+ t+i ++ ++a+ e +  ++
+  BKOHND_21335 557 LAHQYLGQLAP-ELSQALAGNTGTQIAFRAGRADAEVLHHRM 597
+                   ***********.88******************9999766555 PP
+
+>> BKOHND_18535  Cell division protein FtsK
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (943 nodes)
+Target sequences:                       4459  (1473457 residues searched)
+Passed MSV filter:                       264  (0.0592061); expected 89.2 (0.02)
+Passed bias filter:                      260  (0.058309); expected 89.2 (0.02)
+Passed Vit filter:                       163  (0.0365553); expected 4.5 (0.001)
+Passed Fwd filter:                        63  (0.0141287); expected 0.0 (1e-05)
+Initial search space (Z):               4459  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.19u 0.01s 00:00:00.20 Elapsed: 00:00:00.20
+# Mc/sec: 6768.41
+//
+[ok]

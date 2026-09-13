@@ -1,0 +1,143 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/Archaeal-T4P_arCOG01817_ATP.hmm
+# target sequence database:        proteins_fasta/M9409_L16.faa
+# output directed to file:         macsyfinder/M9409_L16/hmmer_results/Archaeal-T4P_arCOG01817_ATP.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       arCOG01817  [M=354]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+    1.1e-92  308.7   0.1    1.5e-92  308.2   0.1    1.1  1  BKOHND_05165  Type II secretion system protein E
+    2.1e-92  307.8   0.2    2.8e-92  307.4   0.2    1.1  1  BKOHND_05125  CpaF family protein
+    1.3e-67  226.2   0.0    1.6e-67  225.9   0.0    1.1  1  BKOHND_03860  Pilus assembly protein, ATPase of CpaF family
+    2.7e-63  212.0   0.0    3.3e-63  211.7   0.0    1.0  1  BKOHND_07495  Secretion system protein E
+
+
+Domain annotation for each sequence (and alignments):
+>> BKOHND_05165  Type II secretion system protein E
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  308.2   0.1   1.4e-95   1.5e-92       6     318 ..     156     470 ..     152     480 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 308.2 bits;  conditional E-value: 1.4e-95
+    arCOG01817   6 rnllgygpldplvrdpnledIsvigvnkpvyvvhkrlemiktnivfkdeeeldniveklaervgrrisqanPildaalpdgsRvnatigpevslkgs 102
+                    ++lgygpl+ l++dp +++I+v++++ ++yv  k    +  +  f++ee+l +++e++ ++vgrri+ ++P++da+l dgsRvna+i p+  + gs
+  BKOHND_05165 156 DDVLGYGPLQRLLDDPAVTEIMVNRMD-QIYVERKGHLTL-ADSRFSSEEHLRKVIERIVSKVGRRIDESSPLVDARLEDGSRVNAVI-PPLAVGGS 249
+                   5899***********************.****98876555.566899*****************************************.******** PP
+
+    arCOG01817 103 tftiRkfkedPltiidLikygtissevaAylwlllekgasilvaGgtgsGKTTllnaiamfippsekvvsieDtaElqlphenwvrlvtretniegk 199
+                   ++tiRkf+++Plt+ +Li+ gt+++e+a  l  +++ + +i+v+Ggtg GKTTlln++++f+p +e++v+ieD  Elq+++e++vrl++r++n+egk
+  BKOHND_05165 250 SLTIRKFSKVPLTVRNLIDFGTLTPEMAELLNACVKAKLNIIVSGGTGTGKTTLLNVLSSFLPSDERIVTIEDAVELQIQQEHVVRLESRPPNTEGK 346
+                   ************************************************************************************************* PP
+
+    arCOG01817 200 gevtlfdLvkaalRsrPdyiivGEvrgeearvlfqamatGhg.glsTiHaesveeaikrLts....ppinvprtmi.....kaldiiiilqrvksrk 286
+                   gevt+ +L++++lR+rPd+i+vGEvrg e   ++qam+tGh+  lsT+H++s ++a+ rL++      +++p   i     +a+++i+ ++r+    
+  BKOHND_05165 347 GEVTIRELLRNSLRMRPDRIVVGEVRGGESLDMLQAMNTGHDgSLSTVHSNSPRDAVARLETlvlmAGMDLPLRAIreqiaSAVNLIVQISRL---R 440
+                   *****************************************72579***************98888778888666621101344444444444...5 PP
+
+    arCOG01817 287 kvvrrvteiaeiegieeeagsvqlnkvfkwdp 318
+                      rr+t+++e++g+e++   v+l++ f  d 
+  BKOHND_05165 441 DGSRRITHVTEVQGMEGD--IVTLQDAFVFDY 470
+                   7789**********9976..777777777764 PP
+
+>> BKOHND_05125  CpaF family protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  307.4   0.2   2.5e-95   2.8e-92       4     318 ..     115     431 ..     112     439 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 307.4 bits;  conditional E-value: 2.5e-95
+    arCOG01817   4 iernllgygpldplvrdpnledIsvigvnkpvyvvhkrlemiktnivfkdeeeldniveklaervgrrisqanPildaalpdgsRvnatigpevslk 100
+                   i  ++lg gpl+ +++d ++++I+v+g++ ++yv  +  + + t  +f++ee+l +i+e++  +vgrri+ ++P++da+l dgsRvna+i p+  ++
+  BKOHND_05125 115 IIDDVLGHGPLQRFLDDIEVTEIMVNGPD-KIYVESRG-KLLLTGAKFSNEEHLRRIIERIVTKVGRRIDESSPLVDARLSDGSRVNAII-PPLAVS 208
+                   56789************************.***98765.8999***********************************************.****** PP
+
+    arCOG01817 101 gstftiRkfkedPltiidLikygtissevaAylwlllekgasilvaGgtgsGKTTllnaiamfippsekvvsieDtaElqlphenwvrlvtretnie 197
+                   gst+tiRkf ++Plt+ +Li  gt+s+e+a  l  +++ + +i+v+Ggtg GKTTlln++++f+p +e++v+ieD  Elql++e++vrl++r++nie
+  BKOHND_05125 209 GSTLTIRKFGHVPLTVSNLIGFGTLSPEIAELLHACVQARLNIIVSGGTGTGKTTLLNVLSSFLPADERIVTIEDAVELQLQQEHVVRLESRPRNIE 305
+                   ************************************************************************************************* PP
+
+    arCOG01817 198 gkgevtlfdLvkaalRsrPdyiivGEvrgeearvlfqamatGhg.glsTiHaesveeaikrLts....ppinvp.....rtmikaldiiiilqrvks 284
+                   gkgev++ +Lv+++lR+rPd+i++GEvrg e   ++qam+tGh+  +sT+Ha+s ++ai rL++      +++p     +++ +a+++i++++r++ 
+  BKOHND_05125 306 GKGEVSIRELVRNSLRMRPDRIVIGEVRGGESLDMLQAMNTGHDgSISTVHANSPRDAISRLETlvlmAGMDLPlrairEQIASAVNLIVHISRLR- 401
+                   *******************************************72569***************988886666661111144556777777777766. PP
+
+    arCOG01817 285 rkkvvrrvteiaeiegieeeagsvqlnkvfkwdp 318
+                        rrvt+++e++g+e++   v+l++ f  d 
+  BKOHND_05125 402 --DGTRRVTHVTEVQGMEGD--IVTLQDAFAFDY 431
+                   ..6689**********9966..788888887775 PP
+
+>> BKOHND_03860  Pilus assembly protein, ATPase of CpaF family
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  225.9   0.0   1.5e-70   1.6e-67       3     296 ..      61     356 ..      59     388 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 225.9 bits;  conditional E-value: 1.5e-70
+    arCOG01817   3 liernllgygpldplvrdpnledIsvigvnkpvyvvhkrlemiktnivfkdeeeldniveklaervgrrisqanPildaalpdgsRvnatigpevsl 99 
+                   ++   + g+g l+pl++dp +e+I ++ +  ++yv   + e+  t + + +++++ ++ve++ + +grr+++++P +daalpdgsR++++i p+v++
+  BKOHND_03860  61 HVYDAVAGFGALQPLLDDPAIEEIWINAPT-EIYVAR-NGESELTSLSL-SDQQVRDLVERMLKSSGRRLDMSSPFVDAALPDGSRLHVVI-PDVTR 153
+                   5666789********************999.9**975.55777799999.999**************************************.***** PP
+
+    arCOG01817 100 kgstftiRkfkedPltiidLikygtissevaAylwlllekgasilvaGgtgsGKTTllnaiamfippsekvvsieDtaElqlphenwvrlvtretni 196
+                   +   + iRkf  ++  + +L++ gt++++ a +l  ++ +g +ilv+G t +GKTT+ln +a  i  +e+v+++e++ Elq+p + +v l  r++n+
+  BKOHND_03860 154 RHWAVNIRKFVVKASRLDHLVELGTLTPQSARFLGAAVASGLNILVSGATQAGKTTMLNCLAASIGARERVITVEEIFELQFPLRDVVGLQCRQPNL 250
+                   ************************************************************************************************* PP
+
+    arCOG01817 197 egkgevtlfdLvkaalRsrPdyiivGEvrgeearvlfqamatGhgglsTiHaesveeaikrLtsppi....nvprtmi.kaldiii.ilqrvksrkk 287
+                   eg+ge+ l  Lvk+alR+rPd+++vGEvr +e   ++ a+++G +g+ T+Ha+s+++a+++L + p+    n++  ++ + +  +i ++++  ++ +
+  BKOHND_03860 251 EGEGEIPLRRLVKEALRMRPDRLVVGEVREAESLDMLIALNSGLPGMCTVHANSAHDAVTKLCTLPLlagdNISSAFVvPTVASCIdLVVHCSRHAS 347
+                   **************************************************************99776333345444432222222202222223355 PP
+
+    arCOG01817 288 vvrrvteia 296
+                    +r+vtei 
+  BKOHND_03860 348 GRRQVTEIL 356
+                   566666664 PP
+
+>> BKOHND_07495  Secretion system protein E
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  211.7   0.0     3e-66   3.3e-63       4     261 ..      75     334 ..      72     381 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 211.7 bits;  conditional E-value: 3e-66
+    arCOG01817   4 iernllgygpldplvrdpnledIsvigvnkpvyvvhkrlemik.tnivfkdeeeldniveklaervgrrisqanPildaalpdgsRvnatigpevsl 99 
+                   i  +l g+gpl++l rdp ++dI v+ ++    v+  r + ++   + f++e+e+ ++  +l    grr+++ +P +d++l  g+R++a++ p++s+
+  BKOHND_07495  75 ISAELNGLGPLQALTRDPSVTDIFVNAPD---SVWLDRGNGLEqAPVSFSSENEVRSLAARLVAAGGRRLDDGSPCVDVRLEAGYRIHAVL-PPIST 167
+                   677899********************999...999999666651679********************************************.***** PP
+
+    arCOG01817 100 kgstftiRkfkedPltiidLikygtissevaAylwlllekgasilvaGgtgsGKTTllnaiamfippsekvvsieDtaElqlphenwvrlvtretni 196
+                    g+ +++R  +++ +t+ +L + g++ + v   l  ++ ++ s+l++G tgsGKTTll+ ++ +  p e+ v ieD  El++ h+++v+l++r+ n+
+  BKOHND_07495 168 AGTLLSVRIRRHEVFTLNELRDGGMFGALVQDVLERMVSRRLSFLISGATGSGKTTLLSTLLGLSHPGERLVLIEDASELNPVHPHVVSLESRHGNL 264
+                   ************************************************************************************************* PP
+
+    arCOG01817 197 egkgevtlfdLvkaalRsrPdyiivGEvrgeearvlfqamatGhg.glsTiHaesveeaikrLts....p 261
+                   eg g v+l++Lv++alR+rPd+++vGE rg+e+r l++am+tGh+ g +TiHa+++ ++  rLt      
+  BKOHND_07495 265 EGGGAVDLAELVRQALRMRPDRLVVGECRGAEVRELLTAMNTGHTgGGGTIHANTAAAVPARLTAlgalA 334
+                   ********************************************72568**************9854432 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (354 nodes)
+Target sequences:                       4459  (1473457 residues searched)
+Passed MSV filter:                       244  (0.0547208); expected 89.2 (0.02)
+Passed bias filter:                      239  (0.0535995); expected 89.2 (0.02)
+Passed Vit filter:                       128  (0.028706); expected 4.5 (0.001)
+Passed Fwd filter:                        38  (0.00852209); expected 0.0 (1e-05)
+Initial search space (Z):               4459  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.05
+# Mc/sec: 9170.16
+//
+[ok]

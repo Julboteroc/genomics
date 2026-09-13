@@ -1,0 +1,6 @@
+# gene: Tad_tadE extract from macsyfinder/Arthrobacter_cavernae_PO-11/hmmer_results/Tad_tadE.search_hmm.out hmm output
+# profile length= 142
+# i_evalue threshold= 0.001
+# coverage threshold= 0.500
+# hit_id	replicon_name	position_hit	hit_sequence_length	gene_name	i_eval	score	profile_coverage	sequence_coverage	begin	end
+JLFNCN_17205	Arthrobacter_cavernae_PO-11	3381	127	Tad_tadE	4.200e-17	60.500	0.986	0.898	12	125

@@ -1,0 +1,75 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/T4SS_T_virB2.hmm
+# target sequence database:        proteins_fasta/Arthrobacter_cavernae_PO-11.faa
+# output directed to file:         macsyfinder/Arthrobacter_cavernae_PO-11/hmmer_results/T4SS_T_virB2.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       T_virB2  [M=113]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+     0.0032   15.2   1.9     0.0032   15.2   1.9    2.7  1  JLFNCN_09935  Co/Zn/Cd efflux system component
+     0.0041   14.9   8.7     0.0041   14.9   8.7    2.3  1  JLFNCN_18550  VIT family protein
+     0.0075   14.0   6.3     0.0095   13.7   6.3    1.1  1  JLFNCN_14260  Integral membrane protein, putatine
+
+
+Domain annotation for each sequence (and alignments):
+>> JLFNCN_09935  Co/Zn/Cd efflux system component
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.2   1.9   2.5e-06    0.0032      20      75 ..     131     184 ..     115     196 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 15.2 bits;  conditional E-value: 2.5e-06
+       T_virB2  20 allaalvllllaapAqaagssmpvegpLqnilesLtgpvakivavIaiiaaGlala 75 
+                   +++a lv+ll+   Aq+  +s ++ g+  ++l++L g +a i+a+++i+ +G++ a
+  JLFNCN_09935 131 GAVANLVSLLILRGAQK--ESLNIRGAYLEVLGDLLGSFAVIAAAVIIMTTGFQAA 184
+                   56677778888888998..789*******************************976 PP
+
+>> JLFNCN_18550  VIT family protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.9   8.7   3.3e-06    0.0041      53     109 ..     182     240 ..     155     242 .] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 14.9 bits;  conditional E-value: 3.3e-06
+       T_virB2  53 sLtgpvakivavIaiiaaGlalaf..tsggfrkliqiviGlsiafaAssialmlfsfsg 109
+                    L  p+ ++++ +a++++G+  a+  +  ++r ++++viG+++a aA+  ++ ++++sg
+  JLFNCN_18550 182 GLRVPLTFAAVLVALAITGAVGAWigGASRVRAAVRVVIGGALALAATFAVGNWLGASG 240
+                   6889999************977776699999****************988888888764 PP
+
+>> JLFNCN_14260  Integral membrane protein, putatine
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.7   6.3   7.6e-06    0.0095      49     104 ..      29      89 ..      22      90 .] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 13.7 bits;  conditional E-value: 7.6e-06
+       T_virB2  49 nilesLtgpvakivavIaiiaaGlalaf......tsggfrkliqiviGlsiafaAssialml 104
+                   ++l+  +g +  +  v+ +i++G++++       ++ +++kl  ++ G +i+ +A+ i++ +
+  JLFNCN_14260  29 TVLNWASG-IGLVLGVLGVIIVGIGMVIqlrrgeGGESIGKLGWVLAGCIIITGAGGIVRAF 89 
+                   56666678.888999***************999888889*******************9987 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (113 nodes)
+Target sequences:                       3760  (1192649 residues searched)
+Passed MSV filter:                       460  (0.12234); expected 75.2 (0.02)
+Passed bias filter:                      150  (0.0398936); expected 75.2 (0.02)
+Passed Vit filter:                        24  (0.00638298); expected 3.8 (0.001)
+Passed Fwd filter:                         5  (0.00132979); expected 0.0 (1e-05)
+Initial search space (Z):               3760  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.01
+# Mc/sec: 9055.69
+//
+[ok]

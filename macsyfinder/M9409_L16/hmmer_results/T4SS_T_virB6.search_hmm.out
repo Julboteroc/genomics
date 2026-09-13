@@ -1,0 +1,82 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/T4SS_T_virB6.hmm
+# target sequence database:        proteins_fasta/M9409_L16.faa
+# output directed to file:         macsyfinder/M9409_L16/hmmer_results/T4SS_T_virB6.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       T_virB6  [M=433]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+      2e-08   31.8  40.2    4.1e-08   30.8  40.2    1.5  1  BKOHND_20575  TrbL/VirB6 plasmid conjugal transfer protein
+     0.0035   14.5   0.0      0.004   14.3   0.0    1.1  1  BKOHND_20005  DUF4191 domain-containing protein
+
+
+Domain annotation for each sequence (and alignments):
+>> BKOHND_20575  TrbL/VirB6 plasmid conjugal transfer protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.8  40.2   1.8e-11   4.1e-08      36     405 ..      31     419 ..      15     447 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 30.8 bits;  conditional E-value: 1.8e-11
+       T_virB6  36 devlnafqsaasgwagtianaat.............plfwalvtIsivwtglmlalrgdigepfaelvrrliftgfflwlltngpnfasavvdslrq 119
+                     ++n +qs+as   + i++a +              l    ++I ++   + ++l+  ++ ++++  rrl+++ + ++ ++   + a + v+ l+ 
+  BKOHND_20575  31 SFFANILQSTASWIWSFITGAFSvsdvddsqwtaveGLTSWWIVIMMTPLVVAMILQL-LSGLISQQPRRLVRALVGGAAAIPLVAGAVYLVRQLTK 126
+                   3346777777777777777777444444444444448888888888888888888888.777999999999999999******************** PP
+
+       T_virB6 120 lgggasgll..ggssspsgildagfavaskvldqa.sfsvws.......dpvlaiaagllavviviilalvaavimllakislalllaaGpifigfg 206
+                   +g++a+ +l  + +++p+ ++  +f +  +  d   ++ v s        p+ a+++ ++av++v ila++ ++ m+   ++l +l+a++p+ ++++
+  BKOHND_20575 127 VGDSAATALldSMGTDPYLVFMRLFGFERAPADSGrEWNVVSlapgttgGPAGAVVVTVMAVIVVWILAFILMCSMIFRSFALIVLAAVAPVALMLM 223
+                   *****99999*99999*******66666666666654555556666666************************************************ PP
+
+       T_virB6 207 gfkwTrdmfinwlktvlgvgllllalalivgigssfldtylaaaasaginlletlaailivslillilvlqiPsiaaglagGasvggggagaalgag 303
+                    +++T+ ++ +w   v+   l   ++a ++++ +  + +  +    a   l ++++++++++ + l+ +l++ s+a+g +  a+ ++g +g++l+ +
+  BKOHND_20575 224 PWEKTKTWARRWCEIVVALLLAKPLAATVLAVAIKLFADSKSF---A--GLAAGVVGMALACGAPLM-ALRLVSFAGGELAAAAQTAG-GGHVLTRT 313
+                   ***************************9999966555444333...2..234455555555555444.34444444443333322222.34444444 PP
+
+       T_virB6 304 maaaAa.aaggaalaagaaaaaggasaagaafsgasenvgs...............lakgagsvakakaassrgaaaariagttggklaaaikasga 384
+                    ++ A   + +++++   a++ag +s+ +  +s       s               +    g+ ++a  +s+++  a+++  ++g + aa+ +++++
+  BKOHND_20575 314 SSFTARqISRQTGGRFTLAGMAGRSSMTRPIQS-------SrhqfptrtlptgaplP----GRPTGATPSSTPAGNAGALMLDAGTS-AASPASPPG 398
+                   444444544555555555555555555444444.......24556667888755542....44444444444444444444444433.333444444 PP
+
+       T_virB6 385 skakpaqqpapefkdnslags 405
+                   s+a+p + p+ +  +   +g 
+  BKOHND_20575 399 SSAQPHPVPGASASGSRRGGQ 419
+                   444434444444444443222 PP
+
+>> BKOHND_20005  DUF4191 domain-containing protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.3   0.0   1.8e-06     0.004     256     312 ..      55     125 ..      40     179 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 14.3 bits;  conditional E-value: 1.8e-06
+       T_virB6 256 nlletlaailivslillilvlqiPsiaaglagGasvggg........gagaalga......gmaaaAaaag 312
+                    ++ +l+a+l+v+ + +++ + + +++ gl+ G+ +g           a +a++a      g+++aA ++ 
+  BKOHND_20005  55 VVWMMLLAFLGVVAVSFLVGFLLENWITGLIIGIPLGLLaatlilsrRAERAAFAqienqpGASGAALGTL 125
+                   578999****************************9999955666666555555555555555555555544 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (433 nodes)
+Target sequences:                       4459  (1473457 residues searched)
+Passed MSV filter:                      1284  (0.287957); expected 89.2 (0.02)
+Passed bias filter:                      321  (0.0719892); expected 89.2 (0.02)
+Passed Vit filter:                        73  (0.0163714); expected 4.5 (0.001)
+Passed Fwd filter:                        23  (0.00515811); expected 0.0 (1e-05)
+Initial search space (Z):               4459  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.10u 0.00s 00:00:00.10 Elapsed: 00:00:00.10
+# Mc/sec: 6058.52
+//
+[ok]

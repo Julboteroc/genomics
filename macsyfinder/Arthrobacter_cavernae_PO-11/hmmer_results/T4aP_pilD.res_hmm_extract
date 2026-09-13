@@ -1,0 +1,7 @@
+# gene: T4aP_pilD extract from macsyfinder/Arthrobacter_cavernae_PO-11/hmmer_results/T4aP_pilD.search_hmm.out hmm output
+# profile length= 218
+# i_evalue threshold= 0.001
+# coverage threshold= 0.500
+# hit_id	replicon_name	position_hit	hit_sequence_length	gene_name	i_eval	score	profile_coverage	sequence_coverage	begin	end
+JLFNCN_04960	Arthrobacter_cavernae_PO-11	971	186	T4aP_pilD	3.100e-19	67.200	0.679	0.898	11	177
+JLFNCN_17215	Arthrobacter_cavernae_PO-11	3383	217	T4aP_pilD	3.100e-21	73.800	0.725	0.737	50	209

@@ -1,0 +1,92 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/Archaeal-T4P_arCOG01818.hmm
+# target sequence database:        proteins_fasta/Arthrobacter_cavernae_PO-11.faa
+# output directed to file:         macsyfinder/Arthrobacter_cavernae_PO-11/hmmer_results/Archaeal-T4P_arCOG01818.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       arCOG01818  [M=435]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+    1.2e-62  209.7   5.0    1.5e-62  209.4   5.0    1.1  1  JLFNCN_17185  Pilus assembly protein, ATPase
+    4.8e-56  188.0   4.9    6.2e-56  187.6   4.9    1.0  1  JLFNCN_00745  TadA family conjugal transfer-associated ATPase
+
+
+Domain annotation for each sequence (and alignments):
+>> JLFNCN_17185  Pilus assembly protein, ATPase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  209.4   5.0   8.1e-66   1.5e-62      56     394 ..      71     430 ..      32     464 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 209.4 bits;  conditional E-value: 8.1e-66
+    arCOG01818  56 ltarntrewldalger.lrealaerdvav.................aedrledlayivlrdtvglGvLedllaDprleDveanaPvveerikVvvrg 134
+                   l++r +++ +++lg+r   +++ e+++                   +++++++l++ +  d+ g G+++  l Dp++++v +n+    + i+V   g
+  JLFNCN_17185  71 LKERASKTLFERLGSRlSDSSMDEAELHQfvrdelkvvvdeeqvplTSAERQRLMAEIIDDVLGHGAIQRFLDDPEITEVMVNR---YDSIYVERFG 164
+                   4444444444444443222222222222244444444444444444999999999999**************************...99******** PP
+
+    arCOG01818 135 ervptNlvle.eeelenlvsrlraesGrelseasPsldvnlelegdetiRvAvalppiSedGpavsiRkqaaepltlvdLikngslspeaaalLsll 230
+                   +  +t   ++  e+l +++ r+  + Gr  +e+sP +d+ l     +  Rv +++pp++ +Gp  +iRk  +e+lt  +Li+ gslspe+a lL  +
+  JLFNCN_17185 165 RLHKTEAKFSsDEALRRIIERIVSRVGRRIDESSPLVDARLP----DGSRVNAIIPPLAVNGPSLTIRKFGREALTVNNLIEFGSLSPEMAELLRAC 257
+                   **********99*****************************5....578************************************************ PP
+
+    arCOG01818 231 vehgasvLvaGetGaGKTtLlnAlllelpektRivsiedtrELPvetlqslGrdvvslttr.sel.eekevtmadllraalrlgpdalvigEvrgee 325
+                   v  +  ++v+G tG+GKTtLln l  ++p ++Riv+ied+ EL  ++      +vv l++r  ++    ev+  dl+r +lr++pd +v+gEvrg e
+  JLFNCN_17185 258 VLARMNIIVSGGTGTGKTTLLNVLSSFIPVEDRIVTIEDAVELQLQQE-----HVVRLESRpANIeGRGEVSIRDLVRNSLRMRPDRIVVGEVRGGE 349
+                   ******************************************999888.....99******74446789**************************** PP
+
+    arCOG01818 326 aetlyealrvG.hgvlGTiHaedveevveRv.....vedlgvppsslk.....atdlvvtvkrvd.reRrVaevvevvkea 394
+                   +  + +a+++G  g ++T+Ha+++++ v R+     ++ +++p ++++     a++l+v ++r++ ++RrV++++ev   +
+  JLFNCN_17185 350 SLDMLQAMNTGhDGSISTVHANSPRDAVARLetlvlMAGMDLPLRAIReqvasAVNLIVHITRLRdGTRRVTHITEVQGME 430
+                   ***********8899***************7222213447888777752222279*********99***********9543 PP
+
+>> JLFNCN_00745  TadA family conjugal transfer-associated ATPase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  187.6   4.9   3.3e-59   6.2e-56      91     393 ..      70     372 ..      27     384 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 187.6 bits;  conditional E-value: 3.3e-59
+    arCOG01818  91 layivlrdtvglGvLedllaDprleDveanaPvveerikVvvrgervptNlvle.eeelenlvsrlraesGrelseasPsldvnlelegdetiRvAv 186
+                    ++ +  +++glG L++l +Dp+++D+++n+   ++ ++++      ++ + +e e+++ +l+ rl a+ Gr l+  sP +dv l+       Rv +
+  JLFNCN_00745  70 AVETISAELNGLGPLQQLARDPAVTDIFVNG---TQSVWLDRGHGLERSAVHFEsEAQIRALAVRLVAAGGRRLDDGSPCVDVRLD----GGYRVHA 159
+                   455668899**********************...9999999999999**************************************7....679**** PP
+
+    arCOG01818 187 alppiSedGpavsiRkqaaepltlvdLikngslspeaaalLsllvehgasvLvaGetGaGKTtLlnAlllelpektRivsiedtrELPvetlqslGr 283
+                   +lppiS  G+  siR +++e +tl++L + g+  p +  lL  +++++ s+L++G+tG+GKTtLl+++l + +++ R+v+ied+ EL   +      
+  JLFNCN_00745 160 VLPPISTAGTLLSIRIRREEVFTLAELRAGGMFGPLVEQLLRAVMQRRLSFLISGATGSGKTTLLSTMLGLSRPEERLVLIEDAAELNPVHP----- 251
+                   **************************************************************************************865555..... PP
+
+    arCOG01818 284 dvvslttrsel..eekevtmadllraalrlgpdalvigEvrgeeaetlyealrvG.hgvlGTiHaedveevveRvved...lgvppsslk.....at 369
+                   +vvsl++r++    + +++  +l+r+alr++pd l++gE rg+e+++l  al++G  g  GTiHa+++e+v  R+v+     g+++++ +     a+
+  JLFNCN_00745 252 HVVSLESRHGNleGGGALDLGELVRQALRMRPDRLIVGECRGAEVRELLTALNTGhTGGGGTIHANTAEAVPARLVALgalAGLSQDAVRlqvssAL 348
+                   6*******66667899***************************************667899***************86555689888774444449* PP
+
+    arCOG01818 370 dlvvtvkrvdreRrVaevvevvke 393
+                   d+v+ v+r+ r R Va++  ++++
+  JLFNCN_00745 349 DAVIHVERTARGRTVASIGLLTDD 372
+                   *****************9877755 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (435 nodes)
+Target sequences:                       3760  (1192649 residues searched)
+Passed MSV filter:                       318  (0.0845745); expected 75.2 (0.02)
+Passed bias filter:                      241  (0.0640957); expected 75.2 (0.02)
+Passed Vit filter:                       104  (0.0276596); expected 3.8 (0.001)
+Passed Fwd filter:                        26  (0.00691489); expected 0.0 (1e-05)
+Initial search space (Z):               3760  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.06u 0.00s 00:00:00.06 Elapsed: 00:00:00.06
+# Mc/sec: 8369.10
+//
+[ok]

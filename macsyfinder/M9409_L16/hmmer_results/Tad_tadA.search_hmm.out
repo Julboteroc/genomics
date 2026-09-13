@@ -1,0 +1,128 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/Tad_tadA.hmm
+# target sequence database:        proteins_fasta/M9409_L16.faa
+# output directed to file:         macsyfinder/M9409_L16/hmmer_results/Tad_tadA.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Tad_tadA  [M=246]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+     4e-116  384.6   2.5   6.3e-116  384.0   2.5    1.3  1  BKOHND_05125  CpaF family protein
+   6.9e-116  383.9   2.8   1.1e-115  383.2   2.8    1.3  1  BKOHND_05165  Type II secretion system protein E
+    9.7e-81  268.7   0.1    1.5e-80  268.1   0.1    1.2  1  BKOHND_07495  Secretion system protein E
+    5.3e-77  256.5   0.1    7.2e-77  256.1   0.1    1.2  1  BKOHND_03860  Pilus assembly protein, ATPase of CpaF family
+
+
+Domain annotation for each sequence (and alignments):
+>> BKOHND_05125  CpaF family protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  384.0   2.5  5.6e-119  6.3e-116       1     246 []     134     379 ..     134     379 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 384.0 bits;  conditional E-value: 5.6e-119
+      Tad_tadA   1 vsdilvngaekvfverkgkleltdvrfrdeeklldvaqrlvarvgrrvdeasPlvdarlpdGsrvnvviaPlaldGtsisirkfskekltleeLvel 97 
+                   v++i+vng++k++ve +gkl lt  +f +ee+l+++++r+v++vgrr+de+sPlvdarl dGsrvn++i+Pla++G++++irkf +  lt+++L+ +
+  BKOHND_05125 134 VTEIMVNGPDKIYVESRGKLLLTGAKFSNEEHLRRIIERIVTKVGRRIDESSPLVDARLSDGSRVNAIIPPLAVSGSTLTIRKFGHVPLTVSNLIGF 230
+                   79*********************************************************************************************** PP
+
+      Tad_tadA  98 gslseelaevLellvkarvnilisGGtGsGkttllnalsafidedervvtiedaaeLqleqdhvvrletreanvegeGevtlrdLvknaLrmrPdri 194
+                   g+ls+e+ae+L++ v+ar+ni++sGGtG+Gkttlln+ls+f+++der+vtieda eLql+q+hvvrle+r+ n+eg+Gev++r+Lv+n+LrmrPdri
+  BKOHND_05125 231 GTLSPEIAELLHACVQARLNIIVSGGTGTGKTTLLNVLSSFLPADERIVTIEDAVELQLQQEHVVRLESRPRNIEGKGEVSIRELVRNSLRMRPDRI 327
+                   ************************************************************************************************* PP
+
+      Tad_tadA 195 ilGevrGeealdlLqamntGhdGslstlhansprdalsrleslvllagaklp 246
+                   ++GevrG+e+ld+LqamntGhdGs+st+hansprda+srle+lvl+ag++lp
+  BKOHND_05125 328 VIGEVRGGESLDMLQAMNTGHDGSISTVHANSPRDAISRLETLVLMAGMDLP 379
+                   ************************************************9997 PP
+
+>> BKOHND_05165  Type II secretion system protein E
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  383.2   2.8  9.6e-119  1.1e-115       1     246 []     173     418 ..     173     418 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 383.2 bits;  conditional E-value: 9.6e-119
+      Tad_tadA   1 vsdilvngaekvfverkgkleltdvrfrdeeklldvaqrlvarvgrrvdeasPlvdarlpdGsrvnvviaPlaldGtsisirkfskekltleeLvel 97 
+                   v++i+vn  ++++verkg+l+l+d rf +ee+l++v++r+v++vgrr+de+sPlvdarl dGsrvn+vi+Pla+ G+s++irkfsk  lt+++L+++
+  BKOHND_05165 173 VTEIMVNRMDQIYVERKGHLTLADSRFSSEEHLRKVIERIVSKVGRRIDESSPLVDARLEDGSRVNAVIPPLAVGGSSLTIRKFSKVPLTVRNLIDF 269
+                   79*********************************************************************************************** PP
+
+      Tad_tadA  98 gslseelaevLellvkarvnilisGGtGsGkttllnalsafidedervvtiedaaeLqleqdhvvrletreanvegeGevtlrdLvknaLrmrPdri 194
+                   g+l++e+ae+L++ vka++ni++sGGtG+Gkttlln+ls+f+++der+vtieda eLq++q+hvvrle+r++n eg+Gevt+r+L++n+LrmrPdri
+  BKOHND_05165 270 GTLTPEMAELLNACVKAKLNIIVSGGTGTGKTTLLNVLSSFLPSDERIVTIEDAVELQIQQEHVVRLESRPPNTEGKGEVTIRELLRNSLRMRPDRI 366
+                   ************************************************************************************************* PP
+
+      Tad_tadA 195 ilGevrGeealdlLqamntGhdGslstlhansprdalsrleslvllagaklp 246
+                   ++GevrG+e+ld+LqamntGhdGslst+h+nsprda++rle+lvl+ag++lp
+  BKOHND_05165 367 VVGEVRGGESLDMLQAMNTGHDGSLSTVHSNSPRDAVARLETLVLMAGMDLP 418
+                   ************************************************9997 PP
+
+>> BKOHND_07495  Secretion system protein E
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  268.1   0.1   1.4e-83   1.5e-80       1     243 [.      94     336 ..      94     338 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 268.1 bits;  conditional E-value: 1.4e-83
+      Tad_tadA   1 vsdilvngaekvfverkgkleltdvrfrdeeklldvaqrlvarvgrrvdeasPlvdarlpdGsrvnvviaPlaldGtsisirkfskekltleeLvel 97 
+                   v+di+vn+++ v+++r+  le++ v f +e++++++a rlva+ grr+d++sP vd rl  G r+++v++P++  Gt +s+r   +e  tl+eL + 
+  BKOHND_07495  94 VTDIFVNAPDSVWLDRGNGLEQAPVSFSSENEVRSLAARLVAAGGRRLDDGSPCVDVRLEAGYRIHAVLPPISTAGTLLSVRIRRHEVFTLNELRDG 190
+                   79*********************************************************************************************** PP
+
+      Tad_tadA  98 gslseelaevLellvkarvnilisGGtGsGkttllnalsafidedervvtiedaaeLqleqdhvvrletreanvegeGevtlrdLvknaLrmrPdri 194
+                   g++ + + +vLe +v++r++ lisG tGsGkttll +l    +  er+v ieda+eL+  ++hvv+le+r+ n+eg G+v+l +Lv++aLrmrPdr+
+  BKOHND_07495 191 GMFGALVQDVLERMVSRRLSFLISGATGSGKTTLLSTLLGLSHPGERLVLIEDASELNPVHPHVVSLESRHGNLEGGGAVDLAELVRQALRMRPDRL 287
+                   ************************************************************************************************* PP
+
+      Tad_tadA 195 ilGevrGeealdlLqamntGhdGslstlhansprdalsrleslvllaga 243
+                   ++Ge+rG+e+ +lL amntGh G+ +t+han+++ + +rl++l +lag+
+  BKOHND_07495 288 VVGECRGAEVRELLTAMNTGHTGGGGTIHANTAAAVPARLTALGALAGM 336
+                   *******************************************999985 PP
+
+>> BKOHND_03860  Pilus assembly protein, ATPase of CpaF family
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  256.1   0.1   6.5e-80   7.2e-77       1     245 [.      81     323 ..      81     324 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 256.1 bits;  conditional E-value: 6.5e-80
+      Tad_tadA   1 vsdilvngaekvfverkgkleltdvrfrdeeklldvaqrlvarvgrrvdeasPlvdarlpdGsrvnvviaPlaldGtsisirkfskekltleeLvel 97 
+                   + +i +n++ +++v r+g+ elt+  +  +++++d+++r++++ grr+d +sP+vda lpdGsr++vvi+ ++    ++ irkf  +  +l++Lvel
+  BKOHND_03860  81 IEEIWINAPTEIYVARNGESELTSLSLS-DQQVRDLVERMLKSSGRRLDMSSPFVDAALPDGSRLHVVIPDVTRRHWAVNIRKFVVKASRLDHLVEL 176
+                   689*********************9986.578***************************************************************** PP
+
+      Tad_tadA  98 gslseelaevLellvkarvnilisGGtGsGkttllnalsafidedervvtiedaaeLqleqdhvvrletreanvegeGevtlrdLvknaLrmrPdri 194
+                   g+l+++ a++L ++v + +nil+sG t +Gktt+ln+l+a i ++erv+t+e+  eLq+   +vv l+ r++n+egeGe+ lr Lvk+aLrmrPdr+
+  BKOHND_03860 177 GTLTPQSARFLGAAVASGLNILVSGATQAGKTTMLNCLAASIGARERVITVEEIFELQFPLRDVVGLQCRQPNLEGEGEIPLRRLVKEALRMRPDRL 273
+                   ************************************************************************************************* PP
+
+      Tad_tadA 195 ilGevrGeealdlLqamntGhdGslstlhansprdalsrleslvllagakl 245
+                   ++Gevr +e+ld+L a+n+G  G ++t+hans++da+++l +l llag+++
+  BKOHND_03860 274 VVGEVREAESLDMLIALNSGLPG-MCTVHANSAHDAVTKLCTLPLLAGDNI 323
+                   ********************987.9******************99999876 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (246 nodes)
+Target sequences:                       4459  (1473457 residues searched)
+Passed MSV filter:                       256  (0.057412); expected 89.2 (0.02)
+Passed bias filter:                      233  (0.0522539); expected 89.2 (0.02)
+Passed Vit filter:                        82  (0.0183898); expected 4.5 (0.001)
+Passed Fwd filter:                        17  (0.00381251); expected 0.0 (1e-05)
+Initial search space (Z):               4459  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.03
+# Mc/sec: 11562.69
+//
+[ok]

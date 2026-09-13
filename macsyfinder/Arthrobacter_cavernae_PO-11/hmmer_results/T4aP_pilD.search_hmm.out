@@ -1,0 +1,72 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/T4aP_pilD.hmm
+# target sequence database:        proteins_fasta/Arthrobacter_cavernae_PO-11.faa
+# output directed to file:         macsyfinder/Arthrobacter_cavernae_PO-11/hmmer_results/T4aP_pilD.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       T4aP_pilD  [M=218]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+    2.2e-21   74.3   9.1    3.1e-21   73.8   9.1    1.1  1  JLFNCN_17215  Prepilin peptidase
+    4.6e-20   69.9  14.1    3.1e-19   67.2  14.1    1.8  1  JLFNCN_04960  Prepilin peptidase
+
+
+Domain annotation for each sequence (and alignments):
+>> JLFNCN_17215  Prepilin peptidase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   73.8   9.1   1.6e-24   3.1e-21      60     217 ..      50     209 ..      46     210 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 73.8 bits;  conditional E-value: 1.6e-24
+     T4aP_pilD  60 lltgllfllvalkyglsletlalllllsilialaviDldtqllpdkltlpllvlglifsllelkevslkesllgavaglllllliyllfklllkkeg 156
+                   ++t+llf+l+al++gl  e+ a+l+l+++ + l+ iD+ + llp+ l+l+ll +g ++       ++ +  ll a+ag+++l++ yl+   l++   
+  JLFNCN_17215  50 VITALLFALLALRFGLGPELPAFLFLALFAVQLSRIDFIHHLLPNPLVLALLAAGFVLLGAAAAIAPDWPGLLRAAAGGAILFVAYLILG-LISPRS 145
+                   68********************************************************9999999*****************99999765.78899* PP
+
+     T4aP_pilD 157 mGlGDikLlaalGa...wlglkalllaillsslvGavvgiillllkkkkkkekipFgpflalgg 217
+                   +G+GD+kL+a lG+   +lg+ ++l+  ll ++vG+v+ +++l l++++k ++ + gp + +++
+  JLFNCN_17215 146 LGMGDVKLAAPLGMylgYLGWGQVLYGGLLGFVVGGVLTVLMLRLRSAEKPAETAHGPAMFAAA 209
+                   *************9777789***************************************99887 PP
+
+>> JLFNCN_04960  Prepilin peptidase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   67.2  14.1   1.7e-22   3.1e-19      70     217 ..      11     177 ..       2     178 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 67.2 bits;  conditional E-value: 1.7e-22
+     T4aP_pilD  70 alkyglsletlalllllsilialaviDldtqllpdkltlpllvl.glifslle.....lke............vslkesllgavaglllllliyllf 148
+                   a  +g+ l ++a+l+++++ + l++iD+++ llp+++++p   + g+++                        + +    lg vag+++l+l+y + 
+  JLFNCN_04960  11 ASPWGFWLVVAACLYFAVMAVRLTIIDVRHHLLPNRIVFPSYGVaGVLLLGAAvlaevS-GaavpgkvpdggaNLFGVPGLGTVAGGAVLWLFYFVL 106
+                   445999999999999***********************997644233332222222330.1334444444442334445699*************76 PP
+
+     T4aP_pilD 149 klllkkegmGlGDikLlaalGa...wlglkalllaillsslvGavvgiillllkkkkkkekipFgpflalgg 217
+                   + ++   gmG+GD+kL+ +lG+   +lg+  ++   + ++l+G+v g+++l++++ + k++ipFgpf+ +g+
+  JLFNCN_04960 107 R-VIYPAGMGFGDVKLAGVLGLylgYLGWAHVFAGTFAAFLFGGVWGLAVLATRRGNLKSAIPFGPFMLAGA 177
+                   6.77799**************9777789****************************************9886 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (218 nodes)
+Target sequences:                       3760  (1192649 residues searched)
+Passed MSV filter:                       249  (0.0662234); expected 75.2 (0.02)
+Passed bias filter:                       74  (0.0196809); expected 75.2 (0.02)
+Passed Vit filter:                         6  (0.00159574); expected 3.8 (0.001)
+Passed Fwd filter:                         2  (0.000531915); expected 0.0 (1e-05)
+Initial search space (Z):               3760  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.01
+# Mc/sec: 24750.63
+//
+[ok]

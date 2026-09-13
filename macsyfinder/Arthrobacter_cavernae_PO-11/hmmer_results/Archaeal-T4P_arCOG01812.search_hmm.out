@@ -1,0 +1,113 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/Archaeal-T4P_arCOG01812.hmm
+# target sequence database:        proteins_fasta/Arthrobacter_cavernae_PO-11.faa
+# output directed to file:         macsyfinder/Arthrobacter_cavernae_PO-11/hmmer_results/Archaeal-T4P_arCOG01812.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       arCOG01812  [M=245]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+    1.5e-27   93.9   3.2    4.5e-27   92.4   1.7    1.9  1  JLFNCN_17180  Type II secretion system F family protein
+    1.9e-22   77.2   1.8      2e-22   77.1   0.3    1.6  1  JLFNCN_11900  Type II secretion system F family protein
+      4e-22   76.1   0.0      4e-22   76.1   0.0    1.5  1  JLFNCN_17175  Type II secretion system F family protein
+    7.1e-08   29.5   0.0    1.4e-07   28.5   0.0    1.5  1  JLFNCN_11895  Type II secretion system F family protein
+
+
+Domain annotation for each sequence (and alignments):
+>> JLFNCN_17180  Type II secretion system F family protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.4   1.7   4.8e-30   4.5e-27      13     238 ..      91     303 ..      79     308 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 92.4 bits;  conditional E-value: 4.8e-30
+    arCOG01812  13 ylallllvsiivallllalillllgpiiiglllgllafllvllillfypkiklgsrrseiekelpyalrymasllsaGvglaealrslaeneeygei 109
+                   y+ l+ +v +++++ +++           gl++++l++l+++l+l ++ k+  ++r+++++ ++p +l+ ++  ++aG +l +a++  a  e+   +
+  JLFNCN_17180  91 YVLLAGIVVTFAGVTGFI---------LGGLVFAILMALIAVLVLAALLKVLTSRRAAKFDEQVPDTLQMLTGGMRAGHSLLRAVDAAA-QESEAPM 177
+                   444444444444444444.........45899999999999999*********************************************.899999* PP
+
+    arCOG01812 110 seEfkliireikvlGssfeeALerasertpSpslrelvqqliravksGgnlaevLeklaedilrekrsklksylqklsllaeiyvvvavilPillii 206
+                   +eE+ +i++e++  G+++ e L++++ rt+S++++ ++q +    ++Gg+laevL +  e i  + r+++++ ++ ls+ + +   v ++lP++++i
+  JLFNCN_17180 178 AEEMGRIVNETR-IGRDLGESLNDVAIRTQSEDFSWIAQAIEIHREVGGDLAEVLDHVGETI--RDRNQIRRQVKALSAEGRMSALVLLALPVVMFI 271
+                   ************.********************************************99977..67888999************************* PP
+
+    arCOG01812 207 liliasilggdgisptvllllliliiiPiisl 238
+                   ++  + ++ +++  +tv  +++i +++ ++sl
+  JLFNCN_17180 272 ALQFMNPVYAQTFTSTVPGYVMIAVAVVMLSL 303
+                   ***********999999999999999999887 PP
+
+>> JLFNCN_11900  Type II secretion system F family protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   77.1   0.3   2.1e-25     2e-22      18     196 ..     114     293 ..     101     312 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 77.1 bits;  conditional E-value: 2.1e-25
+    arCOG01812  18 llvsiivallllalil.lllgpiiiglllgllafllvllillfypkiklgsrrseiekelpyalrymasllsaGvglaealrslaeneeygeiseEf 113
+                    + +++va+l++++++    ++ ++++++++  ++ ++l+  ++  +++++r++   +e+p  +  ma  +saG +   al+++   +  ge+++Ef
+  JLFNCN_11900 114 AACGFVVAVLFVVFSAaAGRFSPVLAVVSVVGSAFGGFLLRDYILGVQIKRREARMLAEFPSLAELMALAVSAGESAMGALDRVC-RSARGELAKEF 209
+                   344455555555555434455666777777777777799999*******************************************.99********* PP
+
+    arCOG01812 114 kliireikvlGssfeeALerasertpSpslrelvqqliravksGgnlaevLeklaedilrekrsklksyl..qklsllaeiyvvv 196
+                    l++ +++  G+ ++eAL+++s+rt+ p l ++v++l+ a++ G  la+vL+++a d+   +  +l++++  + +++++ ++++v
+  JLFNCN_11900 210 SLVLADTR-AGKPLVEALQEFSSRTELPPLVRFVDGLVVAIERGTPLADVLRAQAADVRDASKRELMESAgrKEIGMMVPLVFGV 293
+                   ********.***************************************************9999999997323455555555444 PP
+
+>> JLFNCN_17175  Type II secretion system F family protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   76.1   0.0   4.2e-25     4e-22      18     208 ..      90     279 ..      74     287 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 76.1 bits;  conditional E-value: 4.2e-25
+    arCOG01812  18 llvsiivallllalil..lllgpiiiglllgllafllvllillfypkiklgsrrseiekelpyalrymasllsaGvglaealrslaeneeygeiseE 112
+                   l+v  + al ++ l+l  +l    +  +llg+++++l++++  ++++  +++rr+ i +elp  l +m++ ++aG g + a+++ a ++  g ++ E
+  JLFNCN_17175  90 LMVKPLLALGGATLGLllFLGERSAGRFLLGVAVMALAYFVPDLLIRSNAQKRRETIRTELPNSLDQMLISVQAGLGFEAAMARTA-ENGKGPLADE 185
+                   45555555555555543356667778899999999999************************************************.99******** PP
+
+    arCOG01812 113 fkliireikvlGssfeeALerasertpSpslrelvqqliravksGgnlaevLeklaedilrekrsklksylqklsllaeiyvvvavilPilliili 208
+                   f +++++i+  G+s ++A   +ser+ +p++r ++   ++a   G  +a+vL+++a+++  ++r+++++ + k+     ++  ++ i+P+l+iil+
+  JLFNCN_17175 186 FIRTLQDIQ-VGRSRKDAYLALSERVDVPDVRSFIRAVVQADAYGIAIAKVLKAQAQEMRTKRRQRAEEHAMKIPVK-ILFPLIFCIFPTLFIILL 279
+                   *********.****************************************************************864.567778889999999975 PP
+
+>> JLFNCN_11895  Type II secretion system F family protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.5   0.0   1.5e-10   1.4e-07      25     179 ..      57     209 ..      40     271 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 28.5 bits;  conditional E-value: 1.5e-10
+    arCOG01812  25 allllalillllgpiiiglllgllafllvllillfypkiklgsrrseiekelpyalrymasllsaGvglaealrslaeneeygeiseEfkliireik 121
+                    + l++++ll+++++  +  ++l + l+++++ +++++ ++++r + + +  p ++ ++ s ++aG +l ea+ +l+ ++   e++  f     + +
+  JLFNCN_11895  57 CAGLGLFSLLVFFIVTGSPPVSLCFGLFGAWLPIALVRWRARKRTAMLRQLWPDVVDHLRSAIRAGLSLPEAIIQLG-YKGPEELRHLFLDFGADYR 152
+                   33344455566666666666777777777888*********************************************.99***************** PP
+
+    arCOG01812 122 vlGssfeeALerasertpSpslrelvqqliravksGg.nlaevLeklaedilrekrskl 179
+                     G  f  AL +++ r + p   ++++ l+ + ++Gg +l  +L +lae +lre+  + 
+  JLFNCN_11895 153 -SGGHFDAALGKLKDRLADPVADRIIEALRMTREVGGsDLGRLLGTLAE-FLRESARTR 209
+                   .*********************************985377777777765.556555444 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (245 nodes)
+Target sequences:                       3760  (1192649 residues searched)
+Passed MSV filter:                       411  (0.109309); expected 75.2 (0.02)
+Passed bias filter:                      160  (0.0425532); expected 75.2 (0.02)
+Passed Vit filter:                        28  (0.00744681); expected 3.8 (0.001)
+Passed Fwd filter:                         6  (0.00159574); expected 0.0 (1e-05)
+Initial search space (Z):               3760  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.01
+# Mc/sec: 16603.56
+//
+[ok]

@@ -1,0 +1,50 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/T6SSiii_tssO.hmm
+# target sequence database:        proteins_fasta/M9409_L16.faa
+# output directed to file:         macsyfinder/M9409_L16/hmmer_results/T6SSiii_tssO.search_hmm.out
+# sequence reporting threshold:    E-value <= 0.1
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       TssO.mprt.mafft  [M=170]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+  ------ inclusion threshold ------
+      0.033   12.0   0.0      0.075   10.9   0.0    1.5  1  BKOHND_15750  Maltose/maltodextrin transport system permease 
+
+
+Domain annotation for each sequence (and alignments):
+>> BKOHND_15750  Maltose/maltodextrin transport system permease protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.9   0.0   1.7e-05     0.075      17      55 ..     106     144 ..     103     150 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 10.9 bits;  conditional E-value: 1.7e-05
+  TssO.mprt.mafft  17 lYlllllllatvllgvilfkkfespfseskeelikklee 55 
+                      l+ll++ ++++++ g+i f ++++ ++++k+++i  ++ 
+     BKOHND_15750 106 LFLLVFQVFVVLFSGYIAFTNYGDGHNSTKDDAIAAIQL 144
+                      89***************************9999988875 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (170 nodes)
+Target sequences:                       4459  (1473457 residues searched)
+Passed MSV filter:                        73  (0.0163714); expected 89.2 (0.02)
+Passed bias filter:                       70  (0.0156986); expected 89.2 (0.02)
+Passed Vit filter:                         8  (0.00179412); expected 4.5 (0.001)
+Passed Fwd filter:                         1  (0.000224266); expected 0.0 (1e-05)
+Initial search space (Z):               4459  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 34257.40
+//
+[ok]

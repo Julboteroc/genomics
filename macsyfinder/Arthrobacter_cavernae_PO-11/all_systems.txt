@@ -1,0 +1,121 @@
+# macsyfinder 2.1.6  (using MacSyLib 1.0.4 )
+# models : TXSScan-1.1.4
+# /home/julibote/miniconda3/bin/macsyfinder --db-type ordered_replicon --sequence-db proteins_fasta/Arthrobacter_cavernae_PO-11.faa --models-dir /home/julibote/TXSScan_model --models TXSScan all -o macsyfinder/Arthrobacter_cavernae_PO-11
+# Systems found:
+
+system id = Arthrobacter_cavernae_PO-11_Tad_2
+model = TXSScan/bacteria/diderm/Tad
+replicon = Arthrobacter_cavernae_PO-11
+clusters = [('JLFNCN_00740', 'Tad_tadZ', 145), ('JLFNCN_00745', 'Tad_tadA', 146), ('JLFNCN_00750', 'Tad_tadB', 147), ('JLFNCN_00755', 'Tad_tadC', 148)], [('JLFNCN_17170', 'Tad_flp', 3374), ('JLFNCN_17175', 'Tad_tadC', 3375), ('JLFNCN_17180', 'Tad_tadB', 3376), ('JLFNCN_17185', 'Tad_tadA', 3377), ('JLFNCN_17195', 'Tad_rcpC', 3379), ('JLFNCN_17200', 'Tad_tadG', 3380), ('JLFNCN_17205', 'Tad_tadE', 3381), ('JLFNCN_17210', 'Tad_flp', 3382)]
+occ = 2
+wholeness = 0.583
+loci nb = 2
+score = 4.500
+
+mandatory genes:
+	- Tad_rcpA: 0 ()
+	- Tad_tadA: 2 (Tad_tadA, Tad_tadA)
+	- Tad_tadB: 2 (Tad_tadB, Tad_tadB)
+	- Tad_tadC: 2 (Tad_tadC, Tad_tadC)
+	- Tad_tadV: 0 ()
+	- Tad_tadZ: 1 (Tad_tadZ)
+	- Tad_flp: 2 (Tad_flp, Tad_flp)
+
+accessory genes:
+	- Tad_tadE: 1 (Tad_tadE)
+	- Tad_tadF: 0 ()
+	- Tad_tadD: 0 ()
+	- Tad_rcpB: 0 ()
+	- Tad_rcpC: 1 (Tad_rcpC)
+
+neutral genes:
+	- Tad_tadG: 1 (Tad_tadG)
+
+============================================================
+system id = Arthrobacter_cavernae_PO-11_Tad_4
+model = TXSScan/bacteria/diderm/Tad
+replicon = Arthrobacter_cavernae_PO-11
+clusters = [('JLFNCN_00740', 'Tad_tadZ', 145), ('JLFNCN_00745', 'Tad_tadA', 146), ('JLFNCN_00750', 'Tad_tadB', 147), ('JLFNCN_00755', 'Tad_tadC', 148)], [('JLFNCN_11890', 'Tad_tadA', 2335), ('JLFNCN_11895', 'Tad_tadC', 2336)], [('JLFNCN_17170', 'Tad_flp', 3374), ('JLFNCN_17175', 'Tad_tadC', 3375), ('JLFNCN_17180', 'Tad_tadB', 3376), ('JLFNCN_17185', 'Tad_tadA', 3377), ('JLFNCN_17195', 'Tad_rcpC', 3379), ('JLFNCN_17200', 'Tad_tadG', 3380), ('JLFNCN_17205', 'Tad_tadE', 3381), ('JLFNCN_17210', 'Tad_flp', 3382)]
+occ = 2
+wholeness = 0.583
+loci nb = 3
+score = 3.500
+
+mandatory genes:
+	- Tad_rcpA: 0 ()
+	- Tad_tadA: 3 (Tad_tadA, Tad_tadA, Tad_tadA)
+	- Tad_tadB: 2 (Tad_tadB, Tad_tadB)
+	- Tad_tadC: 3 (Tad_tadC, Tad_tadC, Tad_tadC)
+	- Tad_tadV: 0 ()
+	- Tad_tadZ: 1 (Tad_tadZ)
+	- Tad_flp: 2 (Tad_flp, Tad_flp)
+
+accessory genes:
+	- Tad_tadE: 1 (Tad_tadE)
+	- Tad_tadF: 0 ()
+	- Tad_tadD: 0 ()
+	- Tad_rcpB: 0 ()
+	- Tad_rcpC: 1 (Tad_rcpC)
+
+neutral genes:
+	- Tad_tadG: 1 (Tad_tadG)
+
+============================================================
+system id = Arthrobacter_cavernae_PO-11_Tad_3
+model = TXSScan/bacteria/diderm/Tad
+replicon = Arthrobacter_cavernae_PO-11
+clusters = [('JLFNCN_11890', 'Tad_tadA', 2335), ('JLFNCN_11895', 'Tad_tadC', 2336)], [('JLFNCN_17170', 'Tad_flp', 3374), ('JLFNCN_17175', 'Tad_tadC', 3375), ('JLFNCN_17180', 'Tad_tadB', 3376), ('JLFNCN_17185', 'Tad_tadA', 3377), ('JLFNCN_17195', 'Tad_rcpC', 3379), ('JLFNCN_17200', 'Tad_tadG', 3380), ('JLFNCN_17205', 'Tad_tadE', 3381), ('JLFNCN_17210', 'Tad_flp', 3382)]
+occ = 1
+wholeness = 0.500
+loci nb = 2
+score = 4.000
+
+mandatory genes:
+	- Tad_rcpA: 0 ()
+	- Tad_tadA: 2 (Tad_tadA, Tad_tadA)
+	- Tad_tadB: 1 (Tad_tadB)
+	- Tad_tadC: 2 (Tad_tadC, Tad_tadC)
+	- Tad_tadV: 0 ()
+	- Tad_tadZ: 0 ()
+	- Tad_flp: 2 (Tad_flp, Tad_flp)
+
+accessory genes:
+	- Tad_tadE: 1 (Tad_tadE)
+	- Tad_tadF: 0 ()
+	- Tad_tadD: 0 ()
+	- Tad_rcpB: 0 ()
+	- Tad_rcpC: 1 (Tad_rcpC)
+
+neutral genes:
+	- Tad_tadG: 1 (Tad_tadG)
+
+============================================================
+system id = Arthrobacter_cavernae_PO-11_Tad_1
+model = TXSScan/bacteria/diderm/Tad
+replicon = Arthrobacter_cavernae_PO-11
+clusters = [('JLFNCN_17170', 'Tad_flp', 3374), ('JLFNCN_17175', 'Tad_tadC', 3375), ('JLFNCN_17180', 'Tad_tadB', 3376), ('JLFNCN_17185', 'Tad_tadA', 3377), ('JLFNCN_17195', 'Tad_rcpC', 3379), ('JLFNCN_17200', 'Tad_tadG', 3380), ('JLFNCN_17205', 'Tad_tadE', 3381), ('JLFNCN_17210', 'Tad_flp', 3382)]
+occ = 1
+wholeness = 0.500
+loci nb = 1
+score = 5.000
+
+mandatory genes:
+	- Tad_rcpA: 0 ()
+	- Tad_tadA: 1 (Tad_tadA)
+	- Tad_tadB: 1 (Tad_tadB)
+	- Tad_tadC: 1 (Tad_tadC)
+	- Tad_tadV: 0 ()
+	- Tad_tadZ: 0 ()
+	- Tad_flp: 2 (Tad_flp, Tad_flp)
+
+accessory genes:
+	- Tad_tadE: 1 (Tad_tadE)
+	- Tad_tadF: 0 ()
+	- Tad_tadD: 0 ()
+	- Tad_rcpB: 0 ()
+	- Tad_rcpC: 1 (Tad_rcpC)
+
+neutral genes:
+	- Tad_tadG: 1 (Tad_tadG)
+
+============================================================

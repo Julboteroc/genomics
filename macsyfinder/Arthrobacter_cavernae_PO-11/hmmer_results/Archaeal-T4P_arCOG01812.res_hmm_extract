@@ -1,0 +1,9 @@
+# gene: Archaeal-T4P_arCOG01812 extract from macsyfinder/Arthrobacter_cavernae_PO-11/hmmer_results/Archaeal-T4P_arCOG01812.search_hmm.out hmm output
+# profile length= 245
+# i_evalue threshold= 0.001
+# coverage threshold= 0.500
+# hit_id	replicon_name	position_hit	hit_sequence_length	gene_name	i_eval	score	profile_coverage	sequence_coverage	begin	end
+JLFNCN_11895	Arthrobacter_cavernae_PO-11	2336	284	Archaeal-T4P_arCOG01812	1.400e-07	28.500	0.633	0.539	57	209
+JLFNCN_11900	Arthrobacter_cavernae_PO-11	2337	313	Archaeal-T4P_arCOG01812	2.000e-22	77.100	0.731	0.575	114	293
+JLFNCN_17175	Arthrobacter_cavernae_PO-11	3375	291	Archaeal-T4P_arCOG01812	4.000e-22	76.100	0.780	0.653	90	279
+JLFNCN_17180	Arthrobacter_cavernae_PO-11	3376	316	Archaeal-T4P_arCOG01812	4.500e-27	92.400	0.922	0.674	91	303

@@ -1,0 +1,90 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/ComM_comGA.hmm
+# target sequence database:        proteins_fasta/Arthrobacter_cavernae_PO-11.faa
+# output directed to file:         macsyfinder/Arthrobacter_cavernae_PO-11/hmmer_results/ComM_comGA.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       ComM_comGA  [M=258]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+    6.9e-18   62.3   0.1    1.1e-17   61.7   0.1    1.3  1  JLFNCN_17185  Pilus assembly protein, ATPase
+    1.8e-15   54.4   0.0    2.7e-15   53.8   0.0    1.2  1  JLFNCN_11890  Pilus assembly protein, ATPase of CpaF family
+      1e-14   51.9   0.1    1.5e-14   51.4   0.1    1.2  1  JLFNCN_00745  TadA family conjugal transfer-associated ATPase
+
+
+Domain annotation for each sequence (and alignments):
+>> JLFNCN_17185  Pilus assembly protein, ATPase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.7   0.1   8.8e-21   1.1e-17     105     242 ..     249     390 ..     218     404 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 61.7 bits;  conditional E-value: 8.8e-21
+    ComM_comGA 105 qlkellkalkkksGlllfsGPtgsGktttlyallkelakekklqvitlEDPvEi..kedellql.....qvnekagltYeellkasLRhdPDvlliG 194
+                   +++ell+a    +  +++sG tg Gktt+l  l + +  e   +++t+ED vE   ++++++ l     ++  +  ++  +l++ sLR++PD +++G
+  JLFNCN_17185 249 EMAELLRACVLARMNIIVSGGTGTGKTTLLNVLSSFIPVED--RIVTIEDAVELqlQQEHVVRLesrpaNIEGRGEVSIRDLVRNSLRMRPDRIVVG 343
+                   556666666667777999************99999998888..9*********72257889998444445888899********************* PP
+
+    ComM_comGA 195 EiRDketAkiviraalsGhl.vlstiHaksakgviaRllelgiseeele 242
+                   E+R  e   + ++a  +Gh   +st+Ha+s ++++aRl  l +  + + 
+  JLFNCN_17185 344 EVRGGESLDM-LQAMNTGHDgSISTVHANSPRDAVARLETLVLM-AGMD 390
+                   ******9987.68999999638****************988653.4455 PP
+
+>> JLFNCN_11890  Pilus assembly protein, ATPase of CpaF family
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.8   0.0   2.2e-18   2.7e-15     115     236 ..     191     317 ..     150     331 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 53.8 bits;  conditional E-value: 2.2e-18
+    ComM_comGA 115 kksGl.llfsGPtgsGktttlyallkelakekklqvitlEDPvEiked..ell.....qlqvnekagltYeellkasLRhdPDvlliGEiRDketAk 203
+                     sGl +l+sG t +Gktt+l  l+ ++ +++  +vit+E+  E + +  +++     q ++  +  +   +l+k++LR++PD l++GE+R++e   
+  JLFNCN_11890 191 VASGLnILVSGATQAGKTTMLNCLAASIGSRE--RVITVEEIFELQFPlrDVVglqcrQANLEGEGEIPLRRLVKEALRMRPDRLVVGEVREAESLD 285
+                   467885788*******************9999..9********998543356511111445667889*****************************9 PP
+
+    ComM_comGA 204 iviraalsGhlvlstiHaksakgviaRllelgi 236
+                   ++i a  sG   + t+Ha+sa+++++++  l +
+  JLFNCN_11890 286 MLI-ALNSGLPGMCTVHANSAHDAVTKICTLPL 317
+                   988.445888889*************9988765 PP
+
+>> JLFNCN_00745  TadA family conjugal transfer-associated ATPase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.4   0.1   1.2e-17   1.5e-14     106     236 ..     196     331 ..     164     348 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 51.4 bits;  conditional E-value: 1.2e-17
+    ComM_comGA 106 lkellkalkkksGlllfsGPtgsGktttlyallkelakekklqvitlEDPvEik..edellqlq.....vnekagltYeellkasLRhdPDvlliGE 195
+                   +++ll+a+ +++  +l+sG tgsGktt+l ++l  ++ e+  +++ +ED  E +  +++++ l+     +     l   el++++LR++PD l++GE
+  JLFNCN_00745 196 VEQLLRAVMQRRLSFLISGATGSGKTTLLSTMLGLSRPEE--RLVLIEDAAELNpvHPHVVSLEsrhgnLEGGGALDLGELVRQALRMRPDRLIVGE 290
+                   5677777777888899*********************999..999******9973356777775222113334458999****************** PP
+
+    ComM_comGA 196 iRDketAkiviraalsGhlv.lstiHaksakgviaRllelgi 236
+                    R +e+ + ++ a  +Gh+    tiHa++a+ v aRl  lg 
+  JLFNCN_00745 291 CRGAEVRE-LLTALNTGHTGgGGTIHANTAEAVPARLVALGA 331
+                   *****966.57788899997257***************9985 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (258 nodes)
+Target sequences:                       3760  (1192649 residues searched)
+Passed MSV filter:                       198  (0.0526596); expected 75.2 (0.02)
+Passed bias filter:                      192  (0.0510638); expected 75.2 (0.02)
+Passed Vit filter:                        73  (0.0194149); expected 3.8 (0.001)
+Passed Fwd filter:                        15  (0.00398936); expected 0.0 (1e-05)
+Initial search space (Z):               3760  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
+# Mc/sec: 11304.80
+//
+[ok]

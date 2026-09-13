@@ -1,0 +1,72 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/Tad_tadV.hmm
+# target sequence database:        proteins_fasta/M9409_L16.faa
+# output directed to file:         macsyfinder/M9409_L16/hmmer_results/Tad_tadV.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Tad_tadV  [M=132]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+      9e-20   69.1  15.3      9e-20   69.1  15.3    2.0  1  BKOHND_05095  Leader peptidase (Prepilin peptidase) / N-methy
+    3.8e-19   67.1  15.5    8.3e-19   66.0  15.5    1.6  1  BKOHND_17925  Peptidase A24A, prepilin type IV
+
+
+Domain annotation for each sequence (and alignments):
+>> BKOHND_05095  Leader peptidase (Prepilin peptidase) / N-methyltransferase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   69.1  15.3   4.1e-23     9e-20       4     132 .]      75     214 ..      72     214 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 69.1 bits;  conditional E-value: 4.1e-23
+      Tad_tadV   4 ivlvllllllaaaltDlrerripnklvlplllv..gllasavg.....valagallalvvgfllllllal.llggmGaGDvKLlavlgl...wlgls 89 
+                    ++vl++l + ++ +D+ +  +pn++v++l+l+  +lla+a+g      al +a++ +++ f+++l+la+   +g+G+GDvKL+a lgl   +lg++
+  BKOHND_05095  75 AYVVLAILGVQLSRIDIAQKLLPNRIVVCLMLAgtALLAAAAGatpewGALFRAVVSALILFVVYLILAIiSPNGIGMGDVKLAAPLGLylgYLGWT 171
+                   689*************************9999966788888888888766*******************999*****************77777888 PP
+
+      Tad_tadV  90 gvlvalllsallglvlaigllllrrstkkkslPygvaiaaGal 132
+                   ++++  +l++++g++ +++l+ ++ +++ ++++yg+ +++++l
+  BKOHND_05095 172 QLFYGGALGFVVGGLATFVLMRVKGKGTLDEVAYGPSMLIACL 214
+                   8888888999999999999999999***************985 PP
+
+>> BKOHND_17925  Peptidase A24A, prepilin type IV
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   66.0  15.5   3.7e-22   8.3e-19       5     131 ..      23     176 ..      14     177 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 66.0 bits;  conditional E-value: 3.7e-22
+      Tad_tadV   5 vlvllllllaaaltDlrerripnklvlplllv...gllasavg.va...................lagallalvvgfllllllal.llggmGaGDvK 77 
+                    ++ +++++ + ++D+r   +pn++v+p  +v    lla++v  +a                    ++ l++++v  l++++l + +  gmG+GDvK
+  BKOHND_17925  23 CAYYAVMAVRLTVIDVRHHLLPNRIVFPSYAVggvLLLAAVVAvIAagvdapavpdgdarlfglpGGRILAGGAVLWLFYFILRMiYPPGMGFGDVK 119
+                   566788899999****************99997644455555572245667777888888888654444555555555555554479********** PP
+
+      Tad_tadV  78 Llavlgl...wlglsgvlvalllsallglvlaigllllrrstkkkslPygvaiaaGa 131
+                   L+ vlgl   +lg+++v+   ++++llg+++++gll+ rr t k+++P+g++++aG+
+  BKOHND_17925 120 LAGVLGLylgYLGWGHVFAGTFAAFLLGGLWSLGLLAARRGTLKSDIPFGPFMLAGT 176
+                   *******88888899999999999*******************************97 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (132 nodes)
+Target sequences:                       4459  (1473457 residues searched)
+Passed MSV filter:                       761  (0.170666); expected 89.2 (0.02)
+Passed bias filter:                      114  (0.0255663); expected 89.2 (0.02)
+Passed Vit filter:                         7  (0.00156986); expected 4.5 (0.001)
+Passed Fwd filter:                         2  (0.000448531); expected 0.0 (1e-05)
+Initial search space (Z):               4459  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.01
+# Mc/sec: 15462.94
+//
+[ok]

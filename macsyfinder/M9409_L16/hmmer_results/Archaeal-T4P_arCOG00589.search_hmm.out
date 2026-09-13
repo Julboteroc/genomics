@@ -1,0 +1,282 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/Archaeal-T4P_arCOG00589.hmm
+# target sequence database:        proteins_fasta/M9409_L16.faa
+# output directed to file:         macsyfinder/M9409_L16/hmmer_results/Archaeal-T4P_arCOG00589.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       arCOG00589  [M=219]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+    6.3e-32  109.2   0.0    9.1e-32  108.6   0.0    1.2  1  BKOHND_05160  MinD/ParA family protein
+    6.6e-27   92.7   0.7      8e-27   92.5   0.7    1.1  1  BKOHND_19660  ParA-like ATPase involved in chromosome/plasmid
+    3.3e-26   90.4   0.7    8.2e-26   89.2   0.1    1.7  1  BKOHND_11770  Chromosome segregation ATPase
+    4.6e-25   86.7   0.0    6.7e-25   86.2   0.0    1.2  1  BKOHND_05120  AAA family ATPase
+    9.8e-25   85.6   0.7    2.1e-24   84.6   0.1    1.8  1  BKOHND_06595  Polysaccharide biosynthesis tyrosine autokinase
+      2e-23   81.3   1.2    1.3e-21   75.4   0.3    2.6  1  BKOHND_06695  Lipopolysaccharide biosynthesis
+    4.1e-21   73.8   0.0    5.7e-21   73.3   0.0    1.1  1  BKOHND_19735  Cobyrinic acid a,c-diamide synthase
+    4.5e-21   73.7   0.0    9.8e-21   72.6   0.0    1.6  1  BKOHND_04475  Iron-sulfur cluster carrier protein
+    1.9e-13   48.7   0.0    2.7e-13   48.3   0.0    1.2  1  BKOHND_06430  ATPase
+    1.9e-12   45.5   0.0    5.7e-12   43.9   0.0    1.7  1  BKOHND_03990  Chromosome partitioning protein
+    4.9e-06   24.5   0.0    8.5e-06   23.7   0.0    1.5  1  BKOHND_07500  septum site-determining protein Ssd
+    0.00044   18.1   0.1      0.027   12.3   0.0    2.9  0  BKOHND_02815  signal recognition particle protein
+    0.00068   17.5   5.1      0.034   12.0   3.3    2.4  0  BKOHND_02840  signal recognition particle-docking protein Fts
+
+
+Domain annotation for each sequence (and alignments):
+>> BKOHND_05160  MinD/ParA family protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  108.6   0.0   2.7e-34   9.1e-32       1     218 [.     147     370 ..     147     371 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 108.6 bits;  conditional E-value: 2.7e-34
+    arCOG00589   1 iavtsgKGGtGKTtiavnlaaalsl.kgkrvllvDgDlrnasltlllgvsaknitledvlagaadltevvystp.....ntlsvvpsgasledmrka 91 
+                   i v s KGG+GKTtia n+a+ l + +   v++vD+Dl+  ++++ l ++++ +t+ d ++ aa+ + +v +       ++++ v + ++  d+ ++
+  BKOHND_05160 147 IGVFSPKGGVGKTTIATNIAIGLGKiAPMSVVIVDLDLQFGDVASGLYLDPQ-HTVTDAVSPAASQDSLVLKAFltvhpGGIYAVCAPPTPVDADEI 242
+                   7899*********************************************999.*********999999999665777779***************** PP
+
+    arCOG00589  92 dpsrlsrlleelnrkfdvviiDtpagltlknvlalasadelilVatpenlsvidalkvlelarelge..evvgivlNkvrpdqedeavaaiekelsv 186
+                    p+++srlle+l+++f++v++Dt +gl +  + a++ ++ ++ V+  + +sv   +  l+++r+l++  e + +vlN++++++    v+++e+++++
+  BKOHND_05160 243 TPDQVSRLLEQLSEQFQYVVVDTAPGLPEIGLAAMEQCTDVVWVSGMDIPSVRGLRSGLDVLRQLEIlpETRHVVLNMADSKLG-LTVQDLESTIGA 338
+                   ******************************************************************999*************99.89********** PP
+
+    arCOG00589 187 pllaviPfdkdveealaegtplvldypdspas 218
+                   p+ ++iP +++v+ ++++g+p+++++ + pa+
+  BKOHND_05160 339 PVDVSIPRSRAVALSTNRGIPVLQESAKDPAT 370
+                   ************************99988876 PP
+
+>> BKOHND_19660  ParA-like ATPase involved in chromosome/plasmid partitioning or cellulose biosynthesis protein BcsQ
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.5   0.7   2.3e-29     8e-27       1     212 [.      47     276 ..      47     283 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 92.5 bits;  conditional E-value: 2.3e-29
+    arCOG00589   1 iavtsgKGGtGKTtiavnlaaalslkgkrvllvDgDlrnasltlllgvsakn..itledvlag.aadltevvystp.ntlsvvpsgasledmrkad. 92 
+                   ia+++ KGG+GKTt ++nlaaal++ g+rvllvD D +   l+  lg ++++   t+ +vl + + d+++++ +t  ++++++p++++l+++ +++ 
+  BKOHND_19660  47 IAMVNQKGGVGKTTSTINLAAALAEYGRRVLLVDFDPQG-ALSAGLGTNPHEldLTVYNVLMDrKVDIRDAIQHTGvENVDLLPANIDLSAA-EVQl 141
+                   788999******************************766.45556777777766888899876478*******999*********8888777.3335 PP
+
+    arCOG00589  93 ......psrlsrlleelnrkfdvviiDtpagltlknvlalasadelilVatpenlsvidalkvlelarelge......evvgivlNkvrpdqe..de 175
+                          + l r+l+++++++dvv+iD+++ l l +v+al +a  +i+ +  e  ++  +  + e +++++       +v g+   ++++ ++   e
+  BKOHND_19660 142 vnevarEQVLDRALKKVEDDYDVVLIDCQPSLGLLTVNALTAAHGVIIPLICEFFALRAVALLVETIDKVQDrlnprlQVDGVLATMYDARTLhsRE 238
+                   5788855555*********************************************998888888888888878888999999999999999988866 PP
+
+    arCOG00589 176 avaaiekelsvpll.aviPfdkdveealaegtplvldy 212
+                   +++++ + ++ +++  vi  + + ++a+++ +p+  ++
+  BKOHND_19660 239 VISRLVEAFGDKVFeTVIKRSIKFADATVAAEPITSYA 276
+                   66666666666554135666666666666666666655 PP
+
+>> BKOHND_11770  Chromosome segregation ATPase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.2   0.1   2.4e-28   8.2e-26       2     215 ..      99     338 ..      98     343 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 89.2 bits;  conditional E-value: 2.4e-28
+    arCOG00589   2 avtsgKGGtGKTtiavnlaaalslkgkrvllvDgDlrnasltlllgvsakn..itledvlagaadltevvystp..ntlsvvps.....gasledmr 89 
+                   +v++ KGG+GKTt++vn+aaal+++g +vl++D D +  +++  lg++ +    ++ dvl ++  l++vv   p  ++l   p+     ga++e ++
+  BKOHND_11770  99 TVSNQKGGVGKTTTTVNIAAALAAAGLNVLVIDIDPQG-NASTALGIEHHAdvDSIYDVLINDVPLKDVVAPCPdiDNLICAPAtihlaGAEIELVS 194
+                   78999******************************765.666668888655558999**************88899555555553333366666664 PP
+
+    arCOG00589  90 kad.psrlsrlleelnr........kfdvviiDtpagltlknvlalasadelilVatpenlsvidalkvlelarelge......evvgivlNkvrpd 171
+                    +   +rl+r+++   +        + d+++iD+p+ l l +v+a+ +a e+++ ++ e ++++   ++l+ ++++++       v  i l +++  
+  BKOHND_11770 195 LVArEQRLRRAIDVYAKerqksgeaRLDYIFIDCPPSLGLLTVNAFCAASEVLIPIQCEYYALEGLSQLLKNIEMIQKhlnadlVVSTILLTMYDGR 291
+                   444799999999999888999******************************************8777777766666666667855555569**9999 PP
+
+    arCOG00589 172 qe..deavaaiekelsvpll.aviPfdkdveealaegtplvldypds 215
+                   ++  ++++a++++ +  ++l av+P +++++ea + ++ ++ + p+s
+  BKOHND_11770 292 TNlaAQVAAEVRQHFPDQVLgAVVPRSVRISEAPSYQQTVMTYDPSS 338
+                   998888889999888876653799********888888888887776 PP
+
+>> BKOHND_05120  AAA family ATPase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   86.2   0.0     2e-27   6.7e-25       1     211 [.     146     362 ..     146     370 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 86.2 bits;  conditional E-value: 2e-27
+    arCOG00589   1 iavtsgKGGtGKTtiavnlaaalsl.kgkrvllvDgDlrnasltlllgvsaknitledvlagaadltevvystp.....ntlsvvpsgasledmrka 91 
+                   iav+s KGG+GKTt++ nla+ l   +   v+++D+D++  ++++ l ++++  t+ d + gaa  + +v +        +++ + +  + +++ ++
+  BKOHND_05120 146 IAVMSPKGGVGKTTVSTNLAVGLGRiAPMSVVILDLDMQFGDVASGLMLDPE-RTITDAVTGAAVHDSMVLKSYltlhpAGIYALCAPLNPAEADRI 241
+                   89***********************99******************9999988.9********88777777754466666888888889999999999 PP
+
+    arCOG00589  92 dpsrlsrlleelnrkfdvviiDtpagltlknvlalasadelilVatpenlsvidalkvlelarelge..evvgivlNkvrpdqedeavaaiekelsv 186
+                     +++  l+ +l ++f++v++Dt +gl + ++ +l++ +  + V   + +s+   +    ++rel+   e++ +vlN +++ +     +++e +++ 
+  BKOHND_05120 242 TGEQVNHLISQLANEFQYVVVDTAPGLGEHVLATLERGTDAVWVCGMDIPSIRGLRTGFGILRELDLlpENRHVVLNFADRRTG-LSLQDVEATIGC 337
+                   9***************************************************99999999******9*************9999.78999******* PP
+
+    arCOG00589 187 pllaviPfdkdveealaegtplvld 211
+                   p+ +v+P +++v  ++++g+pl+++
+  BKOHND_05120 338 PVDVVLPRSRAVPFSTNKGIPLLQE 362
+                   *********************9886 PP
+
+>> BKOHND_06595  Polysaccharide biosynthesis tyrosine autokinase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   84.6   0.1     6e-27   2.1e-24       1     173 [.     264     438 ..     264     449 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 84.6 bits;  conditional E-value: 6e-27
+    arCOG00589   1 iavtsgKGGtGKTtiavnlaaalslkgkrvllvDgDlrnasltlllgvsaknitledvlagaadltevvystp.ntlsvvpsgasledmrkad.psr 95 
+                   ++vts   G GK+t+avn+a+a++++g+rv+lvD+Dlr + ++ +lg++ +   l  vl g+ +l+ ++ +   ++l+v+ sg +  + +++   s 
+  BKOHND_06595 264 VVVTSSLPGEGKSTTAVNMAIAMAQAGQRVALVDADLRRPMVAEYLGLDGN-AGLTTVLVGNGKLEHLMQRWGrDELYVLASGQIPPNPSELLgSSP 359
+                   68999999****************************************977.******************8779********999888877777999 PP
+
+    arCOG00589  96 lsrlleelnrkfdvviiDtpagl.tlknvlalasadelilVatpenlsvidalkvlelarelgeevvgivlNkvrpdqe 173
+                   + +l++ l+++fd v+iD+p+ l   ++ ++ ++   ++lV+  +  + +d  k l+ +++++ +v+g+vlN+  ++  
+  BKOHND_06595 360 MNELIAVLEQQFDAVVIDAPPLLpVTDAAVLAQRVGGVVLVVGSQLVKSTDLQKSLAALEMVDADVLGVVLNRLPAKDP 438
+                   9**********************999999999999999999999999999***********************988776 PP
+
+>> BKOHND_06695  Lipopolysaccharide biosynthesis
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   75.4   0.3   3.9e-24   1.3e-21       1     185 [.     307     492 ..     307     523 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 75.4 bits;  conditional E-value: 3.9e-24
+    arCOG00589   1 iavtsgKGGtGKTtiavnlaaalslkgkrvllvDgDlrnasltlllgvsaknitledvlagaadltevvystp....ntlsvvpsgasledmrkad. 92 
+                   i+vts     GK+t+++nla+ ++++g++v++vDgDlr ++l  ++++ +  + + dvl g a+l++v+   p     +lsv+ sg++  + +++  
+  BKOHND_06695 307 IVVTSSMQAEGKSTVTANLAVTMAAAGENVVVVDGDLRRPTLVDVFNLVPG-VGVTDVLTGTAELDDVLQ--PwgalPNLSVLGSGRIPPNPSELLg 400
+                   7899999999***************************************98.******************..6679*********999988877776 PP
+
+    arCOG00589  93 psrlsrlleelnrkfdvviiDtpagl.tlknvlalasadelilVatpenlsvidalkvlelarelgeevvgivlNkvrpdqedeavaaiekels 185
+                    ++++++l++l ++   v+iD+p+ l   ++ +++ +ad  i+V++  ++  ++  + l  +++++  ++g vlN v  + + +a++  ++  s
+  BKOHND_06695 401 SKAMKNMLNALAEN-ATVLIDAPPLLpVTDAAVLSRVADGAIVVIRTGKTTQEQLGQSLGNLEKVKGRILGAVLNYVPTKGT-DAYSYYGTYTS 492
+                   88889888888876.5799*******9999999****************888777776666677777**********99888.56666665555 PP
+
+>> BKOHND_19735  Cobyrinic acid a,c-diamide synthase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   73.3   0.0   1.7e-23   5.7e-21       2     195 ..       5     225 ..       4     246 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 73.3 bits;  conditional E-value: 1.7e-23
+    arCOG00589   2 avtsgKGGtGKTtiavnlaaalslkgkrvllvDgDlrnasltlllgvsakn.itledvlag..aadltevvystp..............ntlsvvps 81 
+                    ++s KGG+GKT ++ +la+a  ++g ++l+vD+D  + +++  lgv++++  ++  +l+   +a+l+e v+  +               ++ v  +
+  BKOHND_19735   5 SISSLKGGVGKTSVTTGLASAALAAGIPTLVVDLDPHA-DASTALGVQPDDqLDIGRMLKSprRARLSENVVTSSwvarenyngarpavLDVAVGSA 100
+                   68999***************99999**********655.7777799998766666677765665666655552224444445566664445555555 PP
+
+    arCOG00589  82 gasledmrkadpsrlsrlleelnr..kfdvviiDtpagltlknvlalasadelilVatpenlsvidalkvlelarelge......evvgivlNkvrp 170
+                    + + d  ++ ++ l+rl + l    k+++++iD+p+ l+  + +a +++d++ lVa+p   sv+ ++++   ++ +++        +gi+ N+vr+
+  BKOHND_19735 101 YTGIYDRPDLGRRDLRRLSAVLAGtdKYQLILIDCPPSLNGLTRMAWSASDKVALVAEPGLFSVAGTERTMRAIQLFRQefapnlSPAGIIANRVRS 197
+                   66777776667999999989998899*************9999999******************999999998888887888899999********* PP
+
+    arCOG00589 171 dqe..deavaaiekelsv.pllaviPfd 195
+                    ++  +   a++++ ++   l   iP++
+  BKOHND_19735 198 GSSehAFRLAEMQSMFGElLLTPHIPEQ 225
+                   9995533345555555532333345555 PP
+
+>> BKOHND_04475  Iron-sulfur cluster carrier protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   72.6   0.0   2.9e-23   9.8e-21       2     218 ..     117     348 ..     116     349 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 72.6 bits;  conditional E-value: 2.9e-23
+    arCOG00589   2 avtsgKGGtGKTtiavnlaaalslkgkrvllvDgDlrnasltlllgvsaknitledvlagaadltevvystpntlsvvpsgasledmrkad...... 92 
+                   av+sgKGG+GK+ ++vnla a++++g rv ++D+D++  s++ l+g+++ ++ + d++     l  v y    +++v+ +g+  ++ + +       
+  BKOHND_04475 117 AVASGKGGVGKSSVTVNLACAMAAQGLRVGIIDADVYGFSVPALMGIDQAPTRVDDMI-----LPPVAY----GVKVISIGMFVKGNQPVAwrgpml 204
+                   89***********************************************999999988.....778888....889999988887777666665555 PP
+
+    arCOG00589  93 psrlsrlleelnr.kfdvviiDtpagl.tlknvl.alasadelilVatpenlsvidalkvlelarelgeevvgivlNkvrpdqe............. 173
+                    ++l++ l ++   + d +++D+p+g  +    +  l    ++++V+tp+ ++   a++  ++a + g+ v+giv N+   +               
+  BKOHND_04475 205 HRALEQFLTDVYFgDLDALFLDLPPGTgDIAISVaQLLPKAQILVVTTPQAAAADVAERAGAIATQTGQSVAGIVENMSYLEMPdggrmelfgsggg 301
+                   67777777777779*************64444446888888889999999999999*********************9876666699*********9 PP
+
+    arCOG00589 174 deavaaiekelsv..pllaviPfdkdveealaegtplvldypdspas 218
+                   + +++++  ++++  pll+ iP d  ++e   +g+p+vl +p++pa+
+  BKOHND_04475 302 AVLAERLTATVGAdvPLLGQIPLDILLREGGDAGEPIVLGRPETPAA 348
+                   7778888888877779***************************9997 PP
+
+>> BKOHND_06430  ATPase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   48.3   0.0   7.7e-16   2.7e-13       2     200 ..     168     384 ..     167     401 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 48.3 bits;  conditional E-value: 7.7e-16
+    arCOG00589   2 avtsgKGGtGKTtiavnlaaalsl.kgkrvllvDgDlrnasltl.llgvsakn....itledvlagaadltevvystp.....ntlsvvpsgasled 87 
+                   av s KGG+GKT ++v+++  l++ +g+  + +D++ ++ +l    lg   ++     t+ d+l++  +++ ++   +     + l+++ ++ + e 
+  BKOHND_06430 168 AVLSLKGGIGKTSTTVGVGLTLAEfRGDAPCAIDANPDSGDLVErALGEGIYQqsspRTITDLLKNIDSVDSLTALARymhhaGRLHLIAGEQDPEV 264
+                   799*******************************987777765534443322244669********98888888844455677********777766 PP
+
+    arCOG00589  88 mrkadpsrlsrlleelnrkfdvviiDtpagltlknvl.alasadelilVatpenlsvidalkvlelarelge....evvgivlNkvrpdqedeavaa 179
+                     ++  ++  r+ + ++ +++v++ D+  g+t++++  +l+sad l++ a +  +  + a+ +l+ + + g      ++ +v+   ++ ++    +a
+  BKOHND_06430 265 SDSLTAEEYLRIRKLISGYYSVALTDCGTGVTHNAMSgILQSADNLVIAAGYAVSGAKRARSTLQWLASHGYedlaRNAIVVITDKDEVSSRVDKDA 361
+                   655665555445555555******************99**************999997777777744444444444333334444444444455778 PP
+
+    arCOG00589 180 iekelsv..pllaviPfdkdvee 200
+                   ie+ ls   + l ++P d+ v++
+  BKOHND_06430 362 IEEHLSGicRQLIAVPHDRGVAD 384
+                   88888776666777888777765 PP
+
+>> BKOHND_03990  Chromosome partitioning protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.9   0.0   1.7e-14   5.7e-12       1     176 [.     156     362 ..     156     409 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 43.9 bits;  conditional E-value: 1.7e-14
+    arCOG00589   1 iavtsgKGGtGKTtiavnlaaalslkgkrvllvDgDlrnasltlllgvsakn......itledvlagaadltevvystp.....ntlsvvpsgasle 86 
+                   iav++  G  G+T +avn+a  l+++g  vll+D+D + as++ +lg+ +++        l d+ + +ad  + v  tp     +tl+++ + +  +
+  BKOHND_03990 156 IAVWGPTGSPGRTLVAVNVAGELAAAGNSVLLIDADSYGASIAGMLGLLDESaglaqaCRLADLGQLDADALRKVA-TPvvlksGTLRILTGITRAD 251
+                   7888999999***************************************998666666555555554555544444.45678889*****9999999 PP
+
+    arCOG00589  87 dmrkadpsrlsrlleelnrkfdvviiDtp............agl.tlknvl..alasadelilVatpenlsv.idalkvlelarelgeevvgivlNk 167
+                     +++   +l  ++e+ ++  d++++Dt              +  ++++ +  +l++ad++++V   ++  v   ++ + el   + +   ++vlNk
+  BKOHND_03990 252 RWTELRATALGVVFEKAREVADFIVVDTGfcleadeelsfdTMApRRNAATlrSLELADTVYAVGAADSIGVpRLVRGLSELEAAVPQASPKVVLNK 348
+                   999999***********************8888888888874443333333569999999999999999888555555566766777788889**** PP
+
+    arCOG00589 168 vrpdqe.....dea 176
+                   vr+         ++
+  BKOHND_03990 349 VRAAAAgrfpeRQL 362
+                   **988766665333 PP
+
+>> BKOHND_07500  septum site-determining protein Ssd
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.7   0.0   2.5e-08   8.5e-06       2     137 ..     110     249 ..     109     316 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 23.7 bits;  conditional E-value: 2.5e-08
+    arCOG00589   2 avtsgKGGtGKTtiavnlaaalslkgkrvllvDgDlrnasltlllgvsakn....itledvlagaadltevvystp..ntlsvvpsgasledmrkad 92 
+                    vt+g GG+G Tt a+ +a a ++ g rvll+DgD     l+l l  ++ +    ++l++  +g +d++++    p  +++s +    s e    ++
+  BKOHND_07500 110 GVTGGCGGAGATTAAIWIAQAAAEWGARVLLIDGDPWGGGLELALAAEEAPglrwTDLSEA-SGSIDPEQLSDALPvaGGFSFLSWPGSRERQPGVE 205
+                   58999**************************************998887767776666665.58888888888887887777776644555555568 PP
+
+    arCOG00589  93 psrlsrlleelnrkfdvviiDtpagl.tlknvlalasadelilVat 137
+                      +  +l++ +r +++v++D   g   l ++     +d +++Va 
+  BKOHND_07500 206 AATVGGVLDAARRGYELVLVDIGRGTePLRTFA--WDCDRILVVAP 249
+                   888888999999999999999887774555444..44555555544 PP
+
+>> BKOHND_02815  signal recognition particle protein
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> BKOHND_02840  signal recognition particle-docking protein FtsY
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (219 nodes)
+Target sequences:                       4459  (1473457 residues searched)
+Passed MSV filter:                       233  (0.0522539); expected 89.2 (0.02)
+Passed bias filter:                      226  (0.050684); expected 89.2 (0.02)
+Passed Vit filter:                        60  (0.0134559); expected 4.5 (0.001)
+Passed Fwd filter:                        16  (0.00358825); expected 0.0 (1e-05)
+Initial search space (Z):               4459  [actual number of targets]
+Domain search space  (domZ):              13  [number of targets reported over threshold]
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.03
+# Mc/sec: 9604.90
+//
+[ok]

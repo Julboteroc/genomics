@@ -1,0 +1,92 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/Tad_rcpC.hmm
+# target sequence database:        proteins_fasta/M9409_L16.faa
+# output directed to file:         macsyfinder/M9409_L16/hmmer_results/Tad_rcpC.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       RcpC  [M=116]
+Accession:   PF16976.3
+Description: Flp pilus assembly protein RcpC/CpaB
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+    1.5e-11   42.4   0.0    1.8e-11   42.1   0.0    1.1  1  BKOHND_04840  SAF domain-containing protein
+    4.3e-11   40.9   1.5    4.3e-11   40.9   1.5    1.8  1  BKOHND_05115  Flp pilus assembly protein CpaB
+    6.5e-09   33.9   1.6    6.9e-09   33.8   0.1    1.7  1  BKOHND_05155  SAF domain-containing protein
+
+
+Domain annotation for each sequence (and alignments):
+>> BKOHND_04840  SAF domain-containing protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.1   0.0   1.2e-14   1.8e-11       3     115 ..      38     141 ..      36     142 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 42.1 bits;  conditional E-value: 1.2e-14
+          RcpC   3 laavlppgkrAvaievdevtgvaglirpGdrVDVlltesekegsesektqaelllqnvrVLavgqeeakkeekedeekkkeaetartvtLevtpeqa 99 
+                   l a  ppg  Av +++ + +++ +l+ pG++V++++t   ++++ ++++++++l + v VL++       +  ++++   ++et+  ++++++p+qa
+  BKOHND_04840  38 LLAGTPPGSAAVPLRMADPSSI-QLVAPGQLVNIVMT---NGTDYGKAAESQVLAAAVPVLWTSG-----QGGQTGQWLGTGETEGLIVVAADPDQA 125
+                   6677899*****9999976665.7*************...9***********************9.....77888888888888899********** PP
+
+          RcpC 100 ekLalaesaGkLslaL 115
+                    +La  +++GkL +++
+  BKOHND_04840 126 RRLAGSSTQGKLFFVM 141
+                   ************9875 PP
+
+>> BKOHND_05115  Flp pilus assembly protein CpaB
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.9   1.5   2.9e-14   4.3e-11       7     113 ..     117     230 ..     114     231 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 40.9 bits;  conditional E-value: 2.9e-14
+          RcpC   7 lppgkrAvaievdevtgvaglirpGdrVDVllt.esekegsesektqaelllqnvrVLavgq......eeakkeekedeekkke.aetartvtLevt 95 
+                   +p+g++ ++++ ++++ v+g i +Gd V V++  ++ ++++++++++a+ +  +v V +v++      + ++++++ +e++++e ++ +  vtL+ +
+  BKOHND_05115 117 VPAGMQEISVQLEAQRVVGGRIAAGDTVGVIVLfDKGANRDAPDAETAQQVFHKVLVTSVQRsvakssS-KSDQTDPEEQANTElPTGQLLVTLARN 212
+                   89*******************************99999************************7765532.2222222222222234446789***99 PP
+
+          RcpC  96 peqaekLalaesaGkLsl 113
+                     + +k+a  ++ G++ l
+  BKOHND_05115 213 DVDSTKIAFGAEFGSVWL 230
+                   999999999999998866 PP
+
+>> BKOHND_05155  SAF domain-containing protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.8   0.1   4.7e-12   6.9e-09       6     109 ..     116     229 ..     114     234 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 33.8 bits;  conditional E-value: 4.7e-12
+          RcpC   6 vlppgkrAvaievdevtgvaglirpGdrVDVllt.esekegsesektqaelllqnvrVLavgq.........eeakkeekedeekkke......aet 86 
+                   ++p+g + v+ + + ++ v+g ++pGd+V +++t +    +s+ ek++++l + +v V av++          +a++ ++       +      ++ 
+  BKOHND_05155 116 KVPAGLQEVSFQLEPQRMVGGRLQPGDHVGIFITmRGGGIESKAEKETTQLSIHKVLVTAVQRapeaaaspaPAASAGTDP------NprdvnlPTG 206
+                   7999******************************76667788899999999999********9888764432111111111......1233444555 PP
+
+          RcpC  87 artvtLevtpeqaekLalaesaG 109
+                      +t++v+   a k++ a++  
+  BKOHND_05155 207 SLMITVAVNDINAGKIVFASELS 229
+                   67899999999999999999876 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (116 nodes)
+Target sequences:                       4459  (1473457 residues searched)
+Passed MSV filter:                       218  (0.0488899); expected 89.2 (0.02)
+Passed bias filter:                      145  (0.0325185); expected 89.2 (0.02)
+Passed Vit filter:                        10  (0.00224266); expected 4.5 (0.001)
+Passed Fwd filter:                         4  (0.000897062); expected 0.0 (1e-05)
+Initial search space (Z):               4459  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 20725.92
+//
+[ok]

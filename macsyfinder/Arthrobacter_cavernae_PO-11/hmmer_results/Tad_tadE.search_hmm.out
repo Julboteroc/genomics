@@ -1,0 +1,80 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/julibote/TXSScan_model/TXSScan/profiles/Tad_tadE.hmm
+# target sequence database:        proteins_fasta/Arthrobacter_cavernae_PO-11.faa
+# output directed to file:         macsyfinder/Arthrobacter_cavernae_PO-11/hmmer_results/Tad_tadE.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Tad_tadE  [M=142]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+    1.7e-17   61.8   3.9    4.2e-17   60.5   3.9    1.6  1  JLFNCN_17205  Pilus assembly protein
+    0.00019   19.5   5.1     0.0003   18.9   5.0    1.5  1  JLFNCN_00765  Pilus assembly protein
+    0.00098   17.2   0.8     0.0014   16.7   0.8    1.3  1  JLFNCN_11915  Pilus assembly protein
+
+
+Domain annotation for each sequence (and alignments):
+>> JLFNCN_17205  Pilus assembly protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.5   3.9   3.3e-20   4.2e-17       1     140 [.      12     125 ..      12     127 .] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 60.5 bits;  conditional E-value: 3.3e-20
+      Tad_tadE   1 rGaaaVEfALvlpllllllfgilEfGrafyqkavlenavreaARlaatgeaqgndsaaefkkavvqqlsylevrklatgfktaalpssdaqikvtse 97 
+                   rGa+aVEfALv+p+lll++++i+Ef   +  +  +++a+reaAR++a+ + +      ++++a v+++++++   l    + ++++ s         
+  JLFNCN_17205  12 RGAVAVEFALVAPILLLIIVAIVEFSFFYNLQISVTQAAREAARTMAVTNDS-----GKAQAAGVAGAPSIS---L----SPGNVGLS--------- 87 
+                   8************************************************877.....999999999999999...5....34555443......... PP
+
+      Tad_tadE  98 tsdgssvkyvtVnvsykiplltsllglvlgdeltlestatmrn 140
+                    ++ s++ +v+ +v+ + p+lt+++       lt++ +++mr+
+  JLFNCN_17205  88 -GSCSPGATVEATVTFNAPSLTGFFTP----SLTVTGQGAMRC 125
+                   .45789999999999999999999986....788888888887 PP
+
+>> JLFNCN_00765  Pilus assembly protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.9   5.0   2.4e-07    0.0003       1      52 [.      27      78 ..      27     134 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 18.9 bits;  conditional E-value: 2.4e-07
+      Tad_tadE  1 rGaaaVEfALvlpllllllfgilEfGrafyqkavlenavreaARlaatgeaq 52
+                  rGa++ EfA  lp  llll + l    a + +  le+a+r +AR++a ge+ 
+  JLFNCN_00765 27 RGAVTAEFAVALPAVLLLLAFLLAGSAAGIMQFRLEEAARAGARALARGEST 78
+                  8***********************************************9876 PP
+
+>> JLFNCN_11915  Pilus assembly protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.7   0.8   1.1e-06    0.0014       1      72 [.      35     106 ..      35     162 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 16.7 bits;  conditional E-value: 1.1e-06
+      Tad_tadE   1 rGaaaVEfALvlpl.lllllfgilEfGrafyqkavlenavreaARlaatgeaqgndsaaefkkavvqqlsyle 72 
+                   +G+a+VEf ++++l ++ ++ +i+ +G +   +  +  a+  aA +  ++    +++ a++++a++ +l + +
+  JLFNCN_11915  35 EGSAVVEFTFLALLlMVPVVYFIVTVGQLQGGSFAVVGAADQAAKVFVAQPDA-GKAQAAAEQAALIALADHG 106
+                   59*******8876516669****************************999544.6777777777776666666 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (142 nodes)
+Target sequences:                       3760  (1192649 residues searched)
+Passed MSV filter:                       147  (0.0390957); expected 75.2 (0.02)
+Passed bias filter:                      108  (0.0287234); expected 75.2 (0.02)
+Passed Vit filter:                        10  (0.00265957); expected 3.8 (0.001)
+Passed Fwd filter:                         4  (0.00106383); expected 0.0 (1e-05)
+Initial search space (Z):               3760  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 18039.49
+//
+[ok]
