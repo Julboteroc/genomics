@@ -79,9 +79,9 @@ roary -f roary_output -e -n genomes/*.gff3
 FastTree -nt -gtr roary_output/core_gene_alignment.aln > roary_output/my_tree.newick
 python roary_plots.py roary_output/my_tree.newick roary_output/gene_presence_absence.csv
 ```
-![](pictures/pangenome_matrix.png)
-![](pictures/pangenome_frequency.png)
-![](pictures/pangenome_pie.png.png)
+![](pangenome_matrix.png)
+![](pangenome_frequency.png)
+![](pangenome_pie.png.png)
 
 
 
