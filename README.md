@@ -14,8 +14,6 @@ go to (https://www.ezbiocloud.net/tools/ani) to calculate ANI
 note ANI values
 If the ANI value between two genomes is above 95-96%, the two genomes are generally considered to belong to the same species
 If the ANI value between two genomes is above 99.99%, the two genomes are generally considered to belong to the same strain
-## Build a phylogenetic tree
-
 # KEGG analysis
 
 ```bash
@@ -61,11 +59,12 @@ while IFS= read -r fasta; do
 done < files_list.txt
 ```
 check file `macsyfinder/Arthrobacter_cavernae_PO-11/best_solution_summary.tsv` 
+![](pictures/macsyfinder.png)
 
 # Ecological inference
  Can your isolate be found in other environments? 
  Which environments?
-
+(https://branchwater.sourmash.bio/)
 
 
 
@@ -77,7 +76,12 @@ conda install -c conda-forge biopython pandas matplotlib seaborn
 ```
 ```bash
 roary -f roary_output -e -n genomes/*.gff3
-roary_plots.py roary_output/newick_tree.tre roary_output/gene_presence_absence.csv
 FastTree -nt -gtr roary_output/core_gene_alignment.aln > roary_output/my_tree.newick
-python roary_plots.py my_tree.newick roary_output/gene_presence_absence.csv
+python roary_plots.py roary_output/my_tree.newick roary_output/gene_presence_absence.csv
 ```
+![](pictures/pangenome_matrix.png)
+![](pictures/pangenome_frequency.png)
+![](pictures/pangenome_pie.png.png)
+
+
+
